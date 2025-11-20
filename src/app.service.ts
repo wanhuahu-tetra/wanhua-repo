@@ -4,6 +4,6 @@ import { Injectable } from '@nestjs/common';
 export class AppService {
   getHello(): string {
     const message = 'Hello World!';
-    return message.toUppercase();
+    return message.toUpperCase();
   }
 }

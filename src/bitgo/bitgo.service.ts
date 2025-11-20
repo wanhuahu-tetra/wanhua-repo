@@ -1,17 +1,17 @@
 import { Injectable, Logger } from '@nestjs/common';
-import { BitGoAPI } from 'bitgo';
+import { BitGoAPI, EnvironmentName } from 'bitgo';
 
 @Injectable()
 export class BitgoService {
   private readonly logger = new Logger(BitgoService.name);
   private bitgo: BitGoAPI;
   private accessToken: string;
-  private env: string;
+  private env: EnvironmentName;
 
   constructor() {
     // Load environment variables
     this.accessToken = process.env.ACCESS_TOKEN || '';
-    this.env = process.env.ENV || 'test';
+    this.env = (process.env.ENV || 'test') as EnvironmentName;
 
     // Initialize BitGo
     this.bitgo = new BitGoAPI({

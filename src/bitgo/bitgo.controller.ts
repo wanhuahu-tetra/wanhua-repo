@@ -39,4 +39,39 @@ export class BitgoController {
     const coinArray = coins ? coins.split(',').map((c) => c.trim()) : ['tbtc'];
     return this.bitgoService.getWalletBalances(coinArray);
   }
+
+  /**
+   * GET /bitgo/transactions/:coin/:walletId?limit=25&prevId=xyz
+   * Get transactions for a specific wallet
+   * @param coin - The cryptocurrency coin
+   * @param walletId - The wallet ID
+   * @param limit - Maximum number of transactions (default: 25)
+   * @param prevId - Previous transaction ID for pagination
+   */
+  @Get('transactions/:coin/:walletId')
+  async getTransactions(
+    @Param('coin') coin: string,
+    @Param('walletId') walletId: string,
+    @Query('limit') limit?: string,
+    @Query('prevId') prevId?: string,
+  ) {
+    const limitNum = limit ? parseInt(limit, 10) : 25;
+    return this.bitgoService.getTransactions(coin, walletId, limitNum, prevId);
+  }
+
+  /**
+   * GET /bitgo/transaction/:coin/:walletId/:transferId
+   * Get a specific transaction by ID
+   * @param coin - The cryptocurrency coin
+   * @param walletId - The wallet ID
+   * @param transferId - The transfer/transaction ID
+   */
+  @Get('transaction/:coin/:walletId/:transferId')
+  async getTransaction(
+    @Param('coin') coin: string,
+    @Param('walletId') walletId: string,
+    @Param('transferId') transferId: string,
+  ) {
+    return this.bitgoService.getTransaction(coin, walletId, transferId);
+  }
 }

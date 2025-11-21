@@ -123,4 +123,123 @@ export class BitgoService {
       throw error;
     }
   }
+
+  /**
+   * Get transactions for a specific wallet
+   * @param coin - The cryptocurrency coin
+   * @param walletId - The wallet ID
+   * @param limit - Maximum number of transactions to return (default: 25)
+   * @param prevId - Previous transaction ID for pagination
+   * @returns List of transactions
+   */
+  async getTransactions(
+    coin: string,
+    walletId: string,
+    limit: number = 25,
+    prevId?: string,
+  ) {
+    try {
+      this.logger.log(`Fetching transactions for wallet ${walletId} (${coin})`);
+
+      const wallet = await this.bitgo
+        .coin(coin)
+        .wallets()
+        .get({ id: walletId });
+
+      const options: any = { limit };
+      if (prevId) {
+        options.prevId = prevId;
+      }
+
+      const transfers = await wallet.transfers(options);
+
+      this.logger.log(
+        `Found ${transfers.transfers.length} transactions for wallet ${walletId}`,
+      );
+
+      return {
+        coin,
+        walletId,
+        count: transfers.transfers.length,
+        nextBatchPrevId: transfers.nextBatchPrevId,
+        transactions: transfers.transfers.map((tx) => ({
+          id: tx.id,
+          coin: tx.coin,
+          wallet: tx.wallet,
+          txid: tx.txid,
+          height: tx.height,
+          heightId: tx.heightId,
+          date: tx.date,
+          confirmations: tx.confirmations,
+          value: tx.value,
+          valueString: tx.valueString,
+          feeString: tx.feeString,
+          payGoFeeString: tx.payGoFeeString,
+          usd: tx.usd,
+          usdRate: tx.usdRate,
+          state: tx.state,
+          tags: tx.tags,
+          history: tx.history,
+          comment: tx.comment,
+          entries: tx.entries,
+        })),
+      };
+    } catch (error) {
+      this.logger.error(
+        `Error fetching transactions for wallet ${walletId}:`,
+        error.message,
+      );
+      throw error;
+    }
+  }
+
+  /**
+   * Get a specific transaction by ID
+   * @param coin - The cryptocurrency coin
+   * @param walletId - The wallet ID
+   * @param transferId - The transfer/transaction ID
+   * @returns Transaction details
+   */
+  async getTransaction(coin: string, walletId: string, transferId: string) {
+    try {
+      this.logger.log(
+        `Fetching transaction ${transferId} for wallet ${walletId} (${coin})`,
+      );
+
+      const wallet = await this.bitgo
+        .coin(coin)
+        .wallets()
+        .get({ id: walletId });
+
+      const transfer = await wallet.getTransfer({ id: transferId });
+
+      return {
+        id: transfer.id,
+        coin: transfer.coin,
+        wallet: transfer.wallet,
+        txid: transfer.txid,
+        height: transfer.height,
+        heightId: transfer.heightId,
+        date: transfer.date,
+        confirmations: transfer.confirmations,
+        value: transfer.value,
+        valueString: transfer.valueString,
+        feeString: transfer.feeString,
+        payGoFeeString: transfer.payGoFeeString,
+        usd: transfer.usd,
+        usdRate: transfer.usdRate,
+        state: transfer.state,
+        tags: transfer.tags,
+        history: transfer.history,
+        comment: transfer.comment,
+        entries: transfer.entries,
+      };
+    } catch (error) {
+      this.logger.error(
+        `Error fetching transaction ${transferId}:`,
+        error.message,
+      );
+      throw error;
+    }
+  }
 }

@@ -1,7 +1,8 @@
 import { Injectable, Logger } from '@nestjs/common';
-import { BitGoAPI, EnvironmentName } from 'bitgo';
+import { EnvironmentName } from 'bitgo';
+import { BitGoAPI } from '@bitgo/sdk-api';
 import { Hteth } from '@bitgo/sdk-coin-eth';
-import { Btc, Tbtc } from '@bitgo/sdk-coin-btc';
+import { Btc, Tbtc4 } from '@bitgo/sdk-coin-btc';
 
 @Injectable()
 export class BitgoService {
@@ -23,16 +24,16 @@ export class BitgoService {
 
     // Register coins
     this.bitgo.register('hteth', Hteth.createInstance);
-    this.bitgo.register('tbtc', Tbtc.createInstance);
+    this.bitgo.register('tbtc4', Tbtc4.createInstance);
     this.bitgo.register('btc', Btc.createInstance);
 
     this.logger.log(`BitGo initialized with environment: ${this.env}`);
-    this.logger.log('Registered coins: hteth, tbtc, btc');
+    this.logger.log('Registered coins: hteth, tbtc4, btc');
   }
 
   /**
    * Get all wallets for a specific coin
-   * @param coin - The cryptocurrency coin (e.g., 'tbtc', 'teth', 'btc', 'eth')
+   * @param coin - The cryptocurrency coin (e.g., 'tbtc4', 'hteth', 'btc')
    * @returns List of wallets with their details
    */
   async getWallets(coin: string) {

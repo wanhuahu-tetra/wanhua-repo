@@ -23,7 +23,10 @@ export class BitgoService {
     try {
       this.logger.log(`Fetching wallets for coin: ${coin}`);
 
-      const wallets = await this.bitgo.coin(coin).wallets().list();
+      const wallets = await this.bitgo
+        .coin(coin)
+        .wallets()
+        .list({ enterprise: '691dee138e04a05824ccbfdfce066346' });
 
       this.logger.log(`Found ${wallets.wallets.length} wallets for ${coin}`);
 

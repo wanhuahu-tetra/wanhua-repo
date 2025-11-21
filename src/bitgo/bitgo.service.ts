@@ -1,30 +1,17 @@
 import { Injectable, Logger } from '@nestjs/common';
-import { EnvironmentName } from 'bitgo';
-import { BitGoAPI } from '@bitgo/sdk-api';
-import { Hteth } from '@bitgo/sdk-coin-eth';
-import { Btc, Tbtc4 } from '@bitgo/sdk-coin-btc';
+import { BitGo } from 'bitgo';
 
 @Injectable()
 export class BitgoService {
   private readonly logger = new Logger(BitgoService.name);
-  private bitgo: BitGoAPI;
-  private accessToken: string;
-  private env: EnvironmentName;
+  private bitgo: BitGo;
 
   constructor() {
     // Initialize BitGo
-    this.bitgo = new BitGoAPI({
+    this.bitgo = new BitGo({
       accessToken: '',
       env: 'test',
     });
-
-    // Register coins
-    this.bitgo.register('hteth', Hteth.createInstance);
-    this.bitgo.register('tbtc4', Tbtc4.createInstance);
-    this.bitgo.register('btc', Btc.createInstance);
-
-    this.logger.log(`BitGo initialized with environment: ${this.env}`);
-    this.logger.log('Registered coins: hteth, tbtc4, btc');
   }
 
   /**

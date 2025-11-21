@@ -12,14 +12,10 @@ export class BitgoService {
   private env: EnvironmentName;
 
   constructor() {
-    // Load environment variables
-    this.accessToken = process.env.ACCESS_TOKEN || '';
-    this.env = (process.env.ENV || 'test') as EnvironmentName;
-
     // Initialize BitGo
     this.bitgo = new BitGoAPI({
-      accessToken: this.accessToken,
-      env: this.env,
+      accessToken: '',
+      env: 'test',
     });
 
     // Register coins

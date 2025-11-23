@@ -16,15 +16,20 @@ export class BitgoService {
 
   /**
    * Get all wallets across all coins
+   * @param enterprise - Optional enterprise ID to filter wallets
    * @returns List of all wallets with their details
    */
-  async getWallets() {
+  async getWallets(enterprise?: string) {
     try {
-      this.logger.log('Fetching all wallets');
+      this.logger.log(
+        `Fetching all wallets${enterprise ? ` for enterprise ${enterprise}` : ''}`,
+      );
 
-      const response = await this.bitgo
-        .get(this.bitgo.url('/wallets', 2))
-        .result();
+      const url = enterprise
+        ? this.bitgo.url(`/wallets?enterprise=${enterprise}`, 2)
+        : this.bitgo.url('/wallets', 2);
+
+      const response = await this.bitgo.get(url).result();
 
       this.logger.log(`Found ${response.wallets.length} wallets`);
 

@@ -6,12 +6,13 @@ export class BitgoController {
   constructor(private readonly bitgoService: BitgoService) {}
 
   /**
-   * GET /bitgo/wallets
+   * GET /bitgo/wallets?enterprise=xxx
    * Get all wallets across all coins
+   * @param enterprise - Optional enterprise ID to filter wallets
    */
   @Get('wallets')
-  async getWallets() {
-    return this.bitgoService.getWallets();
+  async getWallets(@Query('enterprise') enterprise?: string) {
+    return this.bitgoService.getWallets(enterprise);
   }
 
   /**

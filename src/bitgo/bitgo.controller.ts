@@ -6,13 +6,22 @@ export class BitgoController {
   constructor(private readonly bitgoService: BitgoService) {}
 
   /**
+   * GET /bitgo/wallets
+   * Get all wallets across all coins
+   */
+  @Get('wallets')
+  async getWallets() {
+    return this.bitgoService.getWallets();
+  }
+
+  /**
    * GET /bitgo/wallets/:coin
    * Get all wallets for a specific coin
    * @param coin - The cryptocurrency coin (e.g., 'tbtc', 'teth')
    */
   @Get('wallets/:coin')
-  async getWallets(@Param('coin') coin: string) {
-    return this.bitgoService.getWallets(coin);
+  async getWalletsByCoin(@Param('coin') coin: string) {
+    return this.bitgoService.getWalletsByCoin(coin);
   }
 
   /**

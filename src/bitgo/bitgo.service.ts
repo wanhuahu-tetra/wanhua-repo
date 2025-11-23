@@ -15,11 +15,45 @@ export class BitgoService {
   }
 
   /**
+   * Get all wallets across all coins
+   * @returns List of all wallets with their details
+   */
+  async getWallets() {
+    try {
+      this.logger.log('Fetching all wallets');
+
+      const response = await this.bitgo
+        .get(this.bitgo.url('/wallets', 2))
+        .result();
+
+      this.logger.log(`Found ${response.wallets.length} wallets`);
+
+      return {
+        count: response.wallets.length,
+        wallets: response.wallets.map((wallet: any) => ({
+          id: wallet.id,
+          label: wallet.label,
+          coin: wallet.coin,
+          balance: wallet.balance,
+          confirmedBalance: wallet.confirmedBalance,
+          spendableBalance: wallet.spendableBalance,
+          balanceString: wallet.balanceString,
+          confirmedBalanceString: wallet.confirmedBalanceString,
+          spendableBalanceString: wallet.spendableBalanceString,
+        })),
+      };
+    } catch (error) {
+      this.logger.error('Error fetching wallets:', error.message);
+      throw error;
+    }
+  }
+
+  /**
    * Get all wallets for a specific coin
    * @param coin - The cryptocurrency coin (e.g., 'tbtc4', 'hteth', 'btc')
    * @returns List of wallets with their details
    */
-  async getWallets(coin: string) {
+  async getWalletsByCoin(coin: string) {
     try {
       this.logger.log(`Fetching wallets for coin: ${coin}`);
 
@@ -95,7 +129,7 @@ export class BitgoService {
       );
 
       const results = await Promise.allSettled(
-        coins.map((coin) => this.getWallets(coin)),
+        coins.map((coin) => this.getWalletsByCoin(coin)),
       );
 
       const balances = results.map((result, index) => {

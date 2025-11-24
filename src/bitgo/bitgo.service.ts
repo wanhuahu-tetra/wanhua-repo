@@ -33,20 +33,7 @@ export class BitgoService {
 
       this.logger.log(`Found ${response.wallets.length} wallets`);
 
-      return {
-        count: response.wallets.length,
-        wallets: response.wallets.map((wallet: any) => ({
-          id: wallet.id,
-          label: wallet.label,
-          coin: wallet.coin,
-          balance: wallet.balance,
-          confirmedBalance: wallet.confirmedBalance,
-          spendableBalance: wallet.spendableBalance,
-          balanceString: wallet.balanceString,
-          confirmedBalanceString: wallet.confirmedBalanceString,
-          spendableBalanceString: wallet.spendableBalanceString,
-        })),
-      };
+      return response.wallets;
     } catch (error) {
       this.logger.error('Error fetching wallets:', error.message);
       throw error;
@@ -62,28 +49,15 @@ export class BitgoService {
     try {
       this.logger.log(`Fetching wallets for coin: ${coin}`);
 
-      const wallets = await this.bitgo
-        .coin(coin)
-        .wallets()
-        .list({ enterprise: '691dee138e04a05824ccbfdfce066346' });
+      const wallets = await this.bitgo.coin(coin).wallets().get({
+        allTokens: true,
+        includeBalance: true,
+        id: '6924cd32958a9f96d03e2833cb7de197',
+      });
 
-      this.logger.log(`Found ${wallets.wallets.length} wallets for ${coin}`);
+      // this.logger.log(`Found ${wallets.wallets.length} wallets for ${coin}`);
 
-      return {
-        coin,
-        count: wallets.wallets.length,
-        wallets: wallets.wallets.map((wallet) => ({
-          id: wallet.id(),
-          label: wallet.label(),
-          coin: wallet.coin(),
-          balance: wallet.balance(),
-          confirmedBalance: wallet.confirmedBalance(),
-          spendableBalance: wallet.spendableBalance(),
-          balanceString: wallet.balanceString(),
-          confirmedBalanceString: wallet.confirmedBalanceString(),
-          spendableBalanceString: wallet.spendableBalanceString(),
-        })),
-      };
+      return wallets;
     } catch (error) {
       this.logger.error(`Error fetching wallets for ${coin}:`, error.message);
       throw error;
@@ -105,17 +79,7 @@ export class BitgoService {
         .wallets()
         .get({ id: walletId });
 
-      return {
-        id: wallet.id(),
-        label: wallet.label(),
-        coin: wallet.coin(),
-        balance: wallet.balance(),
-        confirmedBalance: wallet.confirmedBalance(),
-        spendableBalance: wallet.spendableBalance(),
-        balanceString: wallet.balanceString(),
-        confirmedBalanceString: wallet.confirmedBalanceString(),
-        spendableBalanceString: wallet.spendableBalanceString(),
-      };
+      return wallet;
     } catch (error) {
       this.logger.error(`Error fetching wallet ${walletId}:`, error.message);
       throw error;
@@ -153,10 +117,7 @@ export class BitgoService {
         }
       });
 
-      return {
-        summary: balances,
-        totalWallets: balances.reduce((sum, b) => sum + b.count, 0),
-      };
+      return results;
     } catch (error) {
       this.logger.error('Error fetching wallet balances:', error.message);
       throw error;
@@ -188,6 +149,8 @@ export class BitgoService {
       const options: any = { limit };
       if (prevId) {
         options.prevId = prevId;
+        options.allTokens = true;
+        options.limit = 20;
       }
 
       const transfers = await wallet.transfers(options);
@@ -196,33 +159,7 @@ export class BitgoService {
         `Found ${transfers.transfers.length} transactions for wallet ${walletId}`,
       );
 
-      return {
-        coin,
-        walletId,
-        count: transfers.transfers.length,
-        nextBatchPrevId: transfers.nextBatchPrevId,
-        transactions: transfers.transfers.map((tx) => ({
-          id: tx.id,
-          coin: tx.coin,
-          wallet: tx.wallet,
-          txid: tx.txid,
-          height: tx.height,
-          heightId: tx.heightId,
-          date: tx.date,
-          confirmations: tx.confirmations,
-          value: tx.value,
-          valueString: tx.valueString,
-          feeString: tx.feeString,
-          payGoFeeString: tx.payGoFeeString,
-          usd: tx.usd,
-          usdRate: tx.usdRate,
-          state: tx.state,
-          tags: tx.tags,
-          history: tx.history,
-          comment: tx.comment,
-          entries: tx.entries,
-        })),
-      };
+      return transfers;
     } catch (error) {
       this.logger.error(
         `Error fetching transactions for wallet ${walletId}:`,

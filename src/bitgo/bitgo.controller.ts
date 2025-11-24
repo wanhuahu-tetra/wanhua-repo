@@ -84,4 +84,18 @@ export class BitgoController {
   ) {
     return this.bitgoService.getTransaction(coin, walletId, transferId);
   }
+
+  /**
+   * GET /bitgo/wallet-tokens/:coin/:walletId
+   * Get wallet tokens with smart contract information
+   * @param coin - The cryptocurrency coin
+   * @param walletId - The wallet ID
+   */
+  @Get('wallet-tokens/:coin/:walletId')
+  async getWalletTokens(
+    @Param('coin') coin: string,
+    @Param('walletId') walletId: string,
+  ) {
+    return this.bitgoService.getWalletTokens(coin, walletId);
+  }
 }

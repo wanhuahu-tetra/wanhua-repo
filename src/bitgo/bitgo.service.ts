@@ -218,4 +218,53 @@ export class BitgoService {
       throw error;
     }
   }
+
+  /**
+   * Get wallet tokens with smart contract information
+   * @param coin - The cryptocurrency coin
+   * @param walletId - The wallet ID
+   * @returns Wallet balance and tokens with contract details
+   */
+  async getWalletTokens(coin: string, walletId: string) {
+    try {
+      this.logger.log(
+        `Fetching tokens for wallet ${walletId} on coin: ${coin}`,
+      );
+
+      const wallet = await this.bitgo
+        .coin(coin)
+        .wallets()
+        .get({ allTokens: true, includeBalance: true, id: walletId });
+
+      // tokens is actually an object Record<string, any>, not an array
+      const tokensData = wallet._wallet.tokens || {};
+      const tokenKeys = Object.keys(tokensData);
+
+      this.logger.log(`Found ${tokenKeys.length} tokens`);
+
+      for (const tokenKey of tokenKeys) {
+        const token = tokensData[tokenKey];
+        // Try to get coin config and append it to the token
+        try {
+          const coinInstance: any = this.bitgo.coin(tokenKey);
+          const tokenConfig = coinInstance.tokenConfig;
+          token.tokenConfig = tokenConfig;
+        } catch (err) {
+          token.tokenConfig = null;
+        }
+      }
+
+      return {
+        balance: wallet.balanceString(),
+        tokenCount: tokenKeys.length,
+        tokens: tokensData,
+      };
+    } catch (error) {
+      this.logger.error(
+        `Error fetching tokens for wallet ${walletId}:`,
+        error.message,
+      );
+      throw error;
+    }
+  }
 }

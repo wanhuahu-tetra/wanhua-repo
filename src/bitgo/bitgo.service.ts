@@ -65,28 +65,6 @@ export class BitgoService {
   }
 
   /**
-   * Get a specific wallet by ID
-   * @param coin - The cryptocurrency coin
-   * @param walletId - The wallet ID
-   * @returns Wallet details with balance
-   */
-  async getWallet(coin: string, walletId: string) {
-    try {
-      this.logger.log(`Fetching wallet ${walletId} for coin: ${coin}`);
-
-      const wallet = await this.bitgo
-        .coin(coin)
-        .wallets()
-        .get({ id: walletId });
-
-      return wallet;
-    } catch (error) {
-      this.logger.error(`Error fetching wallet ${walletId}:`, error.message);
-      throw error;
-    }
-  }
-
-  /**
    * Get wallet balances summary for multiple coins
    * @param coins - Array of coins to check (e.g., ['tbtc', 'teth'])
    * @returns Summary of balances across all coins

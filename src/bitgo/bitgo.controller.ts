@@ -26,20 +26,6 @@ export class BitgoController {
   }
 
   /**
-   * GET /bitgo/wallet/:coin/:walletId
-   * Get a specific wallet by ID
-   * @param coin - The cryptocurrency coin
-   * @param walletId - The wallet ID
-   */
-  @Get('wallet/:coin/:walletId')
-  async getWallet(
-    @Param('coin') coin: string,
-    @Param('walletId') walletId: string,
-  ) {
-    return this.bitgoService.getWallet(coin, walletId);
-  }
-
-  /**
    * GET /bitgo/balances?coins=tbtc,teth
    * Get wallet balances for multiple coins
    * @param coins - Comma-separated list of coins

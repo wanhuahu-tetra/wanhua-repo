@@ -273,4 +273,35 @@ export class BitgoService {
       throw error;
     }
   }
+
+  /**
+   * Get coin configuration information
+   * @param coinName - Coin name (e.g., 'tbsc', 'hteth', 'tbtc4')
+   * @returns Coin configuration including decimals, network, type, etc.
+   */
+  async getCoinInfo(coinName: string) {
+    try {
+      this.logger.log(`Fetching coin info for: ${coinName}`);
+
+      const coinInstance: any = this.bitgo.coin(coinName);
+
+      // Extract relevant coin information
+      const coinInfo = {
+        name: coinInstance.getFullName(),
+        coin: coinInstance.getChain(),
+        family: coinInstance.getFamily(),
+        kind: coinInstance.getBaseFactor ? 'coin' : 'token',
+      };
+
+      this.logger.log(`Retrieved coin info for ${coinName}`);
+
+      return coinInfo;
+    } catch (error) {
+      this.logger.error(
+        `Error fetching coin info for ${coinName}:`,
+        error.message,
+      );
+      throw error;
+    }
+  }
 }

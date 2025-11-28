@@ -94,4 +94,14 @@ export class BitgoController {
   async getTokenInfo(@Param('tokenName') tokenName: string) {
     return this.bitgoService.getTokenInfo(tokenName);
   }
+
+  /**
+   * GET /bitgo/coin-info/:coinName
+   * Get coin configuration information
+   * @param coinName - Coin name (e.g., 'tbsc', 'hteth', 'tbtc4')
+   */
+  @Get('coin-info/:coinName')
+  async getCoinInfo(@Param('coinName') coinName: string) {
+    return this.bitgoService.getCoinInfo(coinName);
+  }
 }

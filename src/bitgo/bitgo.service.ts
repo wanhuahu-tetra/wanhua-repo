@@ -245,4 +245,32 @@ export class BitgoService {
       throw error;
     }
   }
+
+  /**
+   * Get token configuration information
+   * @param tokenName - Token name (e.g., 'tbsc:busd', 'hteth:goud')
+   * @returns Token configuration including decimals and contract address
+   */
+  async getTokenInfo(tokenName: string) {
+    try {
+      this.logger.log(`Fetching token info for: ${tokenName}`);
+
+      const coinInstance: any = this.bitgo.coin(tokenName);
+      const tokenConfig = coinInstance.tokenConfig;
+
+      if (!tokenConfig) {
+        throw new Error(`Token configuration not found for: ${tokenName}`);
+      }
+
+      this.logger.log(`Retrieved token info for ${tokenName}`);
+
+      return tokenConfig;
+    } catch (error) {
+      this.logger.error(
+        `Error fetching token info for ${tokenName}:`,
+        error.message,
+      );
+      throw error;
+    }
+  }
 }

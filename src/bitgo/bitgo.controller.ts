@@ -84,4 +84,14 @@ export class BitgoController {
   ) {
     return this.bitgoService.getWalletTokens(coin, walletId);
   }
+
+  /**
+   * GET /bitgo/token-info/:tokenName
+   * Get token configuration information
+   * @param tokenName - Token name (e.g., 'tbsc:busd', 'hteth:goud')
+   */
+  @Get('token-info/:tokenName')
+  async getTokenInfo(@Param('tokenName') tokenName: string) {
+    return this.bitgoService.getTokenInfo(tokenName);
+  }
 }

@@ -56,7 +56,6 @@ export class BitgoNoSdkService {
       if (enterprise) {
         queryParams.append('enterprise', enterprise);
       }
-      queryParams.append('allTokens', 'true');
 
       const endpoint = `/wallets?${queryParams.toString()}`;
       const response = await this.request(endpoint);

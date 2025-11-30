@@ -101,7 +101,6 @@ export class BitgoNoSdkService {
 
       const queryParams = new URLSearchParams({
         allTokens: 'true',
-        includeBalance: 'true',
       });
 
       const endpoint = `/wallet/${walletId}?${queryParams.toString()}`;

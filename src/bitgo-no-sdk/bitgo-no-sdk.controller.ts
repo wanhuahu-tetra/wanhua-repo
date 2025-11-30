@@ -35,12 +35,9 @@ export class BitgoNoSdkController {
    * @param coin - The cryptocurrency coin
    * @param walletId - The wallet ID
    */
-  @Get('wallet-tokens/:coin/:walletId')
-  async getWalletTokens(
-    @Param('coin') coin: string,
-    @Param('walletId') walletId: string,
-  ) {
-    return this.bitgoNoSdkService.getWalletTokens(coin, walletId);
+  @Get('wallet-tokens/:walletId')
+  async getWalletTokens(@Param('walletId') walletId: string) {
+    return this.bitgoNoSdkService.getWalletTokens(walletId);
   }
 
   /**

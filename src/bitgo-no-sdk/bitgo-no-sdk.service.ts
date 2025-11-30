@@ -95,18 +95,16 @@ export class BitgoNoSdkService {
    * @param walletId - The wallet ID
    * @returns Wallet with token balances
    */
-  async getWalletTokens(coin: string, walletId: string) {
+  async getWalletTokens(walletId: string) {
     try {
-      this.logger.log(
-        `Fetching tokens for wallet ${walletId} on coin: ${coin}`,
-      );
+      this.logger.log(`Fetching tokens for wallet ${walletId}`);
 
       const queryParams = new URLSearchParams({
         allTokens: 'true',
         includeBalance: 'true',
       });
 
-      const endpoint = `/${coin}/wallet/${walletId}?${queryParams.toString()}`;
+      const endpoint = `/wallet/${walletId}?${queryParams.toString()}`;
       const response = await this.request(endpoint);
 
       return response;

@@ -183,4 +183,99 @@ export class BitgoNoSdkService {
       throw error;
     }
   }
+
+  /**
+   * Get transactions for an enterprise with filtering and pagination
+   * @param enterpriseId - The enterprise ID
+   * @param options - Query options for filtering and pagination
+   * @returns Transactions with pagination info
+   */
+  async getEnterpriseTransactions(
+    enterpriseId: string,
+    options?: {
+      coin?: string[];
+      dateGte?: string;
+      dateLt?: string;
+      limit?: number;
+      prevId?: string;
+      state?: string[];
+      type?: string;
+      address?: string[];
+      id?: string;
+      txid?: string;
+    },
+  ) {
+    try {
+      this.logger.log(`Fetching transactions for enterprise: ${enterpriseId}`);
+
+      // Build query parameters
+      const queryParams = new URLSearchParams();
+
+      // Set defaults
+      const limit = options?.limit ?? 500;
+      queryParams.append('limit', limit.toString());
+
+      // Add multiple state parameters if provided
+      if (options?.state && options.state.length > 0) {
+        for (const state of options.state) {
+          queryParams.append('state', state);
+        }
+      }
+
+      // Add type filter
+      if (options?.type) {
+        queryParams.append('type', options.type);
+      }
+
+      // Add multiple coin parameters if provided
+      if (options?.coin && options.coin.length > 0) {
+        for (const coin of options.coin) {
+          queryParams.append('coin', coin);
+        }
+      }
+
+      // Add multiple address parameters if provided
+      if (options?.address && options.address.length > 0) {
+        for (const address of options.address) {
+          queryParams.append('address', address);
+        }
+      }
+
+      // Add date filters
+      if (options?.dateGte) {
+        queryParams.append('dateGte', options.dateGte);
+      }
+      if (options?.dateLt) {
+        queryParams.append('dateLt', options.dateLt);
+      }
+
+      // Add ID filters
+      if (options?.id) {
+        queryParams.append('id', options.id);
+      }
+      if (options?.txid) {
+        queryParams.append('txid', options.txid);
+      }
+
+      // Add pagination
+      if (options?.prevId) {
+        queryParams.append('prevId', options.prevId);
+      }
+
+      const endpoint = `/enterprise/${enterpriseId}/transfer?${queryParams.toString()}`;
+      const response = await this.request(endpoint);
+
+      this.logger.log(
+        `Found ${response.transfers?.length || 0} transactions for enterprise ${enterpriseId}`,
+      );
+
+      return response;
+    } catch (error) {
+      this.logger.error(
+        `Error fetching enterprise transactions:`,
+        error.message,
+      );
+      throw error;
+    }
+  }
 }

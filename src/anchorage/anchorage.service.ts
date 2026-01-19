@@ -62,4 +62,30 @@ export class AnchorageService {
       throw error;
     }
   }
+
+  /**
+   * Get all wallets for a specific vault
+   * @param vaultId - The vault ID
+   * @returns List of wallets in the vault
+   */
+  async getVaultWallets(vaultId: string) {
+    try {
+      this.logger.log(`Fetching wallets for vault ${vaultId} from Anchorage`);
+
+      const endpoint = `/v2/vaults/${vaultId}/wallets`;
+      const response = await this.request(endpoint);
+
+      this.logger.log(
+        `Found ${response.wallets?.length || response.length || 0} wallets for vault ${vaultId}`,
+      );
+
+      return response;
+    } catch (error) {
+      this.logger.error(
+        `Error fetching wallets for vault ${vaultId}:`,
+        error.message,
+      );
+      throw error;
+    }
+  }
 }

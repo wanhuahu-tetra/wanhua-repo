@@ -1,0 +1,191 @@
+{
+  "data": [
+    {
+      "assets": [
+        {
+          "assetType": "BTC_S",
+          "availableBalance": {
+            "assetType": "BTC_S",
+            "currentPrice": "92358.4316018799",
+            "currentUSDValue": "579.31",
+            "quantity": "0.00627246"
+          },
+          "totalBalance": {
+            "assetType": "BTC_S",
+            "currentPrice": "92358.4316018799",
+            "currentUSDValue": "579.31",
+            "quantity": "0.00627246"
+          }
+        }
+      ],
+      "depositAddress": {
+        "address": "2N2J3CModvFN24UbbBeHcN5fuijXK7gA9P3",
+        "addressId": "e9f035e1f42576a943668c4128972c04",
+        "addressSignaturePayload": "7b225465787441646472657373223a22324e324a33434d6f6476464e3234556262426548634e356675696a584b376741395033227d",
+        "addressID": "e9f035e1f42576a943668c4128972c04",
+        "signature": "987343909f6f73a9f3c92f7c6c5b3e3775eb913d0fb6d53c52ceec6a28e921b10ac7bd95adc34ac78360455efe9ac8ac11a215097002f744e4ff57b8c061ce07"
+      },
+      "isArchived": false,
+      "isDefault": true,
+      "networkId": "BTC_S",
+      "subaccountId": "df71ce95-eead-4633-b0e1-dbb4fd37c84a",
+      "type": "WALLET",
+      "vaultId": "48093e9046045c217a9f9bd66d60dc4e",
+      "vaultName": "Test Vault",
+      "walletId": "44d342355bff4764d291ba60ddd9ce18",
+      "walletName": "BTC_S Wallet 1"
+    },
+    {
+      "assets": [],
+      "depositAddress": null,
+      "depositInstruction": {
+        "bankAddress": "40 General Warren Blvd, Suite 200, Malvern, PA, US, 19355",
+        "bankName": "Customers Bank",
+        "bankRoutingNumber": "031302971",
+        "bankSwiftCode": "CUESUS33",
+        "beneficiaryAccountNumber": "7301033",
+        "beneficiaryAddress": "101 S Reid St, Suite 329, Sioux Falls, SD, US, 57103-7030",
+        "beneficiaryName": "Anchorage Digital Bank NA FBO",
+        "memoField": "CUESUS33"
+      },
+      "isArchived": false,
+      "isDefault": true,
+      "networkId": "USD",
+      "subaccountId": "df71ce95-eead-4633-b0e1-dbb4fd37c84a",
+      "type": "WALLET",
+      "vaultId": "48093e9046045c217a9f9bd66d60dc4e",
+      "vaultName": "Test Vault",
+      "walletId": "8f618f14180f33040160085aab619bfa",
+      "walletName": "USD Wallet 1"
+    },
+    {
+      "assets": [
+        {
+          "assetType": "ETHHOL",
+          "availableBalance": {
+            "assetType": "ETHHOL",
+            "currentPrice": "3198.16804415468",
+            "currentUSDValue": "6073.32",
+            "quantity": "1.898999938371888"
+          },
+          "totalBalance": {
+            "assetType": "ETHHOL",
+            "currentPrice": "3198.16804415468",
+            "currentUSDValue": "6073.32",
+            "quantity": "1.898999938371888"
+          }
+        },
+        {
+          "assetType": "USDT_HOL",
+          "availableBalance": {
+            "assetType": "USDT_HOL",
+            "currentPrice": "1",
+            "currentUSDValue": "0",
+            "quantity": "0"
+          },
+          "totalBalance": {
+            "assetType": "USDT_HOL",
+            "currentPrice": "1",
+            "currentUSDValue": "0",
+            "quantity": "0"
+          }
+        }
+      ],
+      "depositAddress": {
+        "address": "0x3FC75BB83143abb84B8c80c835780563fC0ac8AC",
+        "addressId": "1f9bab2d2411c50da58ac39755f06a3b",
+        "addressSignaturePayload": "7b225465787441646472657373223a22307833464337354242383331343361626238344238633830633833353738303536336643306163384143227d",
+        "addressID": "1f9bab2d2411c50da58ac39755f06a3b",
+        "signature": "3f8f291da5e5806d62fca7be3aabfd17f8ee1b1d42435f142e1c697fbf60b97299b2c681377cd082f16ad2dc9c4132f65134c37a8f4711966c2638d149cc5e0b"
+      },
+      "isArchived": false,
+      "isDefault": true,
+      "networkId": "ETHHOL",
+      "subaccountId": "df71ce95-eead-4633-b0e1-dbb4fd37c84a",
+      "type": "WALLET",
+      "vaultId": "48093e9046045c217a9f9bd66d60dc4e",
+      "vaultName": "Test Vault",
+      "walletId": "9383f2a9b542e5daf0109efed0d1da77",
+      "walletName": "Ethereum Holešky Wallet 1"
+    },
+    {
+      "assets": [
+        {
+          "assetType": "SOL_TD",
+          "availableBalance": {
+            "assetType": "SOL_TD",
+            "currentPrice": "133.552666240333",
+            "currentUSDValue": "226.92",
+            "quantity": "1.69910912"
+          },
+          "totalBalance": {
+            "assetType": "SOL_TD",
+            "currentPrice": "133.552666240333",
+            "currentUSDValue": "227.04",
+            "quantity": "1.7"
+          }
+        }
+      ],
+      "depositAddress": {
+        "address": "8JWd6ZMr6RhAPPyw1Ydpwch6m8EQeJ1X5hxbepPefW4g",
+        "addressId": "ac6bc60fd7830bc6ba08f0f62ae010da",
+        "addressSignaturePayload": "7b225465787441646472657373223a22384a5764365a4d72365268415050797731596470776368366d384551654a3158356878626570506566573467227d",
+        "addressID": "ac6bc60fd7830bc6ba08f0f62ae010da",
+        "signature": "ce9093aa39c3eeacbefd2177658dc08f4e2864100fba8f8cb874ee282a5f3ee479c7552104e5fe9a7182947e550d33691ea2139ce6431a8bb5325f2d1e8d3906"
+      },
+      "isArchived": false,
+      "isDefault": true,
+      "networkId": "SOL_TD",
+      "subaccountId": "df71ce95-eead-4633-b0e1-dbb4fd37c84a",
+      "type": "WALLET",
+      "vaultId": "48093e9046045c217a9f9bd66d60dc4e",
+      "vaultName": "Test Vault",
+      "walletId": "9a2b526ad541a8620c4c1d6ccb66ec6c",
+      "walletName": "Solana Devnet Wallet 1"
+    },
+    {
+      "assets": [],
+      "depositAddress": null,
+      "depositInstruction": {
+        "bankAddress": "40 General Warren Blvd, Suite 200, Malvern, PA, US, 19355",
+        "bankName": "Customers Bank",
+        "bankRoutingNumber": "031302971",
+        "bankSwiftCode": "CUESUS33",
+        "beneficiaryAccountNumber": "7301033",
+        "beneficiaryAddress": "101 S Reid St, Suite 329, Sioux Falls, SD, US, 57103-7030",
+        "beneficiaryName": "Anchorage Digital Bank NA FBO",
+        "memoField": "CUESUS33"
+      },
+      "isArchived": false,
+      "isDefault": true,
+      "networkId": "USD_R",
+      "subaccountId": "df71ce95-eead-4633-b0e1-dbb4fd37c84a",
+      "type": "WALLET",
+      "vaultId": "48093e9046045c217a9f9bd66d60dc4e",
+      "vaultName": "Test Vault",
+      "walletId": "da586861a56e1ba08467a1455add4847",
+      "walletName": "USD Regnet Wallet 1"
+    },
+    {
+      "assets": [],
+      "depositAddress": {
+        "address": "8JWd6ZMr6RhAPPyw1Ydpwch6m8EQeJ1X5hxbepPefW4g",
+        "addressId": "c4bda378c83e4ce107c45743bbb6081c",
+        "addressSignaturePayload": "7b225465787441646472657373223a22384a5764365a4d72365268415050797731596470776368366d384551654a3158356878626570506566573467227d",
+        "addressID": "c4bda378c83e4ce107c45743bbb6081c",
+        "signature": "ce9093aa39c3eeacbefd2177658dc08f4e2864100fba8f8cb874ee282a5f3ee479c7552104e5fe9a7182947e550d33691ea2139ce6431a8bb5325f2d1e8d3906"
+      },
+      "isArchived": false,
+      "isDefault": true,
+      "networkId": "FOGO_FOGO_T",
+      "type": "WALLET",
+      "vaultId": "48093e9046045c217a9f9bd66d60dc4e",
+      "vaultName": "Test Vault",
+      "walletId": "f91bf6851de60260992f3dfc9170e689",
+      "walletName": "Fogo Testnet Wallet 1"
+    }
+  ],
+  "page": {
+    "next": null
+  }
+}

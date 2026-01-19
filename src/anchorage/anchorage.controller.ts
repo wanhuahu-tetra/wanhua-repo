@@ -1,4 +1,4 @@
-import { Controller, Get, Param } from '@nestjs/common';
+import { Controller, Get, Param, Query } from '@nestjs/common';
 import { AnchorageService } from './anchorage.service';
 
 @Controller('anchorage')
@@ -22,5 +22,15 @@ export class AnchorageController {
   @Get('vaults/:vaultId/wallets')
   async getVaultWallets(@Param('vaultId') vaultId: string) {
     return this.anchorageService.getVaultWallets(vaultId);
+  }
+
+  /**
+   * GET /anchorage/transactions?vaultId=xxx
+   * Get transactions with optional vault filter
+   * @param vaultId - Optional vault ID to filter transactions
+   */
+  @Get('transactions')
+  async getTransactions(@Query('vaultId') vaultId?: string) {
+    return this.anchorageService.getTransactions(vaultId);
   }
 }

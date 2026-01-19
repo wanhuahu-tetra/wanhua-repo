@@ -88,4 +88,34 @@ export class AnchorageService {
       throw error;
     }
   }
+
+  /**
+   * Get transactions with optional vault filter
+   * @param vaultId - Optional vault ID to filter transactions
+   * @returns List of transactions
+   */
+  async getTransactions(vaultId?: string) {
+    try {
+      this.logger.log(
+        `Fetching transactions${vaultId ? ` for vault ${vaultId}` : ''} from Anchorage`,
+      );
+
+      const queryParams = new URLSearchParams();
+      if (vaultId) {
+        queryParams.append('vaultId', vaultId);
+      }
+
+      const endpoint = `/v2/transactions${queryParams.toString() ? `?${queryParams.toString()}` : ''}`;
+      const response = await this.request(endpoint);
+
+      this.logger.log(
+        `Found ${response.transactions?.length || response.length || 0} transactions`,
+      );
+
+      return response;
+    } catch (error) {
+      this.logger.error('Error fetching transactions:', error.message);
+      throw error;
+    }
+  }
 }

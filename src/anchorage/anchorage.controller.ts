@@ -33,4 +33,14 @@ export class AnchorageController {
   async getTransactions(@Query('vaultId') vaultId?: string) {
     return this.anchorageService.getTransactions(vaultId);
   }
+
+  /**
+   * GET /anchorage/wallets/:walletId
+   * Get wallet details by wallet ID
+   * @param walletId - The wallet ID
+   */
+  @Get('wallets/:walletId')
+  async getWallet(@Param('walletId') walletId: string) {
+    return this.anchorageService.getWallet(walletId);
+  }
 }

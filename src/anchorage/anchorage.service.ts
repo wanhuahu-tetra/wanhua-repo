@@ -118,4 +118,25 @@ export class AnchorageService {
       throw error;
     }
   }
+
+  /**
+   * Get wallet details by wallet ID
+   * @param walletId - The wallet ID
+   * @returns Wallet details
+   */
+  async getWallet(walletId: string) {
+    try {
+      this.logger.log(`Fetching wallet ${walletId} from Anchorage`);
+
+      const endpoint = `/v2/wallets/${walletId}`;
+      const response = await this.request(endpoint);
+
+      this.logger.log(`Successfully fetched wallet ${walletId}`);
+
+      return response;
+    } catch (error) {
+      this.logger.error(`Error fetching wallet ${walletId}:`, error.message);
+      throw error;
+    }
+  }
 }

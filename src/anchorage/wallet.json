@@ -1,0 +1,37 @@
+{
+  "data": {
+    "assets": [
+      {
+        "assetType": "BTC_S",
+        "availableBalance": {
+          "assetType": "BTC_S",
+          "currentPrice": "92776.402855109",
+          "currentUSDValue": "581.94",
+          "quantity": "0.00627246"
+        },
+        "totalBalance": {
+          "assetType": "BTC_S",
+          "currentPrice": "92776.402855109",
+          "currentUSDValue": "581.94",
+          "quantity": "0.00627246"
+        }
+      }
+    ],
+    "depositAddress": {
+      "address": "2N2J3CModvFN24UbbBeHcN5fuijXK7gA9P3",
+      "addressId": "e9f035e1f42576a943668c4128972c04",
+      "addressSignaturePayload": "7b225465787441646472657373223a22324e324a33434d6f6476464e3234556262426548634e356675696a584b376741395033227d",
+      "addressID": "e9f035e1f42576a943668c4128972c04",
+      "signature": "987343909f6f73a9f3c92f7c6c5b3e3775eb913d0fb6d53c52ceec6a28e921b10ac7bd95adc34ac78360455efe9ac8ac11a215097002f744e4ff57b8c061ce07"
+    },
+    "isArchived": false,
+    "isDefault": true,
+    "networkId": "BTC_S",
+    "subaccountId": "df71ce95-eead-4633-b0e1-dbb4fd37c84a",
+    "type": "WALLET",
+    "vaultId": "48093e9046045c217a9f9bd66d60dc4e",
+    "vaultName": "Test Vault",
+    "walletId": "44d342355bff4764d291ba60ddd9ce18",
+    "walletName": "BTC_S Wallet 1"
+  }
+}

@@ -1,0 +1,471 @@
+{
+  "wallets": [
+    {
+      "id": "6924cd32958a9f96d03e2833cb7de197",
+      "users": [
+        {
+          "user": "691deeaba9eafa0d51e8ef016b5b1c9e",
+          "permissions": ["admin", "spend", "view"]
+        }
+      ],
+      "coin": "tbsc",
+      "label": "wh-tbsc-0421",
+      "m": 2,
+      "n": 3,
+      "keys": [
+        "6924cd14f73e0c92afe0f42fa71c7a9c",
+        "6924cd1405af239f3aadccb292503803",
+        "6924cd133e6a84e675d8a2ba3a525077"
+      ],
+      "keySignatures": {},
+      "enterprise": "691f82457ce26ed852ae291ec2a5219a",
+      "organization": "691f82457ce26ed852ae293724c59d8b",
+      "bitgoOrg": "BitGo Trust",
+      "tags": [
+        "6924cd32958a9f96d03e2833cb7de197",
+        "691f82457ce26ed852ae291ec2a5219a"
+      ],
+      "disableTransactionNotifications": false,
+      "deleted": false,
+      "approvalsRequired": 1,
+      "isCold": false,
+      "coinSpecific": {
+        "deployedInBlock": false,
+        "lastChainIndex": { "0": 0, "1": -1 },
+        "baseAddress": "0x2724c559a3724a8a590df9fe4c67857195f41bed",
+        "feeAddress": "0x9b4ac7cafd06497f4169e19ea58adb40dcd9a1fc",
+        "pendingChainInitialization": false,
+        "pendingEcdsaTssInitialization": false,
+        "creationFailure": [],
+        "gasPriceTier": "fast",
+        "tokenFlushThresholds": {},
+        "lowPriorityFeeAddress": "0x9b4ac7cafd06497f4169e19ea58adb40dcd9a1fc",
+        "salt": "0x0",
+        "walletVersion": 5,
+        "pendingDeployment": false,
+        "deployForwardersManually": false,
+        "flushForwardersManually": false,
+        "enableMMI": false,
+        "enableNFT": false,
+        "enableWalletConnect": false,
+        "enableWalletConnectSkipPA": false,
+        "sendManyTokens": []
+      },
+      "admin": {},
+      "clientFlags": [],
+      "walletFlags": [],
+      "allowBackupKeySigning": false,
+      "startDate": "2025-11-24T21:25:06.000Z",
+      "type": "hot",
+      "hasLargeNumberOfAddresses": false,
+      "multisigType": "tss",
+      "multisigTypeVersion": "MPCv2",
+      "hasReceiveTransferPolicy": false,
+      "creator": "691deeaba9eafa0d51e8ef016b5b1c9e",
+      "walletFullyCreated": true,
+      "receiveAddress": {
+        "id": "6924cd33958a9f96d03e2883faf118d7",
+        "address": "0x2724c559a3724a8a590df9fe4c67857195f41bed",
+        "chain": 0,
+        "index": 0,
+        "coin": "tbsc",
+        "wallet": "6924cd32958a9f96d03e2833cb7de197",
+        "lastConsolidatedTime": "2025-11-24T21:31:29.830Z",
+        "needsConsolidation": true,
+        "coinSpecific": {
+          "nonce": -1,
+          "txCount": 0,
+          "pendingChainInitialization": false,
+          "creationFailure": [],
+          "pendingDeployment": false,
+          "forwarderVersion": 4,
+          "isTss": true,
+          "isNonceLocked": false,
+          "updateTime": "2025-11-24T21:25:07.031Z"
+        }
+      }
+    },
+    {
+      "id": "69227ebeaf54e62370fe257cc4241f3c",
+      "users": [
+        {
+          "user": "691deeaba9eafa0d51e8ef016b5b1c9e",
+          "permissions": ["admin", "spend", "view"]
+        }
+      ],
+      "coin": "hteth",
+      "label": "wh-hteth-gousd-1022",
+      "m": 2,
+      "n": 3,
+      "keys": [
+        "69227eb0cd7695919bc2d7f7e404f754",
+        "69227eb0981b502197b83c794fccae8a",
+        "69227eaf42109041e80120761ed5d4fc"
+      ],
+      "keySignatures": {},
+      "enterprise": "691f82457ce26ed852ae291ec2a5219a",
+      "organization": "691f82457ce26ed852ae293724c59d8b",
+      "bitgoOrg": "BitGo Trust",
+      "tags": [
+        "69227ebeaf54e62370fe257cc4241f3c",
+        "691f82457ce26ed852ae291ec2a5219a"
+      ],
+      "disableTransactionNotifications": false,
+      "deleted": false,
+      "approvalsRequired": 1,
+      "isCold": false,
+      "coinSpecific": {
+        "deployedInBlock": false,
+        "lastChainIndex": { "0": 0, "1": -1 },
+        "baseAddress": "0x49d7b4d6d7e0c8ed0fbf7b2cefdae01ee0b1f6a9",
+        "feeAddress": "0x51509d753e6a7fff2e5c5d849d036887c6074369",
+        "pendingChainInitialization": false,
+        "pendingEcdsaTssInitialization": false,
+        "creationFailure": [],
+        "gasPriceTier": "fast",
+        "tokenFlushThresholds": {},
+        "lowPriorityFeeAddress": "0x51509d753e6a7fff2e5c5d849d036887c6074369",
+        "salt": "0x3",
+        "walletVersion": 5,
+        "pendingDeployment": false,
+        "deployForwardersManually": false,
+        "flushForwardersManually": false,
+        "enableMMI": false,
+        "enableNFT": false,
+        "enableWalletConnect": false,
+        "enableWalletConnectSkipPA": false,
+        "sendManyTokens": []
+      },
+      "admin": {},
+      "clientFlags": [],
+      "walletFlags": [],
+      "allowBackupKeySigning": false,
+      "startDate": "2025-11-23T03:25:50.000Z",
+      "type": "hot",
+      "hasLargeNumberOfAddresses": false,
+      "multisigType": "tss",
+      "multisigTypeVersion": "MPCv2",
+      "hasReceiveTransferPolicy": false,
+      "creator": "691deeaba9eafa0d51e8ef016b5b1c9e",
+      "walletFullyCreated": true,
+      "receiveAddress": {
+        "id": "69227ebeaf54e62370fe2592d8eea92b",
+        "address": "0x49d7b4d6d7e0c8ed0fbf7b2cefdae01ee0b1f6a9",
+        "chain": 0,
+        "index": 0,
+        "coin": "hteth",
+        "wallet": "69227ebeaf54e62370fe257cc4241f3c",
+        "lastConsolidatedTime": "2025-11-24T03:09:28.785Z",
+        "needsConsolidation": true,
+        "coinSpecific": {
+          "nonce": -1,
+          "txCount": 0,
+          "pendingChainInitialization": false,
+          "creationFailure": [],
+          "pendingDeployment": false,
+          "forwarderVersion": 4,
+          "isTss": true,
+          "isNonceLocked": false,
+          "updateTime": "2025-11-23T03:25:50.714Z"
+        }
+      }
+    },
+    {
+      "id": "69227cd61313e891bd996de4d5c99c1d",
+      "users": [
+        {
+          "user": "691deeaba9eafa0d51e8ef016b5b1c9e",
+          "permissions": ["admin", "spend", "view"]
+        }
+      ],
+      "coin": "hteth",
+      "label": "wh-tgousd-1007",
+      "m": 2,
+      "n": 3,
+      "keys": [
+        "69227cbe9091827d2d6ad3bfc85c59ea",
+        "69227cbec4fe87e0664111d583516bc3",
+        "691f82437ce26ed852ae277db402233f"
+      ],
+      "keySignatures": {},
+      "enterprise": "691f82457ce26ed852ae291ec2a5219a",
+      "organization": "691f82457ce26ed852ae293724c59d8b",
+      "bitgoOrg": "BitGo Trust",
+      "tags": [
+        "69227cd61313e891bd996de4d5c99c1d",
+        "691f82457ce26ed852ae291ec2a5219a"
+      ],
+      "disableTransactionNotifications": false,
+      "deleted": false,
+      "approvalsRequired": 1,
+      "isCold": false,
+      "coinSpecific": {
+        "deployedInBlock": false,
+        "deployTxHash": "0x92a2e0fd94588757cd36d710f46707bd88d39d5e76566ef8a32ee7359f8809a2",
+        "lastChainIndex": { "0": 0, "1": -1 },
+        "baseAddress": "0x78858a842f15c891e1e2aec4263b4ddf524b6868",
+        "feeAddress": "0x51509d753e6a7fff2e5c5d849d036887c6074369",
+        "pendingChainInitialization": false,
+        "pendingEcdsaTssInitialization": false,
+        "creationFailure": [],
+        "gasPriceTier": "fast",
+        "tokenFlushThresholds": {},
+        "lowPriorityFeeAddress": "0xd21991edf505473217b6ec847932539aa236a61e",
+        "salt": "0x2",
+        "walletVersion": 2,
+        "pendingDeployment": false,
+        "deployForwardersManually": false,
+        "flushForwardersManually": false,
+        "enableMMI": false,
+        "enableNFT": false,
+        "enableWalletConnect": false,
+        "enableWalletConnectSkipPA": false,
+        "sendManyTokens": []
+      },
+      "admin": {},
+      "clientFlags": [],
+      "walletFlags": [],
+      "allowBackupKeySigning": false,
+      "startDate": "2025-11-23T03:17:42.000Z",
+      "type": "hot",
+      "hasLargeNumberOfAddresses": false,
+      "multisigType": "onchain",
+      "hasReceiveTransferPolicy": false,
+      "creator": "691deeaba9eafa0d51e8ef016b5b1c9e",
+      "walletFullyCreated": true,
+      "receiveAddress": {
+        "id": "69227cd81313e891bd996e393ddf9717",
+        "address": "0x78858a842f15c891e1e2aec4263b4ddf524b6868",
+        "chain": 0,
+        "index": 0,
+        "coin": "hteth",
+        "lastNonce": 0,
+        "wallet": "69227cd61313e891bd996de4d5c99c1d",
+        "lastConsolidatedTime": "2025-11-24T03:08:41.991Z",
+        "needsConsolidation": true,
+        "coinSpecific": {
+          "nonce": -1,
+          "txCount": 0,
+          "pendingChainInitialization": false,
+          "creationFailure": [],
+          "pendingDeployment": false,
+          "forwarderVersion": 2,
+          "updateTime": "2025-11-23T03:17:44.240Z"
+        }
+      }
+    },
+    {
+      "id": "69227952cd7695919bbffa98309f3292",
+      "users": [
+        {
+          "user": "691deeaba9eafa0d51e8ef016b5b1c9e",
+          "permissions": ["admin", "spend", "view"]
+        }
+      ],
+      "coin": "hteth",
+      "label": "wh-tgousd-0959",
+      "m": 2,
+      "n": 3,
+      "keys": [
+        "69227927af54e62370fb7476d85ab15c",
+        "69227927af54e62370fb74828b32fdee",
+        "692279279d276fda027bd053a9cc1973"
+      ],
+      "keySignatures": {},
+      "enterprise": "691f82457ce26ed852ae291ec2a5219a",
+      "organization": "691f82457ce26ed852ae293724c59d8b",
+      "bitgoOrg": "BitGo Trust",
+      "tags": [
+        "69227952cd7695919bbffa98309f3292",
+        "691f82457ce26ed852ae291ec2a5219a"
+      ],
+      "disableTransactionNotifications": false,
+      "deleted": false,
+      "approvalsRequired": 1,
+      "isCold": false,
+      "coinSpecific": {
+        "deployedInBlock": false,
+        "lastChainIndex": { "0": 0, "1": -1 },
+        "baseAddress": "0xe7188b8656124031c00f18ca2a275a62dc32454b",
+        "feeAddress": "0x51509d753e6a7fff2e5c5d849d036887c6074369",
+        "pendingChainInitialization": false,
+        "pendingEcdsaTssInitialization": false,
+        "creationFailure": [],
+        "gasPriceTier": "fast",
+        "tokenFlushThresholds": {},
+        "lowPriorityFeeAddress": "0x51509d753e6a7fff2e5c5d849d036887c6074369",
+        "salt": "0x1",
+        "walletVersion": 5,
+        "pendingDeployment": false,
+        "deployForwardersManually": false,
+        "flushForwardersManually": false,
+        "enableMMI": false,
+        "enableNFT": false,
+        "enableWalletConnect": false,
+        "enableWalletConnectSkipPA": false,
+        "sendManyTokens": []
+      },
+      "admin": {},
+      "clientFlags": [],
+      "walletFlags": [],
+      "allowBackupKeySigning": false,
+      "startDate": "2025-11-23T03:02:42.000Z",
+      "type": "hot",
+      "hasLargeNumberOfAddresses": false,
+      "multisigType": "tss",
+      "multisigTypeVersion": "MPCv2",
+      "hasReceiveTransferPolicy": false,
+      "creator": "691deeaba9eafa0d51e8ef016b5b1c9e",
+      "walletFullyCreated": true,
+      "receiveAddress": {
+        "id": "69227952cd7695919bbffabe9513b978",
+        "address": "0xe7188b8656124031c00f18ca2a275a62dc32454b",
+        "chain": 0,
+        "index": 0,
+        "coin": "hteth",
+        "lastNonce": 0,
+        "wallet": "69227952cd7695919bbffa98309f3292",
+        "lastConsolidatedTime": "2025-11-24T03:02:18.866Z",
+        "needsConsolidation": true,
+        "coinSpecific": {
+          "nonce": -1,
+          "txCount": 0,
+          "pendingChainInitialization": false,
+          "creationFailure": [],
+          "pendingDeployment": false,
+          "forwarderVersion": 4,
+          "isTss": true,
+          "isNonceLocked": false,
+          "updateTime": "2025-11-23T03:02:42.410Z"
+        }
+      }
+    },
+    {
+      "id": "691f959f0d4829f4dbde2221308ca7d1",
+      "users": [
+        {
+          "user": "691deeaba9eafa0d51e8ef016b5b1c9e",
+          "permissions": ["admin", "spend", "view", "trade"]
+        }
+      ],
+      "coin": "ofc",
+      "label": "Go Account",
+      "m": 1,
+      "n": 1,
+      "keys": ["691f959f0d4829f4dbde22098edfcaac"],
+      "keySignatures": {},
+      "enterprise": "691f82457ce26ed852ae291ec2a5219a",
+      "organization": "691f82457ce26ed852ae293724c59d8b",
+      "bitgoOrg": "BitGo Trust",
+      "tags": [
+        "691f959f0d4829f4dbde2221308ca7d1",
+        "691f82457ce26ed852ae291ec2a5219a"
+      ],
+      "disableTransactionNotifications": false,
+      "deleted": false,
+      "approvalsRequired": 1,
+      "isCold": false,
+      "coinSpecific": {
+        "needsKeyReshareAfterPasswordReset": false,
+        "pendingSystemInitialization": false,
+        "features": []
+      },
+      "admin": {},
+      "clientFlags": [],
+      "walletFlags": [],
+      "allowBackupKeySigning": false,
+      "startDate": "2025-11-20T22:26:39.000Z",
+      "type": "trading",
+      "hasLargeNumberOfAddresses": false,
+      "hasReceiveTransferPolicy": false,
+      "creator": "691deeaba9eafa0d51e8ef016b5b1c9e",
+      "walletFullyCreated": true
+    },
+    {
+      "id": "691f843999a0a2b8d4ea66ac2765984c",
+      "users": [
+        {
+          "user": "691deeaba9eafa0d51e8ef016b5b1c9e",
+          "permissions": ["admin", "spend", "view"]
+        }
+      ],
+      "coin": "hteth",
+      "label": "wh-hteth-1033",
+      "m": 2,
+      "n": 3,
+      "keys": [
+        "691f84246311368c5ba44a45c02a6e76",
+        "691f8424b6f92977fdb49fbafad9b726",
+        "691f84231d3c9fce8f63b86d9a99556a"
+      ],
+      "keySignatures": {},
+      "enterprise": "691f82457ce26ed852ae291ec2a5219a",
+      "organization": "691f82457ce26ed852ae293724c59d8b",
+      "bitgoOrg": "BitGo Trust",
+      "tags": [
+        "691f843999a0a2b8d4ea66ac2765984c",
+        "691f82457ce26ed852ae291ec2a5219a"
+      ],
+      "disableTransactionNotifications": false,
+      "deleted": false,
+      "approvalsRequired": 1,
+      "isCold": false,
+      "coinSpecific": {
+        "deployedInBlock": false,
+        "lastChainIndex": { "0": 0, "1": -1 },
+        "baseAddress": "0xf114db1fe705824f7012bb33d35f1a5e3e3dd04a",
+        "feeAddress": "0x51509d753e6a7fff2e5c5d849d036887c6074369",
+        "pendingChainInitialization": false,
+        "pendingEcdsaTssInitialization": false,
+        "creationFailure": [],
+        "gasPriceTier": "fast",
+        "tokenFlushThresholds": {},
+        "lowPriorityFeeAddress": "0x51509d753e6a7fff2e5c5d849d036887c6074369",
+        "salt": "0x0",
+        "walletVersion": 5,
+        "pendingDeployment": false,
+        "deployForwardersManually": false,
+        "flushForwardersManually": false,
+        "enableMMI": false,
+        "enableNFT": false,
+        "enableWalletConnect": false,
+        "enableWalletConnectSkipPA": false,
+        "sendManyTokens": []
+      },
+      "admin": {},
+      "clientFlags": [],
+      "walletFlags": [],
+      "allowBackupKeySigning": false,
+      "startDate": "2025-11-20T21:12:25.000Z",
+      "type": "hot",
+      "hasLargeNumberOfAddresses": false,
+      "multisigType": "tss",
+      "multisigTypeVersion": "MPCv2",
+      "hasReceiveTransferPolicy": false,
+      "creator": "691deeaba9eafa0d51e8ef016b5b1c9e",
+      "walletFullyCreated": true,
+      "receiveAddress": {
+        "id": "691f843999a0a2b8d4ea66be9d08db04",
+        "address": "0xf114db1fe705824f7012bb33d35f1a5e3e3dd04a",
+        "chain": 0,
+        "index": 0,
+        "coin": "hteth",
+        "lastNonce": 1,
+        "wallet": "691f843999a0a2b8d4ea66ac2765984c",
+        "lastConsolidatedTime": "2025-11-21T22:08:04.492Z",
+        "needsConsolidation": true,
+        "coinSpecific": {
+          "nonce": -1,
+          "txCount": 0,
+          "pendingChainInitialization": false,
+          "creationFailure": [],
+          "pendingDeployment": false,
+          "forwarderVersion": 4,
+          "isTss": true,
+          "isNonceLocked": false,
+          "updateTime": "2025-11-20T21:12:25.951Z"
+        }
+      }
+    }
+  ]
+}

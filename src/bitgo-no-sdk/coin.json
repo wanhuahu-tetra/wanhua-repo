@@ -1,0 +1,12 @@
+{
+  "name": "Testnet Native BNB",
+  "coin": "tbsc",
+  "family": "bsc",
+  "kind": "coin"
+}
+{
+  "name": "Hoodi Testnet Ethereum",
+  "coin": "hteth",
+  "family": "eth",
+  "kind": "coin"
+}

@@ -1,0 +1,79 @@
+{
+  "coin": "tbsc",
+  "transfers": [
+    {
+      "entries": [
+        {
+          "address": "0xc72cb94ecc008fde70c4396c6a47f26c4bde7f1c",
+          "value": -100000000000000000,
+          "valueString": "-100000000000000000",
+          "isPayGo": false
+        },
+        {
+          "address": "0x2724c559a3724a8a590df9fe4c67857195f41bed",
+          "wallet": "6924cd32958a9f96d03e2833cb7de197",
+          "value": 100000000000000000,
+          "valueString": "100000000000000000",
+          "isPayGo": false
+        }
+      ],
+      "id": "6924ce9e938af2782bc727593007baad",
+      "coin": "tbsc",
+      "wallet": "6924cd32958a9f96d03e2833cb7de197",
+      "walletType": "hot",
+      "enterprise": "691f82457ce26ed852ae291ec2a5219a",
+      "organization": "691f82457ce26ed852ae293724c59d8b",
+      "txid": "0x28957e54499e630e12cd4e3c94ea089d66c543fd9921b36320d4e56384ce24ed",
+      "txidType": "transactionHash",
+      "height": 74692748,
+      "heightId": "074692748-6924ce9e938af2782bc727593007baad",
+      "date": "2025-11-24T21:31:04.000Z",
+      "confirmations": 427266,
+      "type": "receive",
+      "value": 100000000000000000,
+      "valueString": "100000000000000000",
+      "intendedValueString": "100000000000000000",
+      "baseValue": 100000000000000000,
+      "baseValueString": "100000000000000000",
+      "baseValueWithoutFees": 100000000000000000,
+      "baseValueWithoutFeesString": "100000000000000000",
+      "feeString": "21000000000000",
+      "payGoFee": 0,
+      "payGoFeeString": "0",
+      "usd": 87.1153845109,
+      "usdRate": 871.1538451085,
+      "medianUsdValue": 85.562,
+      "medianUsdRate": 855.62,
+      "state": "confirmed",
+      "instant": false,
+      "isReward": false,
+      "isUnlock": false,
+      "isFee": false,
+      "senderInformationVerified": false,
+      "tags": [
+        "6924cd32958a9f96d03e2833cb7de197",
+        "691f82457ce26ed852ae291ec2a5219a"
+      ],
+      "history": [
+        {
+          "date": "2025-11-24T21:31:04.000Z",
+          "action": "confirmed",
+          "comment": null
+        },
+        {
+          "date": "2025-11-24T21:31:04.000Z",
+          "action": "created",
+          "comment": null
+        }
+      ],
+      "comment": null,
+      "coinSpecific": { "isMev": false },
+      "usersNotified": true,
+      "metadata": [],
+      "confirmedTime": "2025-11-24T21:31:04.000Z",
+      "createdTime": "2025-11-24T21:31:04.000Z",
+      "label": "",
+      "normalizedTxHash": "0x28957e54499e630e12cd4e3c94ea089d66c543fd9921b36320d4e56384ce24ed"
+    }
+  ]
+}

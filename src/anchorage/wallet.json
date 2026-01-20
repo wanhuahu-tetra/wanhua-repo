@@ -2,36 +2,50 @@
   "data": {
     "assets": [
       {
-        "assetType": "BTC_S",
+        "assetType": "ETHSEP",
         "availableBalance": {
-          "assetType": "BTC_S",
-          "currentPrice": "92776.402855109",
-          "currentUSDValue": "581.94",
-          "quantity": "0.00627246"
+          "assetType": "ETHSEP",
+          "currentPrice": "3018.340404272",
+          "currentUSDValue": "3.02",
+          "quantity": "0.001"
         },
         "totalBalance": {
-          "assetType": "BTC_S",
-          "currentPrice": "92776.402855109",
-          "currentUSDValue": "581.94",
-          "quantity": "0.00627246"
+          "assetType": "ETHSEP",
+          "currentPrice": "3018.340404272",
+          "currentUSDValue": "3.02",
+          "quantity": "0.001"
+        }
+      },
+      {
+        "assetType": "PYUSD_SEP",
+        "availableBalance": {
+          "assetType": "PYUSD_SEP",
+          "currentPrice": "0",
+          "currentUSDValue": "0",
+          "quantity": "100"
+        },
+        "totalBalance": {
+          "assetType": "PYUSD_SEP",
+          "currentPrice": "0",
+          "currentUSDValue": "0",
+          "quantity": "100"
         }
       }
     ],
     "depositAddress": {
-      "address": "2N2J3CModvFN24UbbBeHcN5fuijXK7gA9P3",
-      "addressId": "e9f035e1f42576a943668c4128972c04",
-      "addressSignaturePayload": "7b225465787441646472657373223a22324e324a33434d6f6476464e3234556262426548634e356675696a584b376741395033227d",
-      "addressID": "e9f035e1f42576a943668c4128972c04",
-      "signature": "987343909f6f73a9f3c92f7c6c5b3e3775eb913d0fb6d53c52ceec6a28e921b10ac7bd95adc34ac78360455efe9ac8ac11a215097002f744e4ff57b8c061ce07"
+      "address": "0xABF56211d8fa5CaA2F7266f0E055DCD402B5505a",
+      "addressId": "a88c40ef6ebfcdaf0a80bbfb81e61336",
+      "addressSignaturePayload": "7b225465787441646472657373223a22307841424635363231316438666135436141324637323636663045303535444344343032423535303561227d",
+      "addressID": "a88c40ef6ebfcdaf0a80bbfb81e61336",
+      "signature": "2f244f473b9ce6c45a0df2b36cb925d4c50d28de79571963eb759874791068e3692a46fff9e220bb27681870f11ae94c55b1636fe154f09deb238c6de5414109"
     },
     "isArchived": false,
     "isDefault": true,
-    "networkId": "BTC_S",
-    "subaccountId": "df71ce95-eead-4633-b0e1-dbb4fd37c84a",
+    "networkId": "ETHSEP",
     "type": "WALLET",
-    "vaultId": "48093e9046045c217a9f9bd66d60dc4e",
-    "vaultName": "Test Vault",
-    "walletId": "44d342355bff4764d291ba60ddd9ce18",
-    "walletName": "BTC_S Wallet 1"
+    "vaultId": "98ae92a8e47c04d144f57fc844f57888",
+    "vaultName": "wanhua-vault-0116-2",
+    "walletId": "79f614101966f21c042aeb2100cf03ab",
+    "walletName": "Ethereum Sepolia Wallet-0150"
   }
 }

@@ -3,21 +3,6 @@
     {
       "assets": [
         {
-          "assetType": "PYUSD_SEP",
-          "availableBalance": {
-            "assetType": "PYUSD_SEP",
-            "currentPrice": "0",
-            "currentUSDValue": "0",
-            "quantity": "100"
-          },
-          "totalBalance": {
-            "assetType": "PYUSD_SEP",
-            "currentPrice": "0",
-            "currentUSDValue": "0",
-            "quantity": "100"
-          }
-        },
-        {
           "assetType": "ETHSEP",
           "availableBalance": {
             "assetType": "ETHSEP",
@@ -30,6 +15,21 @@
             "currentPrice": "3018.340404272",
             "currentUSDValue": "3.02",
             "quantity": "0.001"
+          }
+        },
+        {
+          "assetType": "PYUSD_SEP",
+          "availableBalance": {
+            "assetType": "PYUSD_SEP",
+            "currentPrice": "0",
+            "currentUSDValue": "0",
+            "quantity": "100"
+          },
+          "totalBalance": {
+            "assetType": "PYUSD_SEP",
+            "currentPrice": "0",
+            "currentUSDValue": "0",
+            "quantity": "100"
           }
         }
       ],
@@ -48,6 +48,24 @@
       "vaultName": "wanhua-vault-0116-2",
       "walletId": "79f614101966f21c042aeb2100cf03ab",
       "walletName": "Ethereum Sepolia Wallet-0150"
+    },
+    {
+      "assets": [],
+      "depositAddress": {
+        "address": "2NDpuuhrRkt4v7tE4UBF7Ni6zSqWr2LSA9i",
+        "addressId": "e427cccf2b9c34a17e5245c68e8f7c5b",
+        "addressSignaturePayload": "7b225465787441646472657373223a22324e447075756872526b74347637744534554246374e69367a53715772324c53413969227d",
+        "addressID": "e427cccf2b9c34a17e5245c68e8f7c5b",
+        "signature": "38ace2257c95997d8fd65d7232a384bfdf1b7cc4d7ac9910d9e32bccadb4b5120145a405cfee24eca7a93ad53e61d1836168c560af24703744fe8a881c41a80d"
+      },
+      "isArchived": false,
+      "isDefault": true,
+      "networkId": "BTC_S",
+      "type": "WALLET",
+      "vaultId": "98ae92a8e47c04d144f57fc844f57888",
+      "vaultName": "wanhua-vault-0116-2",
+      "walletId": "db54f899983d4fa5bb093a5c2bd5579c",
+      "walletName": "Bitcoin Signet Wallet 1200"
     }
   ],
   "page": {

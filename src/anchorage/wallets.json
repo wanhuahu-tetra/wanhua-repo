@@ -1,35 +1,55 @@
 {
   "data": [
     {
+      "assets": [],
+      "depositInstruction": {
+        "bankAddress": "885 Teaneck Road, Teaneck, NJ, US, 07666",
+        "bankName": "Cross River Bank",
+        "bankRoutingNumber": "021214891",
+        "bankSwiftCode": null,
+        "beneficiaryAccountNumber": "366348966305",
+        "beneficiaryAddress": "Electric Turquoise Hyaenodon, Athletic Blue Rhinoceros, Cooperative Cyan Newfypoo, Fortuitous Coral Ceratosaurus, RS, Aware Green Dormouse",
+        "beneficiaryName": "Tetra Basic Custody Test"
+      },
+      "isArchived": false,
+      "isDefault": true,
+      "networkId": "USD_R",
+      "type": "WALLET",
+      "vaultId": "98ae92a8e47c04d144f57fc844f57888",
+      "vaultName": "wanhua-vault-0116-2",
+      "walletId": "4bcb8a860d02b08c11af2922e9525365",
+      "walletName": "USD Regnet Wallet 1"
+    },
+    {
       "assets": [
         {
           "assetType": "ETHSEP",
           "availableBalance": {
             "assetType": "ETHSEP",
-            "currentPrice": "3018.340404272",
-            "currentUSDValue": "3.02",
-            "quantity": "0.001"
+            "currentPrice": "2715.81635470238",
+            "currentUSDValue": "1.88",
+            "quantity": "0.000691377242736884"
           },
           "totalBalance": {
             "assetType": "ETHSEP",
-            "currentPrice": "3018.340404272",
-            "currentUSDValue": "3.02",
-            "quantity": "0.001"
+            "currentPrice": "2715.81635470238",
+            "currentUSDValue": "1.88",
+            "quantity": "0.000691377242736884"
           }
         },
         {
           "assetType": "PYUSD_SEP",
           "availableBalance": {
             "assetType": "PYUSD_SEP",
-            "currentPrice": "0",
-            "currentUSDValue": "0",
-            "quantity": "100"
+            "currentPrice": "1",
+            "currentUSDValue": "99",
+            "quantity": "99"
           },
           "totalBalance": {
             "assetType": "PYUSD_SEP",
-            "currentPrice": "0",
-            "currentUSDValue": "0",
-            "quantity": "100"
+            "currentPrice": "1",
+            "currentUSDValue": "99",
+            "quantity": "99"
           }
         }
       ],
@@ -66,6 +86,112 @@
       "vaultName": "wanhua-vault-0116-2",
       "walletId": "db54f899983d4fa5bb093a5c2bd5579c",
       "walletName": "Bitcoin Signet Wallet 1200"
+    }
+  ],
+  "page": {
+    "next": null
+  }
+}
+
+{
+  "data": [
+    {
+      "assets": [
+        {
+          "assetType": "ETHSEP",
+          "availableBalance": {
+            "assetType": "ETHSEP",
+            "currentPrice": "2715.81635470238",
+            "currentUSDValue": "0",
+            "quantity": "0"
+          },
+          "totalBalance": {
+            "assetType": "ETHSEP",
+            "currentPrice": "2715.81635470238",
+            "currentUSDValue": "0",
+            "quantity": "0"
+          }
+        },
+        {
+          "assetType": "PYUSD_SEP",
+          "availableBalance": {
+            "assetType": "PYUSD_SEP",
+            "currentPrice": "1",
+            "currentUSDValue": "100",
+            "quantity": "100"
+          },
+          "totalBalance": {
+            "assetType": "PYUSD_SEP",
+            "currentPrice": "1",
+            "currentUSDValue": "100",
+            "quantity": "100"
+          }
+        }
+      ],
+      "depositAddress": {
+        "address": "0x75a2A0C25B750F426D5E59e992c8c74A38595e22",
+        "addressId": "e6bae6774c3d9b4e096eedbfff1e933f",
+        "addressSignaturePayload": "7b225465787441646472657373223a22307837356132413043323542373530463432364435453539653939326338633734413338353935653232227d",
+        "addressID": "e6bae6774c3d9b4e096eedbfff1e933f",
+        "signature": "4bb8a0a30668695b017b6d2b047cd00c7bd37cfdeca05e7a216b0adbae342d1df32818ac8163cd8cfe08063f2b7d6ec7c9798de31f0acecc2eb1ba2e6b80480c"
+      },
+      "isArchived": true,
+      "isDefault": false,
+      "networkId": "ETHSEP",
+      "type": "WALLET",
+      "vaultId": "6db53bc4062acf0748b459ef0a2a7741",
+      "vaultName": "wanhua-vault-0116-0426",
+      "walletId": "83aac34d2190dad6f91c26e38bd50bb7",
+      "walletName": "Ethereum Sepolia Wallet 1159"
+    },
+    {
+      "assets": [
+        {
+          "assetType": "ETHSEP",
+          "availableBalance": {
+            "assetType": "ETHSEP",
+            "currentPrice": "2715.81635470238",
+            "currentUSDValue": "2.72",
+            "quantity": "0.001"
+          },
+          "totalBalance": {
+            "assetType": "ETHSEP",
+            "currentPrice": "2715.81635470238",
+            "currentUSDValue": "2.72",
+            "quantity": "0.001"
+          }
+        },
+        {
+          "assetType": "PYUSD_SEP",
+          "availableBalance": {
+            "assetType": "PYUSD_SEP",
+            "currentPrice": "1",
+            "currentUSDValue": "1",
+            "quantity": "1"
+          },
+          "totalBalance": {
+            "assetType": "PYUSD_SEP",
+            "currentPrice": "1",
+            "currentUSDValue": "1",
+            "quantity": "1"
+          }
+        }
+      ],
+      "depositAddress": {
+        "address": "0x40612E42835129D80e2fA927f09c34ADa182afa1",
+        "addressId": "63a8d7a96b0173494598ee33a38a8d90",
+        "addressSignaturePayload": "7b225465787441646472657373223a22307834303631324534323833353132394438306532664139323766303963333441446131383261666131227d",
+        "addressID": "63a8d7a96b0173494598ee33a38a8d90",
+        "signature": "9e32e56f3462c4c03a1512d1dc15ed5da5b5207229097594bbbf1cb2220c4a0b61245999b6a41791cbe5b5e125a878be192a03b5b6d59a5afccf138f8d337804"
+      },
+      "isArchived": false,
+      "isDefault": true,
+      "networkId": "ETHSEP",
+      "type": "WALLET",
+      "vaultId": "6db53bc4062acf0748b459ef0a2a7741",
+      "vaultName": "wanhua-vault-0116-0426",
+      "walletId": "849ba68f5f5473b3be1538aa4a2eb980",
+      "walletName": "Ethereum Sepolia Wallet-1205"
     }
   ],
   "page": {

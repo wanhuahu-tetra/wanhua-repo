@@ -19,7 +19,7 @@ export class AnchorageService {
 
     const headers = {
       'Api-Access-Key': this.apiKey,
-      'accept': 'application/json',
+      accept: 'application/json',
       ...options.headers,
     };
 

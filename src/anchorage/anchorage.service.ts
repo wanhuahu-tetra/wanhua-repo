@@ -94,7 +94,7 @@ export class AnchorageService {
    * @param vaultId - Optional vault ID to filter transactions
    * @returns List of transactions
    */
-  async getTransactions(vaultId?: string) {
+  async getTransactions(vaultId?: string, limit?: string) {
     try {
       this.logger.log(
         `Fetching transactions${vaultId ? ` for vault ${vaultId}` : ''} from Anchorage`,
@@ -103,6 +103,9 @@ export class AnchorageService {
       const queryParams = new URLSearchParams();
       if (vaultId) {
         queryParams.append('vaultId', vaultId);
+      }
+      if (limit) {
+        queryParams.append('limit', limit);
       }
 
       const endpoint = `/v2/transactions${queryParams.toString() ? `?${queryParams.toString()}` : ''}`;

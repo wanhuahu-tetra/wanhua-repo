@@ -30,8 +30,11 @@ export class AnchorageController {
    * @param vaultId - Optional vault ID to filter transactions
    */
   @Get('transactions')
-  async getTransactions(@Query('vaultId') vaultId?: string) {
-    return this.anchorageService.getTransactions(vaultId);
+  async getTransactions(
+    @Query('vaultId') vaultId?: string,
+    @Query('limit') limit?: string,
+  ) {
+    return this.anchorageService.getTransactions(vaultId, limit);
   }
 
   /**

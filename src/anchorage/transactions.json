@@ -2,8 +2,36 @@
   "data": [
     {
       "amount": {
+        "assetType": "PYUSD_SEP",
+        "currentPrice": "1",
+        "currentUSDValue": "-1",
+        "quantity": "-1"
+      },
+      "assetType": "PYUSD_SEP",
+      "blockchainTxId": "0x386924736379dea9009a904149e920f6b639cba0419f7acdefad027ba9735a28",
+      "dateTime": "2026-01-30T15:36:37.538Z",
+      "description": "",
+      "destinationAddresses": [
+        "0x40612E42835129D80e2fA927f09c34ADa182afa1"
+      ],
+      "fee": {
         "assetType": "ETHSEP",
-        "currentPrice": "2735.38485680181",
+        "quantity": "-0.000064438545352116"
+      },
+      "id": "6ba51a2dff532196c59f80375c1a6b92761baed35a4c57e39bb9ec5e2506de9d",
+      "sourceAddresses": [
+        "0xABF56211d8fa5CaA2F7266f0E055DCD402B5505a"
+      ],
+      "status": "SUCCESS",
+      "transactionType": "WITHDRAW",
+      "vaultId": "98ae92a8e47c04d144f57fc844f57888",
+      "vaultName": "wanhua-vault-0116-2",
+      "walletId": "79f614101966f21c042aeb2100cf03ab"
+    },
+    {
+      "amount": {
+        "assetType": "ETHSEP",
+        "currentPrice": "2730.45327657078",
         "currentUSDValue": "-0.27",
         "quantity": "-0.0001"
       },
@@ -31,7 +59,7 @@
     {
       "amount": {
         "assetType": "ETHSEP",
-        "currentPrice": "2735.38485680181",
+        "currentPrice": "2730.45327657078",
         "currentUSDValue": "-0.27",
         "quantity": "-0.0001"
       },
@@ -114,8 +142,32 @@
   "data": [
     {
       "amount": {
+        "assetType": "PYUSD_SEP",
+        "currentPrice": "1",
+        "currentUSDValue": "1",
+        "quantity": "1"
+      },
+      "assetType": "PYUSD_SEP",
+      "blockchainTxId": "0x386924736379dea9009a904149e920f6b639cba0419f7acdefad027ba9735a28",
+      "dateTime": "2026-01-30T15:53:42.036Z",
+      "description": "",
+      "destinationAddresses": [
+        "0x40612E42835129D80e2fA927f09c34ADa182afa1"
+      ],
+      "id": "609617324c0359a4fbc00239d530ed8e",
+      "sourceAddresses": [
+        "0xABF56211d8fa5CaA2F7266f0E055DCD402B5505a"
+      ],
+      "status": "SUCCESS",
+      "transactionType": "DEPOSIT",
+      "vaultId": "6db53bc4062acf0748b459ef0a2a7741",
+      "vaultName": "wanhua-vault-0116-0426",
+      "walletId": "849ba68f5f5473b3be1538aa4a2eb980"
+    },
+    {
+      "amount": {
         "assetType": "ETHSEP",
-        "currentPrice": "2735.38485680181",
+        "currentPrice": "2730.45327657078",
         "currentUSDValue": "0.27",
         "quantity": "0.0001"
       },

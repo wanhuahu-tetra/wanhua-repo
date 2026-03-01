@@ -1,0 +1,4012 @@
+{
+  "data": {
+    "data": [
+      {
+        "id": "e85208ff-3b15-44e9-af14-0ed0280b2a15",
+        "legacyId": "ETH",
+        "displayName": "Ethereum",
+        "nativeAssetId": "9f9f7062-df90-4fc0-8697-96685184358d",
+        "onchain": {
+          "protocol": "EVM",
+          "chainId": "1",
+          "test": false,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/9b9e3a53-bedd-43a3-a3fd-55dd258c743e",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/5fe5912f-7231-4dd8-b1d5-8210987f981b",
+              "type": "image/png"
+            }
+          ],
+          "explorer": {
+            "base": "https://etherscan.io",
+            "address": "https://etherscan.io/address/{address}",
+            "tx": "https://etherscan.io/tx/{tx}"
+          }
+        }
+      },
+      {
+        "id": "dd754e7a-f4d5-466b-a847-45f31d4e5403",
+        "legacyId": "SOL",
+        "displayName": "Solana",
+        "nativeAssetId": "f6b14580-42bc-40d8-a920-16aa838c4551",
+        "onchain": {
+          "protocol": "SOL",
+          "chainId": "4sGjMW1sUnHzSxGspuhpqLDx6wiyjNtZ",
+          "test": false,
+          "signingAlgo": "EDDSA_ED25519"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/21ce5b0f-7be2-4ec0-a9fe-56c68695401d",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/f7c9fd20-3190-4569-929a-8bedfca9f0bc",
+              "type": "image/png"
+            }
+          ],
+          "explorer": {
+            "base": "https://explorer.solana.com",
+            "address": "https://explorer.solana.com/address/{address}",
+            "tx": "https://explorer.solana.com/tx/{tx}"
+          }
+        }
+      },
+      {
+        "id": "b7436683-8c79-4935-8cef-62991e90f7d0",
+        "legacyId": "BTC",
+        "displayName": "Bitcoin",
+        "nativeAssetId": "6646e391-574f-4a3d-9039-ead75f16e5f3",
+        "onchain": {
+          "protocol": "UTXO",
+          "test": false,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/e6662901-d396-42e4-ac9e-1828fcc11e6e",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/294d3f54-adb2-4edb-921e-56c3477deaa2",
+              "type": "image/png"
+            }
+          ],
+          "explorer": {
+            "base": "https://mempool.space/",
+            "address": "https://mempool.space/address/{address}",
+            "tx": "https://mempool.space/tx/{tx}"
+          }
+        }
+      },
+      {
+        "id": "1bb61c92-2019-415f-9f86-7daa39a4ec04",
+        "legacyId": "BSC",
+        "displayName": "BNB Smart Chain",
+        "nativeAssetId": "2487bede-5883-4c28-a9b8-e3d2d8e69ff4",
+        "onchain": {
+          "protocol": "EVM",
+          "chainId": "56",
+          "test": false,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/d75e3c6e-b414-4ec4-9adf-43dd460e5128",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/ff7bb400-71cc-4504-a132-6f04cf8476eb",
+              "type": "image/png"
+            }
+          ],
+          "explorer": {
+            "base": "https://bscscan.com",
+            "address": "https://bscscan.com/address/{address}",
+            "tx": "https://bscscan.com/tx/{tx}"
+          }
+        }
+      },
+      {
+        "id": "25b587d5-e2fb-487a-a390-a16b65fdde51",
+        "legacyId": "TRX",
+        "displayName": "TRON",
+        "nativeAssetId": "15c4e336-e11f-48a6-9df8-697c7a1e17d3",
+        "onchain": {
+          "protocol": "TRX",
+          "chainId": "0x2b6653dc",
+          "test": false,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/793ba29f-dbb1-453a-b71f-ae44af146384",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/385544a5-b282-4d55-95f3-924c16c5bc55",
+              "type": "image/png"
+            }
+          ],
+          "explorer": {
+            "base": "https://tronscan.org",
+            "address": "https://tronscan.org/#/address/{address}",
+            "tx": "https://tronscan.org/#/transaction/{tx}"
+          }
+        }
+      },
+      {
+        "id": "58ebaf8a-b911-42b0-8386-f72fb52d447d",
+        "legacyId": "BASECHAIN_ETH",
+        "displayName": "Base",
+        "nativeAssetId": "5de65a71-8b06-448e-a7b4-05ee479bcef8",
+        "onchain": {
+          "protocol": "EVM",
+          "chainId": "8453",
+          "test": false,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/50466fd7-c67a-414c-95c9-f328fc397e32",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/8af603d5-9810-4867-8068-11561483bec5",
+              "type": "image/png"
+            }
+          ],
+          "explorer": {
+            "base": "https://basescan.org",
+            "address": "https://basescan.org/address/{address}",
+            "tx": "https://basescan.org/tx/{tx}",
+            "token": "https://basescan.org/token/{contract}?a={tokenId}"
+          }
+        }
+      },
+      {
+        "id": "7e508563-82c2-4be2-a3cb-cb6d209c2057",
+        "legacyId": "ARB",
+        "displayName": "Arbitrum One",
+        "nativeAssetId": "1d87790f-fc43-46ce-9d60-a1ba938e6226",
+        "onchain": {
+          "protocol": "EVM",
+          "chainId": "42161",
+          "test": false,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/dc1160b7-5e3a-412a-8a49-98cd5eb65a41",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/9f4b8477-d680-4b35-adde-83fd7f4c48e7",
+              "type": "image/png"
+            }
+          ],
+          "explorer": {
+            "base": "https://arbiscan.io",
+            "address": "https://arbiscan.io/address/{address}",
+            "tx": "https://arbiscan.io/tx/{tx}"
+          }
+        }
+      },
+      {
+        "id": "9803ee63-1497-488a-922d-5f99263c2f75",
+        "legacyId": "AVAX",
+        "displayName": "Avalanche C-Chain",
+        "nativeAssetId": "868f99d6-7402-4e5b-9686-411e9d2432b5",
+        "onchain": {
+          "protocol": "EVM",
+          "chainId": "43114",
+          "test": false,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/cfb7426e-f249-4c27-915e-609cdc8ce6e1",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/ec98faeb-48c3-42c0-b00c-2ab1eb203775",
+              "type": "image/png"
+            }
+          ],
+          "explorer": {
+            "base": "https://cchain.explorer.avax.network",
+            "address": "https://cchain.explorer.avax.network/address/{address}",
+            "tx": "https://cchain.explorer.avax.network/tx/{tx}"
+          }
+        }
+      },
+      {
+        "id": "9bade65e-c7e9-486e-bdb9-99da8d456483",
+        "legacyId": "POLYGON",
+        "displayName": "Polygon",
+        "nativeAssetId": "94f34bec-d6e0-43aa-b365-422b706aea4e",
+        "onchain": {
+          "protocol": "EVM",
+          "chainId": "137",
+          "test": false,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/395f5eda-b036-4811-b781-1ea4fed994ea",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/bbb0f052-79fb-40e0-b10d-3014d0fe18db",
+              "type": "image/png"
+            }
+          ],
+          "explorer": {
+            "base": "https://polygonscan.com",
+            "address": "https://polygonscan.com/address/{address}",
+            "tx": "https://polygonscan.com/tx/{tx}",
+            "token": "https://polygonscan.com/token/{contract}?a={tokenId}"
+          }
+        }
+      },
+      {
+        "id": "080f3e4a-2d00-4230-b1f1-34b5f9a77cc1",
+        "legacyId": "BERACHAIN",
+        "displayName": "Berachain",
+        "nativeAssetId": "99d33f68-ccb3-4848-8bea-58d098efb573",
+        "onchain": {
+          "protocol": "EVM",
+          "chainId": "80094",
+          "test": false,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/20dd329a-4b7d-4504-bba6-b61807e10f81",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/6f47a19b-1e26-4ba0-b49b-4b1210402bad",
+              "type": "image/png"
+            }
+          ],
+          "explorer": {
+            "base": "https://berascan.com/",
+            "address": "https://berascan.com/address/{address}",
+            "tx": "https://berascan.com/tx/{tx}"
+          }
+        }
+      },
+      {
+        "id": "b95001f8-4045-4593-9b27-b5291f5fc01e",
+        "legacyId": "UNICHAIN_ETH",
+        "displayName": "Unichain",
+        "nativeAssetId": "24237705-48ad-4e6d-abbf-25d84e2ef7f6",
+        "onchain": {
+          "protocol": "EVM",
+          "chainId": "130",
+          "test": false,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/9c19ecbd-14bd-40cb-abbd-8ade1a4f4c91",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/272adec1-6af4-406f-8de2-35abb0aa6346",
+              "type": "image/png"
+            }
+          ],
+          "explorer": {
+            "base": "http://uniscan.xyz/",
+            "address": "http://uniscan.xyz/address/{address}",
+            "tx": "http://uniscan.xyz/tx/{tx}"
+          }
+        }
+      },
+      {
+        "id": "d7893c6b-d4dc-4962-ab82-0b8d86d2657e",
+        "legacyId": "SONIC",
+        "displayName": "Sonic",
+        "nativeAssetId": "1298a33b-3147-445c-93e0-4a684aca90b6",
+        "onchain": {
+          "protocol": "EVM",
+          "chainId": "146",
+          "test": false,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/afe18077-35cb-4b85-a607-c0858b7f3437",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/5c8bf63b-6e06-4a60-8759-a3048547999d",
+              "type": "image/png"
+            }
+          ],
+          "explorer": {
+            "base": "https://explorer.soniclabs.com",
+            "address": "https://explorer.soniclabs.com/address/{address}",
+            "tx": "https://explorer.soniclabs.com/tx/{tx}"
+          }
+        }
+      },
+      {
+        "id": "c36d1359-ed62-4f00-aa29-763bfa971de1",
+        "legacyId": "SEI",
+        "displayName": "Sei",
+        "nativeAssetId": "29b43446-2293-4a95-8fae-ff002b85c461",
+        "onchain": {
+          "protocol": "EVM",
+          "chainId": "1329",
+          "test": false,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/042ba459-43cd-4017-8542-fcc6e7ee3a51",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/4ca806a7-3e8f-4fad-8e11-6ed45f9c531c",
+              "type": "image/png"
+            }
+          ],
+          "explorer": {
+            "base": "https://seitrace.com/",
+            "address": "https://seitrace.com/address/{address}",
+            "tx": "https://seitrace.com/tx/{tx}"
+          }
+        }
+      },
+      {
+        "id": "305f2f52-89a1-4a37-a55a-628d5e699fc8",
+        "legacyId": "COREDAO",
+        "displayName": "Core DAO",
+        "nativeAssetId": "75d68714-fbc5-4665-878f-591f44a7e477",
+        "onchain": {
+          "protocol": "EVM",
+          "chainId": "1116",
+          "test": false,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/32c9134e-27b3-45d1-b197-efc41e7a7000",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/a72d8b67-2d2d-4a49-a4d9-b874ec32b6f5",
+              "type": "image/png"
+            }
+          ],
+          "explorer": {
+            "base": "https://scan.coredao.org",
+            "address": "https://scan.coredao.org/address/{address}",
+            "tx": "https://scan.coredao.org/tx/{tx}"
+          }
+        }
+      },
+      {
+        "id": "551ca0e8-3c8d-48ca-8385-b76c61d1c182",
+        "legacyId": "OPT",
+        "displayName": "Optimism",
+        "nativeAssetId": "b013ab5e-3814-4438-a4b8-5235fd939312",
+        "onchain": {
+          "protocol": "EVM",
+          "chainId": "10",
+          "test": false,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/e74fce1e-529d-4bcf-b86d-8513661d9dd0",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/d68f20fd-8522-4862-b3ae-2fdc2b6fdc1c",
+              "type": "image/png"
+            }
+          ],
+          "explorer": {
+            "base": "https://optimistic.etherscan.io",
+            "address": "https://optimistic.etherscan.io/address/{address}",
+            "tx": "https://optimistic.etherscan.io/tx/{tx}"
+          }
+        }
+      },
+      {
+        "id": "6cae596f-3ca1-49ba-8876-030ad28e49d6",
+        "legacyId": "ADA",
+        "displayName": "Cardano",
+        "nativeAssetId": "24e238ac-27cf-4df4-9e38-2af41ae1e48d",
+        "onchain": {
+          "protocol": "ADA",
+          "test": false,
+          "signingAlgo": "EDDSA_ED25519"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/c83d98d7-83ad-45d8-9d66-2ccbe830d134",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/10c68116-4fa5-4aa4-be68-e47559d6d5f3",
+              "type": "image/png"
+            }
+          ],
+          "explorer": {
+            "base": "https://cardanoscan.io",
+            "address": "https://cardanoscan.io/address/{address}",
+            "tx": "https://cardanoscan.io/transaction/{tx}"
+          }
+        }
+      },
+      {
+        "id": "97c7dbb5-6f3e-4dd6-bb98-eda302c48ce8",
+        "legacyId": "RSK",
+        "displayName": "Rootstock",
+        "nativeAssetId": "ee2eba30-0f39-40e7-bd8c-11435e9fc438",
+        "onchain": {
+          "protocol": "EVM",
+          "chainId": "30",
+          "test": false,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/a95f9c13-6ced-4d50-ba8f-daad7965c52d",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/051ae7e3-6a1c-4a21-b5e0-ff3de5c9a2fd",
+              "type": "image/png"
+            }
+          ],
+          "explorer": {
+            "base": "https://explorer.rsk.co",
+            "address": "https://explorer.rsk.co/null/{address}",
+            "tx": "https://explorer.rsk.co/tx/{tx}"
+          }
+        }
+      },
+      {
+        "id": "1aec91d7-6539-456d-bfab-9b5ef9e46c29",
+        "legacyId": "GNOSIS",
+        "displayName": "Gnosis",
+        "nativeAssetId": "92bcef10-01e9-4be5-b062-326777370d5f",
+        "onchain": {
+          "protocol": "EVM",
+          "chainId": "100",
+          "test": false,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/fb3d2289-c35f-4c98-8c91-9331f5a11328",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/607cc021-df73-4ae5-ae91-624e9d92eb4f",
+              "type": "image/png"
+            }
+          ],
+          "explorer": {
+            "base": "https://gnosisscan.io/",
+            "address": "https://gnosisscan.io/address/{address}",
+            "tx": "https://gnosisscan.io/tx/{tx}"
+          }
+        }
+      },
+      {
+        "id": "d4d9e4cd-44a6-4eec-85b9-6b6767c239e3",
+        "legacyId": "MANTLE",
+        "displayName": "Mantle",
+        "nativeAssetId": "97e94650-3fae-4820-a538-9ec9b578657b",
+        "onchain": {
+          "protocol": "EVM",
+          "chainId": "5000",
+          "test": false,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/3b5ca41b-9d05-4333-b82a-2f3815686bac",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/1239fd89-a808-4316-937b-3b59dbde123b",
+              "type": "image/png"
+            }
+          ],
+          "explorer": {
+            "base": "https://explorer.mantle.xyz/",
+            "address": "https://explorer.mantle.xyz/address/{address}",
+            "tx": "https://explorer.mantle.xyz/tx/{tx}",
+            "token": "https://explorer.mantle.xyz/token/{contract}/instance/{tokenId}"
+          }
+        }
+      },
+      {
+        "id": "2fc97058-033a-4116-8fe2-b2343853a641",
+        "legacyId": "KATANA_ETH",
+        "displayName": "Katana",
+        "nativeAssetId": "2944f667-c4f4-4e4c-8852-c2fe29cef9d7",
+        "onchain": {
+          "protocol": "EVM",
+          "chainId": "747474",
+          "test": false,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": { "scope": "GLOBAL", "deprecated": false }
+      },
+      {
+        "id": "00936ce6-3208-424e-a1c6-6feef253279d",
+        "legacyId": "ABSTRACT_ETH",
+        "displayName": "Abstract",
+        "nativeAssetId": "02a0433f-4880-498b-bc4f-fb26bf426e85",
+        "onchain": {
+          "protocol": "EVM",
+          "chainId": "2741",
+          "test": false,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": { "scope": "GLOBAL", "deprecated": false }
+      },
+      {
+        "id": "9cd6ffff-07fa-4f91-bc40-c0e499a50b9e",
+        "legacyId": "AEVO",
+        "displayName": "Aevo",
+        "nativeAssetId": "0485ea7b-cdee-4799-9b30-ec925c7f9554",
+        "onchain": {
+          "protocol": "EVM",
+          "chainId": "2999",
+          "test": false,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/810c7678-d6a4-4332-922b-91d15a8e1331",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/fb79da13-95ed-4245-94e0-546eae3b1fe9",
+              "type": "image/png"
+            }
+          ],
+          "explorer": {
+            "base": "https://explorer.aevo.xyz/",
+            "address": "https://explorer.aevo.xyz/address/{address}",
+            "tx": "https://explorer.aevo.xyz/tx/{tx}"
+          }
+        }
+      },
+      {
+        "id": "b0645ccb-7798-41ca-892e-15672fcb8f25",
+        "legacyId": "AKASH",
+        "displayName": "Akash",
+        "nativeAssetId": "96e74ec5-107a-4fee-8c71-bae0ebdd488c",
+        "onchain": {
+          "protocol": "COSMOS",
+          "test": false,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": { "scope": "GLOBAL", "deprecated": false }
+      },
+      {
+        "id": "2a2abba5-e43d-4d8c-bc82-9b929def152a",
+        "legacyId": "ALEPH_ZERO_EVM",
+        "displayName": "Aleph Zero EVM",
+        "nativeAssetId": "7ebe0d94-f92d-46cc-bf0f-2d0453f5e0a5",
+        "onchain": {
+          "protocol": "EVM",
+          "chainId": "41455",
+          "test": false,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/e8b6e476-0d0a-4c3d-915e-e299059f8ed9",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/8da84e0e-cba1-44d8-b381-a861c655638e",
+              "type": "image/png"
+            }
+          ],
+          "explorer": {
+            "base": "https://evm-explorer.alephzero.org/",
+            "address": "https://evm-explorer.alephzero.org/address/{address}",
+            "tx": "https://evm-explorer.alephzero.org/tx/{tx}"
+          }
+        }
+      },
+      {
+        "id": "ec716ccc-a283-4ccd-8623-9ea0969a7acc",
+        "legacyId": "ALGO",
+        "displayName": "Algorand",
+        "nativeAssetId": "d288a225-dfd6-4a90-8af4-c96579226596",
+        "onchain": {
+          "protocol": "ALGO",
+          "chainId": "wGHE2Pwdvd7S12BL5FaOP20EGYesN73k",
+          "test": false,
+          "signingAlgo": "EDDSA_ED25519"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/1e9a84ae-07bc-4547-9d05-bb8671a2f23b",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/a677fdac-bba1-4545-9b1d-8b88ea57f4cc",
+              "type": "image/png"
+            }
+          ],
+          "explorer": {
+            "base": "https://explorer.perawallet.app",
+            "address": "https://explorer.perawallet.app/address/{address}",
+            "tx": "https://explorer.perawallet.app/tx/{tx}"
+          }
+        }
+      },
+      {
+        "id": "9f0df8d9-1796-4326-a509-b1728a398a9c",
+        "legacyId": "APECHAIN",
+        "displayName": "ApeChain",
+        "nativeAssetId": "cde75243-9b20-4eae-99cf-e7da288d1806",
+        "onchain": {
+          "protocol": "EVM",
+          "chainId": "33139",
+          "test": false,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/3e2ec626-71f2-4b2d-8e02-d053be2e7505",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/0bc323be-9c4f-4e72-981f-8d9c033738b7",
+              "type": "image/png"
+            }
+          ],
+          "explorer": {
+            "base": "https://apescan.io/",
+            "address": "https://apescan.io/address/{address}",
+            "tx": "https://apescan.io/tx/{tx}",
+            "token": "https://apescan.io/token/{contract}?a={tokenId}"
+          }
+        }
+      },
+      {
+        "id": "82d9174e-9844-4866-a9e2-b6b7929ac3e9",
+        "legacyId": "ASTAR",
+        "displayName": "Astar",
+        "nativeAssetId": "82950543-9c57-4e1c-a2b9-ee033f2de435",
+        "onchain": {
+          "protocol": "EVM",
+          "chainId": "592",
+          "test": false,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/e51deb76-6d3f-4038-bebf-a84b14a8acb7",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/fd81f0bb-f129-4414-9e90-b99b850a6fbf",
+              "type": "image/png"
+            }
+          ],
+          "explorer": {
+            "base": "https://astar.blockscout.com",
+            "address": "https://astar.blockscout.com/address/{address}",
+            "tx": "https://astar.blockscout.com/tx/{tx}"
+          }
+        }
+      },
+      {
+        "id": "1aa379bb-b2a3-4832-b5d1-e4265989e17c",
+        "legacyId": "ATOM_COS",
+        "displayName": "Cosmos Hub",
+        "nativeAssetId": "10a0357c-9434-4206-8f1b-fe2f0e2d4b9b",
+        "onchain": {
+          "protocol": "COSMOS",
+          "chainId": "cosmoshub-4",
+          "test": false,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/48a0fafb-e1c9-46dd-aa31-844b3be14195",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/04115221-b966-48c3-a848-01adff336abc",
+              "type": "image/png"
+            }
+          ],
+          "explorer": {
+            "base": "https://www.mintscan.io",
+            "address": "https://www.mintscan.io/cosmos/account/{address}",
+            "tx": "https://www.mintscan.io/cosmos/txs/{tx}"
+          }
+        }
+      },
+      {
+        "id": "81a07dbd-ef23-4af3-ab40-e3bce8128966",
+        "legacyId": "AURORA_DEV",
+        "displayName": "Aurora.dev",
+        "nativeAssetId": "4fcf3ae2-ca8d-4063-85ba-b9d6be8af23f",
+        "onchain": {
+          "protocol": "EVM",
+          "chainId": "1313161554",
+          "test": false,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/0c8e981a-f718-4588-aa42-0d6c43d376cd",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/1526c8a1-a5ef-4e3b-a49f-681826b7a43d",
+              "type": "image/png"
+            }
+          ],
+          "explorer": {
+            "base": "https://explorer.mainnet.aurora.dev",
+            "address": "https://explorer.mainnet.aurora.dev/address/{address}",
+            "tx": "https://explorer.mainnet.aurora.dev/tx/{tx}"
+          }
+        }
+      },
+      {
+        "id": "5c98a4ef-d5bf-450d-985b-3f782e48c200",
+        "legacyId": "AXL",
+        "displayName": "Axelar",
+        "nativeAssetId": "50f5fa52-2207-4a88-87f9-9a8a0c8970a6",
+        "onchain": {
+          "protocol": "COSMOS",
+          "test": false,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/836c10e1-152f-44c7-bac9-6da9846e860f",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/bd473d59-2c42-4c60-972b-de990d1e230f",
+              "type": "image/png"
+            }
+          ],
+          "explorer": {
+            "base": "https://axelarscan.io/",
+            "address": "https://axelarscan.io/account/{address}",
+            "tx": "https://axelarscan.io/tx/{tx}"
+          }
+        }
+      },
+      {
+        "id": "24efa888-2ce1-475b-88f9-f96748428621",
+        "legacyId": "BABYLON",
+        "displayName": "Babylon",
+        "nativeAssetId": "1ea099ff-1f00-40be-91b7-7680f63c9bbb",
+        "onchain": {
+          "protocol": "COSMOS",
+          "test": false,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "explorer": {
+            "base": "https://babylon.explorers.guru",
+            "address": "https://babylon.explorers.guru/account/{address}",
+            "tx": "https://babylon.explorers.guru/transaction/{tx}"
+          }
+        }
+      },
+      {
+        "id": "66286ff5-7292-4073-8fb0-f2aa5f1a6caf",
+        "legacyId": "BCH",
+        "displayName": "Bitcoin Cash",
+        "nativeAssetId": "99eff668-c2c0-424e-97dc-cb7eab2629c2",
+        "onchain": {
+          "protocol": "UTXO",
+          "test": false,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/25d4729d-7c6c-4614-80f1-6651e9923c1c",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/d5a286fa-f9ca-442f-8ac9-e959ca447d2c",
+              "type": "image/png"
+            }
+          ],
+          "explorer": {
+            "base": "https://blockchair.com",
+            "address": "https://blockchair.com/bitcoin-cash/address/{address}",
+            "tx": "https://blockchair.com/bitcoin-cash/transaction/{tx}"
+          }
+        }
+      },
+      {
+        "id": "0ca4b8d2-021a-4f6e-9c8f-2c44d9ebd78d",
+        "legacyId": "BCHA",
+        "displayName": "Bitcoin Cash ABC",
+        "nativeAssetId": "a0b66f49-0539-41a0-aaf3-60526665a3dd",
+        "onchain": {
+          "protocol": "UTXO",
+          "test": false,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": true,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/25d4729d-7c6c-4614-80f1-6651e9923c1c",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/d5a286fa-f9ca-442f-8ac9-e959ca447d2c",
+              "type": "image/png"
+            }
+          ]
+        }
+      },
+      {
+        "id": "bf81d99f-6888-4559-a54a-237fc644dc66",
+        "legacyId": "BLAST",
+        "displayName": "BLAST",
+        "nativeAssetId": "213bef00-2bf1-49aa-ac81-54f947197639",
+        "onchain": {
+          "protocol": "EVM",
+          "chainId": "81457",
+          "test": false,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/6bcb03a1-1d07-4829-abbb-4f01851b9427",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/58684114-7384-443a-95b5-b3ffbf39eaf2",
+              "type": "image/png"
+            }
+          ]
+        }
+      },
+      {
+        "id": "1af60633-7cd2-468f-81bd-5b217b85741d",
+        "legacyId": "BOB_CHAIN",
+        "displayName": "Bob",
+        "nativeAssetId": "2ec524fa-6459-4667-ae93-8c351e04447a",
+        "onchain": {
+          "protocol": "EVM",
+          "chainId": "60808",
+          "test": false,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/67be2f6a-c404-4714-8a7e-f25cff00d333",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/5e1cdf60-af13-48d0-9959-d3d2659d32a0",
+              "type": "image/png"
+            }
+          ]
+        }
+      },
+      {
+        "id": "b3ab963c-60b6-4b7a-9c3c-06a4e1367525",
+        "legacyId": "BOTANIX_ETH",
+        "displayName": "Botanix Mainnet",
+        "nativeAssetId": "c141e685-06f0-400d-93b8-004f65c253bb",
+        "onchain": {
+          "protocol": "EVM",
+          "chainId": "3637",
+          "test": false,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": { "scope": "GLOBAL", "deprecated": false }
+      },
+      {
+        "id": "dc1b8213-3798-4834-9e5f-e910975e224b",
+        "legacyId": "BSV",
+        "displayName": "Bitcoin SV",
+        "nativeAssetId": "43587b9f-174b-4280-9b98-0fba9adcb4fb",
+        "onchain": {
+          "protocol": "UTXO",
+          "test": false,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/7b4cb1e3-e85f-4bb2-8978-9d6f84559ab4",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/5bb1080f-21d7-4a90-8726-7713cae53fbd",
+              "type": "image/png"
+            }
+          ],
+          "explorer": {
+            "base": "https://whatsonchain.com",
+            "address": "https://whatsonchain.com/address/{address}",
+            "tx": "https://whatsonchain.com/tx/{tx}"
+          }
+        }
+      },
+      {
+        "id": "4eeb2133-404f-4d9e-bd07-edb603723526",
+        "legacyId": "CAMINO",
+        "displayName": "Camino",
+        "nativeAssetId": "75401759-7cc5-48a5-a4c2-b7e019c78fae",
+        "onchain": {
+          "protocol": "EVM",
+          "chainId": "500",
+          "test": false,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/85dbdc3c-e3d7-4da0-b66c-a3ecfdd70892",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/05b42ec1-a057-42a0-a0cb-b53c2730e3ec",
+              "type": "image/png"
+            }
+          ],
+          "explorer": {
+            "base": "https://suite.camino.network/explorer",
+            "address": "https://suite.camino.network/explorer/address/{address}",
+            "tx": "https://suite.camino.network/explorer/tx/{tx}"
+          }
+        }
+      },
+      {
+        "id": "124cfbbc-b496-4aac-9082-073b9a63598c",
+        "legacyId": "CANTO",
+        "displayName": "Canto",
+        "nativeAssetId": "477e4d76-f021-4636-b7db-92cd7b96151c",
+        "onchain": {
+          "protocol": "EVM",
+          "chainId": "7700",
+          "test": false,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/261af67f-98ad-4b73-ad28-b4bdb0a6b05a",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/a63f0058-a9cb-4a1b-9b75-31891d758198",
+              "type": "image/png"
+            }
+          ]
+        }
+      },
+      {
+        "id": "b25fe1a4-e2eb-443d-aa6d-7135133f300f",
+        "legacyId": "CELESTIA",
+        "displayName": "Celestia",
+        "nativeAssetId": "95bba432-ace1-4848-872c-b75dffc434af",
+        "onchain": {
+          "protocol": "COSMOS",
+          "test": false,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/bbd57a9f-10b0-46be-92e4-46be9c46f408",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/9600d5fa-c957-4e01-a2ae-9c2784e0eeba",
+              "type": "image/png"
+            }
+          ],
+          "explorer": {
+            "base": "https://celestia.explorers.guru/",
+            "address": "https://celestia.explorers.guru/account/{address}",
+            "tx": "https://celestia.explorers.guru/transaction/{tx}"
+          }
+        }
+      },
+      {
+        "id": "e7d20fbe-8891-4aa9-a118-21899b3226e0",
+        "legacyId": "CELO",
+        "displayName": "Celo",
+        "nativeAssetId": "68754a2a-9419-4e7a-9ac2-cf2af2a61fe8",
+        "onchain": {
+          "protocol": "EVM",
+          "chainId": "42220",
+          "test": false,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/4501d94c-cbca-4157-bdc3-6893c1a9f882",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/25f18a89-5d88-4971-a78d-48b64b3f255b",
+              "type": "image/png"
+            }
+          ],
+          "explorer": {
+            "base": "https://explorer.celo.org",
+            "address": "https://explorer.celo.org/null/{address}",
+            "tx": "https://explorer.celo.org/tx/{tx}"
+          }
+        }
+      },
+      {
+        "id": "9457c85b-86e8-4636-8f6b-0a979dc46f4b",
+        "legacyId": "CENTRIFUGE",
+        "displayName": "Centrifuge",
+        "nativeAssetId": "c7632632-bd25-45ef-aad7-40d7c7860774",
+        "onchain": {
+          "protocol": "EVM",
+          "chainId": "2031",
+          "test": false,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/80cef44c-8989-4aa6-934d-859a1538a9b2",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/2c125a1f-7ddd-46ad-ad49-f60abc7c8b5c",
+              "type": "image/png"
+            }
+          ],
+          "explorer": {
+            "base": "https://centrifuge.stg.subscan.io",
+            "address": "https://centrifuge.stg.subscan.io/account/{address}",
+            "tx": "https://centrifuge.stg.subscan.io/tx/{tx}"
+          }
+        }
+      },
+      {
+        "id": "f022d08d-2745-4326-a9f7-0f031326ecf5",
+        "legacyId": "CHZ",
+        "displayName": "Chiliz Legacy Chain",
+        "nativeAssetId": "e45fc805-d5df-4213-a931-777e56b81808",
+        "onchain": {
+          "protocol": "EVM",
+          "chainId": "99999",
+          "test": false,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/2d0e98be-5efc-4970-bb05-15605070753f",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/45d12da8-c064-40ff-a537-d01e452f47ee",
+              "type": "image/png"
+            }
+          ],
+          "explorer": {
+            "base": "https://explorer.chiliz.com/",
+            "address": "https://explorer.chiliz.com/address/{address}",
+            "tx": "https://explorer.chiliz.com/tx/{tx}"
+          }
+        }
+      },
+      {
+        "id": "946e04ef-889c-4e94-b6e4-91683dd01790",
+        "legacyId": "CHZ2",
+        "displayName": "Chiliz Chain",
+        "nativeAssetId": "f11f2cc3-f8e6-4f17-945e-f7d8ddfcfaeb",
+        "onchain": {
+          "protocol": "EVM",
+          "chainId": "88888",
+          "test": false,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/2d0e98be-5efc-4970-bb05-15605070753f",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/45d12da8-c064-40ff-a537-d01e452f47ee",
+              "type": "image/png"
+            }
+          ],
+          "explorer": {
+            "base": "https://scan.chiliz.com/",
+            "address": "https://scan.chiliz.com/address/{address}",
+            "tx": "https://scan.chiliz.com/tx/{tx}"
+          }
+        }
+      },
+      {
+        "id": "7749239d-ab3d-494a-87f7-9c5bde9df4c8",
+        "legacyId": "CODEX",
+        "displayName": "Codex",
+        "nativeAssetId": "12e1ba3c-eb52-4f09-ba89-240b34d3e0e2",
+        "onchain": {
+          "protocol": "EVM",
+          "chainId": "81224",
+          "test": false,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/5eb12374-fc50-40d4-8d0c-87bae4293580",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/0a464702-1eec-495c-a6d0-378d4bd64611",
+              "type": "image/png"
+            }
+          ],
+          "explorer": {
+            "base": "https://explorer.codex.xyz/",
+            "address": "https://explorer.codex.xyz/address/{address}",
+            "tx": "https://explorer.codex.xyz/tx/{tx}"
+          }
+        }
+      },
+      {
+        "id": "2e053a82-c18e-44c0-822b-1acfb51a2487",
+        "legacyId": "DASH",
+        "displayName": "Dash",
+        "nativeAssetId": "accf8af5-2ecd-439a-ae4b-dd19af0e5e97",
+        "onchain": {
+          "protocol": "UTXO",
+          "test": false,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/5480fede-46cd-4006-be2d-baa43fbc5919",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/1f4c856b-c018-4889-962d-2eb2bbeb99cb",
+              "type": "image/png"
+            }
+          ],
+          "explorer": {
+            "base": "https://blockchair.com",
+            "address": "https://blockchair.com/dash/address/{address}",
+            "tx": "https://blockchair.com/dash/transaction/{tx}"
+          }
+        }
+      },
+      {
+        "id": "7931c4dc-6952-481e-9963-395499fb5341",
+        "legacyId": "DOGE",
+        "displayName": "Dogecoin",
+        "nativeAssetId": "bd440627-e9c4-40a2-a662-9ac859a85549",
+        "onchain": {
+          "protocol": "UTXO",
+          "test": false,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/9bbb5dea-2988-40b1-9558-8f7de11cae18",
+              "type": "image/svg+xml"
+            }
+          ],
+          "explorer": {
+            "base": "https://blockchair.com",
+            "address": "https://blockchair.com/null/{address}",
+            "tx": "https://blockchair.com/dogecoin/transaction/{tx}"
+          }
+        }
+      },
+      {
+        "id": "a9623260-5c4d-4a3c-90d4-498934ed20e6",
+        "legacyId": "DOT",
+        "displayName": "Polkadot",
+        "nativeAssetId": "2dc71da3-bce9-4ff7-989a-9b8a220dbae2",
+        "onchain": {
+          "protocol": "DOT",
+          "test": false,
+          "signingAlgo": "EDDSA_ED25519"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/a7677766-32c6-432f-8789-8df8a0358d64",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/3b6db69c-fe82-4103-a500-945e1eb85c10",
+              "type": "image/png"
+            }
+          ],
+          "explorer": {
+            "base": "https://assethub-polkadot.subscan.io",
+            "address": "https://assethub-polkadot.subscan.io/account/{address}",
+            "tx": "https://assethub-polkadot.subscan.io/extrinsic/{tx}"
+          }
+        }
+      },
+      {
+        "id": "a6972233-47d1-47f6-a605-6e41d93699f2",
+        "legacyId": "DYDX_DYDX",
+        "displayName": "DYDX",
+        "nativeAssetId": "c89f63de-4b9a-4f3e-a65a-27e855969b56",
+        "onchain": {
+          "protocol": "COSMOS",
+          "test": false,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/576f09ef-83ff-4db8-bfec-90d35344df96",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/fea1e4aa-a26a-4851-86f1-d97c4cf08e08",
+              "type": "image/png"
+            }
+          ],
+          "explorer": {
+            "base": "https://www.mintscan.io/",
+            "address": "https://www.mintscan.io/dydx/address/{address}",
+            "tx": "https://www.mintscan.io/dydx/tx/{tx}"
+          }
+        }
+      },
+      {
+        "id": "5f9a08c4-51c3-428e-a319-ee1728b8f3d4",
+        "legacyId": "EOS",
+        "displayName": "EOS.IO",
+        "nativeAssetId": "c45eb44b-33bd-4e47-8342-68a5d8f68cb9",
+        "onchain": {
+          "protocol": "EOS",
+          "test": false,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/37d13766-92b3-4ee7-ad05-72bfac006093",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/206121b2-85b1-4ef4-a142-1e8003b8dff8",
+              "type": "image/png"
+            }
+          ],
+          "explorer": {
+            "base": "https://eosauthority.com/?network=eos",
+            "address": "https://eosauthority.com/?network=eos/account/eosio/{address}",
+            "tx": "https://eosauthority.com/?network=eos/transaction/{tx}"
+          }
+        }
+      },
+      {
+        "id": "be18ebd8-7ab2-404e-802a-263eb08e0e00",
+        "legacyId": "ETC",
+        "displayName": "Ethereum Classic",
+        "nativeAssetId": "0e418152-d84d-4b62-8d94-2786e0a6baa1",
+        "onchain": {
+          "protocol": "ETC",
+          "chainId": "61",
+          "test": false,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/231f4764-9311-42fb-8257-0b18590b52ec",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/9fa7e45f-7cb3-40c9-b1ab-714d5dfa4308",
+              "type": "image/png"
+            }
+          ],
+          "explorer": {
+            "base": "https://etc.blockscout.com",
+            "address": "https://etc.blockscout.com/address/{address}",
+            "tx": "https://etc.blockscout.com/tx/{tx}"
+          }
+        }
+      },
+      {
+        "id": "8e036cb3-60b3-46e6-9f7a-21011f9f1691",
+        "legacyId": "ETHERLINK",
+        "displayName": "Etherlink",
+        "nativeAssetId": "260137ee-4e44-4e4d-9553-5f7666c8f4ec",
+        "onchain": {
+          "protocol": "EVM",
+          "chainId": "42793",
+          "test": false,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/5d338ace-38b6-43d2-882f-257d917c564b",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/2440fc47-e342-44bf-9851-46627929b786",
+              "type": "image/png"
+            }
+          ],
+          "explorer": {
+            "base": "https://explorer.etherlink.com/",
+            "address": "https://explorer.etherlink.com/address/{address}",
+            "tx": "https://explorer.etherlink.com/tx/{tx}",
+            "token": "https://explorer.etherlink.com/token/{contract}/instance/{tokenId}"
+          }
+        }
+      },
+      {
+        "id": "43ec942c-6524-489c-95bd-4f62b5143623",
+        "legacyId": "ETHW",
+        "displayName": "EthereumPoW",
+        "nativeAssetId": "74133d13-eaf5-4bf0-86b4-4d19a0a99174",
+        "onchain": {
+          "protocol": "EVM",
+          "chainId": "10001",
+          "test": false,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/7655fc24-5828-4079-ad68-e5f38b224065",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/34f40dbf-9980-4b3d-a8ef-b524983defe6",
+              "type": "image/png"
+            }
+          ],
+          "explorer": {
+            "base": "https://www.oklink.com/hk/ethw",
+            "address": "https://www.oklink.com/hk/ethw/address/{address}",
+            "tx": "https://www.oklink.com/hk/ethw/tx/{tx}"
+          }
+        }
+      },
+      {
+        "id": "d6a32d3c-dc32-4f69-924c-26dbf73ba6c3",
+        "legacyId": "ETH_NAHMII",
+        "displayName": "Nahmii",
+        "nativeAssetId": "503ec81e-cd4a-489a-a077-664cca92c655",
+        "onchain": {
+          "protocol": "EVM",
+          "chainId": "4061",
+          "test": false,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/d6fc4d92-cac4-4709-9e61-e99b858043a0",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/817b34f2-170d-4318-bc55-d5a663b98a85",
+              "type": "image/png"
+            }
+          ]
+        }
+      },
+      {
+        "id": "5951ffa8-3c6f-4615-8e90-adc2f2fd115b",
+        "legacyId": "ETH_SONEIUM",
+        "displayName": "Soneium",
+        "nativeAssetId": "e0a2cd5f-e242-487f-ab35-5fd46faa4e2d",
+        "onchain": {
+          "protocol": "EVM",
+          "chainId": "1868",
+          "test": false,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/4ffe3af5-727a-4d14-b849-52768bbe63e8",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/d6821105-dc72-4563-883b-56c8d9c0cc35",
+              "type": "image/png"
+            }
+          ],
+          "explorer": {
+            "base": "https://soneium.blockscout.com",
+            "address": "https://soneium.blockscout.com/address/{address}",
+            "tx": "https://soneium.blockscout.com/tx/{tx}",
+            "token": "https://soneium.blockscout.com/token/{contract}/instance/{tokenId}"
+          }
+        }
+      },
+      {
+        "id": "02ac0356-6294-41e7-a406-20c6b84895ae",
+        "legacyId": "EVMOS",
+        "displayName": "Evmos",
+        "nativeAssetId": "52e5e842-fe33-4b30-8f45-bc0b73e33924",
+        "onchain": {
+          "protocol": "EVM",
+          "chainId": "9001",
+          "test": false,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": true,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/461d96c0-2d7c-4d7e-ab6a-ebb074e38974",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/a44d4618-0583-4d2c-be88-8453eafd167b",
+              "type": "image/png"
+            }
+          ],
+          "explorer": {
+            "base": "https://escan.live",
+            "address": "https://escan.live/address/{address}",
+            "tx": "https://escan.live/tx/{tx}"
+          }
+        }
+      },
+      {
+        "id": "602b7f63-e620-426d-8eca-fa6ae874f3d4",
+        "legacyId": "FASTEX_BAHAMUT",
+        "displayName": "Fastex Bahamut",
+        "nativeAssetId": "e09b94c2-d70c-406f-83c9-9524692c0563",
+        "onchain": {
+          "protocol": "EVM",
+          "chainId": "5165",
+          "test": false,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/2a285511-2be1-46f6-b62e-6cdc5ede50ad",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/4692f589-e16d-45cb-a875-c369d141aca4",
+              "type": "image/png"
+            }
+          ],
+          "explorer": {
+            "base": "https://ftnscan.com/",
+            "address": "https://ftnscan.com/address/{address}",
+            "tx": "https://ftnscan.com/tx/{tx}"
+          }
+        }
+      },
+      {
+        "id": "150cb35d-26f6-4b59-a589-f882e4fdaa89",
+        "legacyId": "FILECOIN_FEVM",
+        "displayName": "Filecoin",
+        "nativeAssetId": "ec9a9ce7-2055-4199-aed1-634ec6b4eb8e",
+        "onchain": {
+          "protocol": "EVM",
+          "chainId": "314",
+          "test": false,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/b2a681e4-499d-486a-a679-3e02739b9e84",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/f6ed9919-4e31-450d-a6e7-0cacf0704b9f",
+              "type": "image/png"
+            }
+          ],
+          "explorer": {
+            "base": "https://filfox.info/en",
+            "address": "https://filfox.info/en/address/{address}",
+            "tx": "https://filfox.info/en/message/{tx}"
+          }
+        }
+      },
+      {
+        "id": "5320d90f-110c-4bf1-a4b1-77ef72f0d3dd",
+        "legacyId": "FLOW_CHAIN",
+        "displayName": "Flow EVM",
+        "nativeAssetId": "f1d085cd-3681-4ddc-a89f-9bf135908006",
+        "onchain": {
+          "protocol": "EVM",
+          "chainId": "747",
+          "test": false,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/4a6fcd77-2cba-4e6f-94bc-97292b7dbe8e",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/c65c4337-9617-4995-b538-696bfb9c18ba",
+              "type": "image/png"
+            }
+          ]
+        }
+      },
+      {
+        "id": "e2e6be7b-eb2b-4f29-88fc-4ccd7e6a5813",
+        "legacyId": "FLR",
+        "displayName": "Flare",
+        "nativeAssetId": "9b3724be-9a9b-416a-a5ce-87ee6418ad00",
+        "onchain": {
+          "protocol": "EVM",
+          "chainId": "14",
+          "test": false,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/91dce2b1-a03b-4392-8a74-181a25a5aa32",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/6cea750c-fa95-4740-91a9-5f684264816c",
+              "type": "image/png"
+            }
+          ],
+          "explorer": {
+            "base": "https://flarescan.com",
+            "address": "https://flarescan.com/address/{address}",
+            "tx": "https://flarescan.com/tx/{tx}"
+          }
+        }
+      },
+      {
+        "id": "e7741381-2db5-4115-afbc-722c24572fb9",
+        "legacyId": "FTM",
+        "displayName": "Fantom Opera",
+        "nativeAssetId": "aaeb9670-5453-4c83-81e6-589a9621d749",
+        "onchain": {
+          "protocol": "EVM",
+          "chainId": "250",
+          "test": false,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/6a375985-438c-48b3-9901-c53d66a99cb7",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/63c94524-4495-468d-b5b8-227f1c99cf31",
+              "type": "image/png"
+            }
+          ],
+          "explorer": {
+            "base": "https://ftmscan.com",
+            "address": "https://ftmscan.com/null/{address}",
+            "tx": "https://ftmscan.com/tx/{tx}"
+          }
+        }
+      },
+      {
+        "id": "9b894c4e-2d21-4f81-8b33-90a8aa11224a",
+        "legacyId": "GLMR",
+        "displayName": "Moonbeam",
+        "nativeAssetId": "a7562f91-4cb6-439b-a85f-61d3d0be157f",
+        "onchain": {
+          "protocol": "EVM",
+          "chainId": "1284",
+          "test": false,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/15260259-3fcc-44bb-87b4-0bd5fb3004d7",
+              "type": "image/svg+xml"
+            }
+          ],
+          "explorer": {
+            "base": "https://moonbeam.moonscan.io",
+            "address": "https://moonbeam.moonscan.io/address/{address}",
+            "tx": "https://moonbeam.moonscan.io/tx/{tx}"
+          }
+        }
+      },
+      {
+        "id": "e420ead3-e4da-4446-931f-7230b5fadefb",
+        "legacyId": "GUN_GUNZILLA",
+        "displayName": "GUNZ",
+        "nativeAssetId": "1997f8a3-ab2f-4b5d-806f-f1c97437a3bc",
+        "onchain": {
+          "protocol": "EVM",
+          "chainId": "43419",
+          "test": false,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/393e433c-5f80-4137-afc7-4128fa0a9d04",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/31f57fdd-eba5-4942-92eb-716ca5665371",
+              "type": "image/png"
+            }
+          ],
+          "explorer": {
+            "base": "https://gunzscan.io/",
+            "address": "https://gunzscan.io/address/{address}",
+            "tx": "https://gunzscan.io/tx/{tx}",
+            "token": "https://gunzscan.io/token/{contract}/instance/{tokenId}"
+          }
+        }
+      },
+      {
+        "id": "31bb1190-45eb-44f7-a2d0-2fe57e835221",
+        "legacyId": "HBAR",
+        "displayName": "Hedera",
+        "nativeAssetId": "4771d0d5-7332-4904-924b-1469287cc0d8",
+        "onchain": {
+          "protocol": "HBAR",
+          "test": false,
+          "signingAlgo": "EDDSA_ED25519"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/2681d173-6759-472a-9dde-dc4f28b63cd3",
+              "type": "image/svg+xml"
+            }
+          ],
+          "explorer": {
+            "base": "https://explorer.arkhia.io/mainnet/",
+            "address": "https://explorer.arkhia.io/mainnet/account/{address}",
+            "tx": "https://explorer.arkhia.io/mainnet/transaction/{tx}"
+          }
+        }
+      },
+      {
+        "id": "68b6085c-4797-4f3b-8989-adfc11751234",
+        "legacyId": "HEDERA_EVM",
+        "displayName": "Hedera EVM",
+        "nativeAssetId": "c88bdd29-858c-45bd-b324-59d58dcff7b5",
+        "onchain": {
+          "protocol": "EVM",
+          "chainId": "295",
+          "test": false,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/7f9628c7-c79e-4f0e-acfe-642ff68c414b",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/d17d95b2-4167-49c8-902b-f678aed00074",
+              "type": "image/png"
+            }
+          ]
+        }
+      },
+      {
+        "id": "a9f9b690-0596-4154-a366-39ec6260d42a",
+        "legacyId": "HT",
+        "displayName": "HT Chain",
+        "nativeAssetId": "59e94cef-bdd0-42a8-bb0e-5210bdbfe582",
+        "onchain": {
+          "protocol": "EVM",
+          "chainId": "128",
+          "test": false,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": true,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/908ebe7b-ecb3-4267-955a-60b9fe5de34a",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/845eb443-d047-434f-b907-26df8a6f3338",
+              "type": "image/png"
+            }
+          ],
+          "explorer": {
+            "base": "https://scan.hecochain.com/en-us",
+            "address": "https://scan.hecochain.com/en-us/address/{address}",
+            "tx": "https://scan.hecochain.com/en-us/tx/{tx}"
+          }
+        }
+      },
+      {
+        "id": "35cc9a66-64db-49cb-b5f1-a0c4ee099a93",
+        "legacyId": "HUMANITY",
+        "displayName": "Humanity Protocol",
+        "nativeAssetId": "58917898-7255-429f-8121-fb5287a08f23",
+        "onchain": {
+          "protocol": "EVM",
+          "chainId": "6985385",
+          "test": false,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "explorer": {
+            "base": "https://humanity-mainnet.explorer.alchemy.com/",
+            "address": "https://humanity-mainnet.explorer.alchemy.com/https://humanity-mainnet.explorer.alchemy.com/address/{address}",
+            "tx": "https://humanity-mainnet.explorer.alchemy.com/https://humanity-mainnet.explorer.alchemy.com/tx/{tx}"
+          }
+        }
+      },
+      {
+        "id": "b7c43513-1171-4fac-98cc-35cc9e4700dd",
+        "legacyId": "HYPE_ETH",
+        "displayName": "HyperEVM",
+        "nativeAssetId": "31ff9c14-c0bc-4e1b-bc14-ec44ca5af66c",
+        "onchain": {
+          "protocol": "EVM",
+          "chainId": "999",
+          "test": false,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/1bb1aa75-f0bb-47ee-a3e1-04b02e76a69e",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/38b3ff1f-52fa-4b90-ada9-c28a312ef45d",
+              "type": "image/png"
+            }
+          ],
+          "explorer": {
+            "base": "https://hyperevmscan.io",
+            "address": "https://hyperevmscan.io/address/{address}",
+            "tx": "https://hyperevmscan.io/tx/{tx}"
+          }
+        }
+      },
+      {
+        "id": "d19ae652-48df-452f-9078-b041e164d5b8",
+        "legacyId": "IMX_ZKEVM",
+        "displayName": "Immutable zkEVM",
+        "nativeAssetId": "e3de48b0-bcf6-4bc4-95fb-3bf202555383",
+        "onchain": {
+          "protocol": "EVM",
+          "chainId": "13371",
+          "test": false,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/5cc3aef6-f2c6-4e45-ba94-7ef000391bac",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/3c3bd592-8da1-45c1-bd89-8080929e0339",
+              "type": "image/png"
+            }
+          ],
+          "explorer": {
+            "base": "https://explorer.immutable.com/",
+            "address": "https://explorer.immutable.com/address/{address}",
+            "tx": "https://explorer.immutable.com/tx/{tx}"
+          }
+        }
+      },
+      {
+        "id": "492763a9-1749-429c-ab11-462c63b83ecc",
+        "legacyId": "INITIA",
+        "displayName": "Initia",
+        "nativeAssetId": "6876f8da-b166-46a8-a8e2-48963e81156a",
+        "onchain": {
+          "protocol": "COSMOS",
+          "test": false,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "explorer": {
+            "base": "https://scan.initia.xyz",
+            "address": "https://scan.initia.xyz/interwoven-1/accounts/{address}",
+            "tx": "https://scan.initia.xyz/interwoven-1/txs/{tx}"
+          }
+        }
+      },
+      {
+        "id": "cd35aa3d-b9bf-44c0-9c03-8e1be8d6ad6b",
+        "legacyId": "INJ_INJ",
+        "displayName": "Injective",
+        "nativeAssetId": "a76a43b2-43b0-4045-a8b8-2812eb7ace14",
+        "onchain": {
+          "protocol": "COSMOS",
+          "test": false,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/8eba22ae-88af-4b8f-9c56-54e989c13d96",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/65d1104f-618e-4fdc-88ea-76dbe8c45d13",
+              "type": "image/png"
+            }
+          ],
+          "explorer": {
+            "base": "https://explorer.injective.network",
+            "address": "https://explorer.injective.network/account/{address}",
+            "tx": "https://explorer.injective.network/transaction/{tx}"
+          }
+        }
+      },
+      {
+        "id": "8a6fbed2-2cbe-4017-b621-c1ecc62aa0e0",
+        "legacyId": "INK_ETH",
+        "displayName": "Ink",
+        "nativeAssetId": "b28ebf39-89ef-4d35-afe1-f52e691dc3a8",
+        "onchain": {
+          "protocol": "EVM",
+          "chainId": "57073",
+          "test": false,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/dbb6b6d8-ca39-45b3-a482-0ad566b510c4",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/d608454c-37ab-41a9-9668-97bc16782270",
+              "type": "image/png"
+            }
+          ]
+        }
+      },
+      {
+        "id": "11de992b-74f3-4f73-8d83-524549af3111",
+        "legacyId": "IOTA_EVM",
+        "displayName": "IOTA EVM",
+        "nativeAssetId": "75db2fd2-bcbd-44ca-8f08-596cdb091087",
+        "onchain": {
+          "protocol": "EVM",
+          "chainId": "8822",
+          "test": false,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/63590626-c938-40db-b006-21cef8d8b3c9",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/274e2385-aec5-4bca-935c-9141115d9d4c",
+              "type": "image/png"
+            }
+          ],
+          "explorer": {
+            "base": "https://explorer.evm.iota.org/",
+            "address": "https://explorer.evm.iota.org/address/{address}",
+            "tx": "https://explorer.evm.iota.org/tx/{tx}"
+          }
+        }
+      },
+      {
+        "id": "49a2a30f-1dc9-4ba3-837a-deabc3daa7a9",
+        "legacyId": "IOTX_IOTEX",
+        "displayName": "IoTex",
+        "nativeAssetId": "696c9b77-9944-49db-9055-597b3f68cdf2",
+        "onchain": {
+          "protocol": "EVM",
+          "chainId": "4689",
+          "test": false,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/00c6cddd-f1c0-4744-9431-14bee3acc7d0",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/086bf9d3-2b6e-499e-ad96-45c4336d6656",
+              "type": "image/png"
+            }
+          ],
+          "explorer": {
+            "base": "https://iotexscan.io",
+            "address": "https://iotexscan.io/address/{address}",
+            "tx": "https://iotexscan.io/tx/{tx}",
+            "token": "https://iotexscan.io/token-nft/{contract}?a={tokenId}"
+          }
+        }
+      },
+      {
+        "id": "a97cebf9-a2ce-432c-883d-e261f70a3710",
+        "legacyId": "KAVA",
+        "displayName": "KAVA",
+        "nativeAssetId": "d29f20d9-9521-43ab-b48e-278e7d3101ec",
+        "onchain": {
+          "protocol": "EVM",
+          "chainId": "2222",
+          "test": false,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/9306bd20-164f-49a9-8bb0-504a133eb5a8",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/877fa0ec-22da-45d8-aa53-6728c2dda828",
+              "type": "image/png"
+            }
+          ]
+        }
+      },
+      {
+        "id": "b05e4ced-4544-4332-b6bd-896cf3a0b2a6",
+        "legacyId": "KLAY_KAIA",
+        "displayName": "Kaia",
+        "nativeAssetId": "d5b1b2e5-24dd-4669-8cd8-02f43f9f5597",
+        "onchain": {
+          "protocol": "EVM",
+          "chainId": "8217",
+          "test": false,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/62255808-fba8-48bd-a8d2-0c0f33a6e48f",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/b4cfe10e-e9c7-4ba7-b393-1bf48b200d5f",
+              "type": "image/png"
+            }
+          ],
+          "explorer": {
+            "base": "https://kaiascan.io",
+            "address": "https://kaiascan.io/address/{address}",
+            "tx": "https://kaiascan.io/tx/{tx}",
+            "token": "https://kaiascan.io/nft/{contract}/{tokenId}"
+          }
+        }
+      },
+      {
+        "id": "5b7af7ef-1493-4268-9ee0-103b36dfad92",
+        "legacyId": "KSM",
+        "displayName": "Kusama",
+        "nativeAssetId": "39d47c91-879a-4343-a210-4c30b83fcebf",
+        "onchain": {
+          "protocol": "DOT",
+          "test": false,
+          "signingAlgo": "EDDSA_ED25519"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/28183a43-847f-4806-8c08-26b904339a87",
+              "type": "image/svg+xml"
+            }
+          ],
+          "explorer": {
+            "base": "https://assethub-kusama.subscan.io",
+            "address": "https://assethub-kusama.subscan.io/null/{address}",
+            "tx": "https://assethub-kusama.subscan.io/extrinsic/{tx}"
+          }
+        }
+      },
+      {
+        "id": "59205352-3571-41a1-842f-867b22b4c3c6",
+        "legacyId": "LACHAIN",
+        "displayName": "LaChain",
+        "nativeAssetId": "7fc02337-4234-4ef7-ae96-fd7d4e5bf9ca",
+        "onchain": {
+          "protocol": "EVM",
+          "chainId": "274",
+          "test": false,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/6f08eb17-6bc8-4d2d-ac75-ad8bdebb050b",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/df94a343-fe8f-4ed2-abbc-44d65ae4ef3f",
+              "type": "image/png"
+            }
+          ],
+          "explorer": {
+            "base": "https://explorer.lachain.network/",
+            "address": "https://explorer.lachain.network/address/{address}",
+            "tx": "https://explorer.lachain.network/tx/{tx}"
+          }
+        }
+      },
+      {
+        "id": "b6db1717-cddd-4c47-ab94-b5ada52588ee",
+        "legacyId": "LINEA",
+        "displayName": "Linea",
+        "nativeAssetId": "aff4bd17-dda6-48fd-9a16-b47bc6777581",
+        "onchain": {
+          "protocol": "EVM",
+          "chainId": "59144",
+          "test": false,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/392611c7-1c56-42d8-becc-199051f27c35",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/8089cb6d-1783-41d0-9add-fe69976d564d",
+              "type": "image/png"
+            }
+          ],
+          "explorer": {
+            "base": "https://lineascan.build/",
+            "address": "https://lineascan.build/address/{address}",
+            "tx": "https://lineascan.build/tx/{tx}"
+          }
+        }
+      },
+      {
+        "id": "4e22f354-6e52-4e74-8f59-be3489752fae",
+        "legacyId": "LISK",
+        "displayName": "Lisk",
+        "nativeAssetId": "8862b7bc-e220-4df2-bae0-14b81e2f6be0",
+        "onchain": {
+          "protocol": "EVM",
+          "chainId": "1135",
+          "test": false,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/44a4fd5d-ae62-4523-88a6-acaeadd91e33",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/f6551587-0bc9-4fae-a08d-a1eb7f273259",
+              "type": "image/png"
+            }
+          ],
+          "explorer": {
+            "base": "https://blockscout.lisk.com/",
+            "address": "https://blockscout.lisk.com/address/{address}",
+            "tx": "https://blockscout.lisk.com/tx/{tx}"
+          }
+        }
+      },
+      {
+        "id": "5a6bdebd-21e7-4b38-80ab-5cfbfe733f3d",
+        "legacyId": "LTC",
+        "displayName": "Litecoin",
+        "nativeAssetId": "f8a55f4c-43d4-4fc7-af29-fb9d766e88a6",
+        "onchain": {
+          "protocol": "UTXO",
+          "test": false,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/772b38f4-f4fc-4dd9-bb92-15e91670832e",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/7428b059-c437-4f45-80ad-88e2952a43a4",
+              "type": "image/png"
+            }
+          ],
+          "explorer": {
+            "base": "https://blockchair.com",
+            "address": "https://blockchair.com/litecoin/address/{address}",
+            "tx": "https://blockchair.com/litecoin/transaction/{tx}"
+          }
+        }
+      },
+      {
+        "id": "1f3d620e-abad-4e82-b88b-6702227eafe5",
+        "legacyId": "LUMIA_LUMIA",
+        "displayName": "Lumia Mainnet",
+        "nativeAssetId": "852ca0f0-5089-418c-8cbd-a73cc0798d8b",
+        "onchain": {
+          "protocol": "EVM",
+          "chainId": "994873017",
+          "test": false,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": { "scope": "GLOBAL", "deprecated": false }
+      },
+      {
+        "id": "238299ff-d5fc-4a1c-8e2c-b0bd2f78f81a",
+        "legacyId": "LUNA",
+        "displayName": "Terra Classic",
+        "nativeAssetId": "53f95730-1f5b-4f0f-af5d-14ca4a2732e6",
+        "onchain": {
+          "protocol": "TERRA",
+          "chainId": "2",
+          "test": false,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": true,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/ab8eaa63-bfa4-40a4-9700-6aed77d4a2aa",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/8f4aed4d-2e60-4d2f-8c11-e9c7b8ab0035",
+              "type": "image/png"
+            }
+          ]
+        }
+      },
+      {
+        "id": "d86bc6ba-9770-434f-808d-4d3203767afb",
+        "legacyId": "LUNA2",
+        "displayName": "Terra 2.0",
+        "nativeAssetId": "8c2379f7-53b9-4c26-9819-9d92d3ab5a32",
+        "onchain": {
+          "protocol": "TERRA",
+          "chainId": "1",
+          "test": false,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/ab8eaa63-bfa4-40a4-9700-6aed77d4a2aa",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/8f4aed4d-2e60-4d2f-8c11-e9c7b8ab0035",
+              "type": "image/png"
+            }
+          ],
+          "explorer": {
+            "base": "https://www.mintscan.io/terra",
+            "address": "https://www.mintscan.io/terra/address/{address}",
+            "tx": "https://www.mintscan.io/terra/tx/{tx}"
+          }
+        }
+      },
+      {
+        "id": "1b0d4b92-b26f-46e1-92d1-40713ac7d31a",
+        "legacyId": "MANTA",
+        "displayName": "Manta",
+        "nativeAssetId": "bad64881-1af7-46cc-8a10-66a2038e9824",
+        "onchain": {
+          "protocol": "EVM",
+          "chainId": "169",
+          "test": false,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/6baeaab4-1a47-4e6c-a8d3-82bf17bbe204",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/7cf72298-2794-41fd-adfe-cf7bd75b0f40",
+              "type": "image/png"
+            }
+          ],
+          "explorer": {
+            "base": "https://pacific-explorer.manta.network/",
+            "address": "https://pacific-explorer.manta.network/address/{address}",
+            "tx": "https://pacific-explorer.manta.network/tx/{tx}"
+          }
+        }
+      },
+      {
+        "id": "8a1d519e-2a83-4158-a0bb-31928166976d",
+        "legacyId": "MANTRA",
+        "displayName": "MANTRA",
+        "nativeAssetId": "ba6afd26-cd9e-4266-a321-56366c5c59ee",
+        "onchain": {
+          "protocol": "COSMOS",
+          "test": false,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/12695b43-5924-450b-a0e7-699b84e0d4c9",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/f838fdae-9f7e-41fa-b476-1c759fc8d43f",
+              "type": "image/png"
+            }
+          ],
+          "explorer": {
+            "base": "https://explorer.mantrachain.io/",
+            "address": "https://explorer.mantrachain.io/MANTRA-1/account/{address}",
+            "tx": "https://explorer.mantrachain.io/MANTRA-1/tx/{tx}"
+          }
+        }
+      },
+      {
+        "id": "a19c620e-2285-49a9-9303-62586e614567",
+        "legacyId": "METIS_EVM",
+        "displayName": "Metis",
+        "nativeAssetId": "7e269378-7696-4275-9d62-9ebc409b936f",
+        "onchain": {
+          "protocol": "EVM",
+          "chainId": "1088",
+          "test": false,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "explorer": {
+            "base": "https://metisscan.info",
+            "address": "https://metisscan.info/account/{address}",
+            "tx": "https://metisscan.info/tx/{tx}"
+          }
+        }
+      },
+      {
+        "id": "16e598b2-e693-4277-946f-b690562e9201",
+        "legacyId": "MIRASMANDA",
+        "displayName": "Mirasmanda",
+        "nativeAssetId": "0b14f478-6e18-4761-bf07-900629927094",
+        "onchain": {
+          "protocol": "EVM",
+          "chainId": "1213549903",
+          "test": false,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "explorer": {
+            "base": "https://blockscout.evm.mirasmanda.uz/",
+            "address": "https://blockscout.evm.mirasmanda.uz/https://blockscout.evm.mirasmanda.uz/accounts/{address}",
+            "tx": "https://blockscout.evm.mirasmanda.uz/https://blockscout.evm.mirasmanda.uz/txs/{tx}"
+          }
+        }
+      },
+      {
+        "id": "23b7b97b-6c32-4c29-beea-74e482ff5a43",
+        "legacyId": "MONAD",
+        "displayName": "Monad",
+        "nativeAssetId": "7bfb4102-0b88-4648-a60e-5b8db4957eac",
+        "onchain": {
+          "protocol": "EVM",
+          "chainId": "143",
+          "test": false,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/4e9c9380-b51d-49b8-a3af-c64e1d707fac",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/77f47f39-ddaa-4b9e-bf9c-3b177f034743",
+              "type": "image/png"
+            }
+          ],
+          "explorer": {
+            "base": "https://monadvision.com/",
+            "address": "https://monadvision.com/address/{address}",
+            "tx": "https://monadvision.com/tx/{tx}"
+          }
+        }
+      },
+      {
+        "id": "48c1d2ea-f69b-4e8a-8988-3e0a540eaecf",
+        "legacyId": "MORPH",
+        "displayName": "Morph",
+        "nativeAssetId": "06b9ca1c-3d64-405c-983f-7d5e952c47eb",
+        "onchain": {
+          "protocol": "EVM",
+          "chainId": "2818",
+          "test": false,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "explorer": {
+            "base": "https://explorer.morphl2.io/",
+            "address": "https://explorer.morphl2.io/address/{address}",
+            "tx": "https://explorer.morphl2.io/tx/{tx}"
+          }
+        }
+      },
+      {
+        "id": "0779ed58-3168-4edc-93c8-18d2e9297db2",
+        "legacyId": "MOVR",
+        "displayName": "Moonriver",
+        "nativeAssetId": "fb00f2c3-b834-407c-951f-1391bec69964",
+        "onchain": {
+          "protocol": "EVM",
+          "chainId": "1285",
+          "test": false,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/20ab6eae-9c45-48b3-b3d5-44cb9f533e41",
+              "type": "image/svg+xml"
+            }
+          ],
+          "explorer": {
+            "base": "https://moonriver.moonscan.io",
+            "address": "https://moonriver.moonscan.io/null/{address}",
+            "tx": "https://moonriver.moonscan.io/tx/{tx}"
+          }
+        }
+      },
+      {
+        "id": "c8029d09-c249-4d3b-b571-e1afe4bade3b",
+        "legacyId": "NEAR",
+        "displayName": "NEAR Protocol",
+        "nativeAssetId": "3cfd15f2-0efe-4466-a438-4e89b5d13d42",
+        "onchain": {
+          "protocol": "NEAR",
+          "chainId": "mainnet",
+          "test": false,
+          "signingAlgo": "EDDSA_ED25519"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/f5694817-ee90-4c9c-a15c-e763a134aac2",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/6eaa4092-c8db-4334-9936-9874a71056b1",
+              "type": "image/png"
+            }
+          ],
+          "explorer": {
+            "base": "https://explorer.near.org",
+            "address": "https://explorer.near.org/accounts/{address}",
+            "tx": "https://explorer.near.org/transactions/{tx}"
+          }
+        }
+      },
+      {
+        "id": "61191259-e588-4227-b850-3db42da18905",
+        "legacyId": "NERO",
+        "displayName": "NERO",
+        "nativeAssetId": "98e188e1-88df-46e8-859c-01a611c810e1",
+        "onchain": {
+          "protocol": "EVM",
+          "chainId": "1689",
+          "test": false,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "explorer": {
+            "base": "https://neroscan.io",
+            "address": "https://neroscan.io/https://neroscan.io/accounts/{address}",
+            "tx": "https://neroscan.io/https://neroscan.io/view-txns/{tx}"
+          }
+        }
+      },
+      {
+        "id": "7a5dbc6e-ac45-493a-89ec-da19e6d9b2b3",
+        "legacyId": "NTRN",
+        "displayName": "Neutron",
+        "nativeAssetId": "677109ca-8328-47e6-ae0c-532af7ab2256",
+        "onchain": {
+          "protocol": "COSMOS",
+          "test": false,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/755ca667-9f44-4c17-8f35-c24db502bbcb",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/7983f3d2-97d3-4463-a90b-8f7743f14d6a",
+              "type": "image/png"
+            }
+          ]
+        }
+      },
+      {
+        "id": "50f230c8-4ca6-420c-8842-3c0a47427c61",
+        "legacyId": "OAS",
+        "displayName": "Oasys",
+        "nativeAssetId": "a02cfa08-4be6-407f-975e-384fed402e47",
+        "onchain": {
+          "protocol": "EVM",
+          "chainId": "248",
+          "test": false,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/6d017507-2051-4fd8-ad0b-230a264f9bc0",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/6a86354d-f079-447a-b2fe-6ece068b51ac",
+              "type": "image/png"
+            }
+          ],
+          "explorer": {
+            "base": "https://explorer.oasys.games/",
+            "address": "https://explorer.oasys.games/address/{address}",
+            "tx": "https://explorer.oasys.games/tx/{tx}"
+          }
+        }
+      },
+      {
+        "id": "15c8cc0f-46f6-4859-8bc7-7abe0c0e90e5",
+        "legacyId": "OMNI_EVM",
+        "displayName": "Nomina",
+        "nativeAssetId": "207341ee-a134-4191-bb18-0078aab8d4ff",
+        "onchain": {
+          "protocol": "EVM",
+          "chainId": "166",
+          "test": false,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/d59f3e7e-f22a-455f-93ef-9d40e2dfc4dd",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/b688539c-ece9-4a2a-97dd-2e5661caf34d",
+              "type": "image/png"
+            }
+          ]
+        }
+      },
+      {
+        "id": "8254f2b2-d7f9-4c83-bba3-cb3b308b17f2",
+        "legacyId": "OSMO",
+        "displayName": "Osmosis",
+        "nativeAssetId": "060f1c2c-8934-4111-b9c1-5a41e1ed9438",
+        "onchain": {
+          "protocol": "COSMOS",
+          "test": false,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/71593ca2-b538-4c7d-8740-294873a4e5bd",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/78441c3d-3674-4627-b666-42dc03919dd7",
+              "type": "image/png"
+            }
+          ],
+          "explorer": {
+            "base": "https://www.mintscan.io/",
+            "address": "https://www.mintscan.io/osmosis/account/{address}",
+            "tx": "https://www.mintscan.io/osmosis/txs/{tx}"
+          }
+        }
+      },
+      {
+        "id": "e92d50b4-f63e-425c-bfee-5addddc5af9e",
+        "legacyId": "PEAQ",
+        "displayName": "peaq",
+        "nativeAssetId": "1698bd32-af9c-434c-b1fa-84038c3d1971",
+        "onchain": {
+          "protocol": "EVM",
+          "chainId": "3338",
+          "test": false,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/cc1cf560-f762-4793-84a5-90c3eb95ae15",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/8d63ce87-fa50-4abf-bab7-5b146c79fadc",
+              "type": "image/png"
+            }
+          ],
+          "explorer": {
+            "base": "https://peaq.subscan.io",
+            "address": "https://peaq.subscan.io/account/{address}",
+            "tx": "https://peaq.subscan.io/tx/{tx}"
+          }
+        }
+      },
+      {
+        "id": "5194f962-2334-4107-896c-d9e583f5b1e3",
+        "legacyId": "PLASMA",
+        "displayName": "Plasma",
+        "nativeAssetId": "0401c03b-3546-46d2-b9db-d966049273f2",
+        "onchain": {
+          "protocol": "EVM",
+          "chainId": "9745",
+          "test": false,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "explorer": {
+            "base": "https://plasmascan.to",
+            "address": "https://plasmascan.to/address/{address}",
+            "tx": "https://plasmascan.to/tx/{tx}"
+          }
+        }
+      },
+      {
+        "id": "1d17fab8-1137-45f4-910b-80b65bff77a8",
+        "legacyId": "PLUME_PLUME",
+        "displayName": "Plume",
+        "nativeAssetId": "422fa0fa-5095-4c7b-99a1-9b7992408632",
+        "onchain": {
+          "protocol": "EVM",
+          "chainId": "98866",
+          "test": false,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/f4b62e57-948d-41a5-86a1-02837fc6b5f1",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/797cf3c6-0f8b-4647-be89-a8a54e11aac2",
+              "type": "image/png"
+            }
+          ],
+          "explorer": {
+            "base": "https://explorer.plume.org",
+            "address": "https://explorer.plume.org/address/{address}",
+            "tx": "https://explorer.plume.org/tx/{tx}"
+          }
+        }
+      },
+      {
+        "id": "baea12bf-7997-4743-ab88-e7a7b35b7563",
+        "legacyId": "PROVENANCE",
+        "displayName": "Provenance",
+        "nativeAssetId": "75f9c619-f79a-4fb4-9744-0dc7aeff0936",
+        "onchain": {
+          "protocol": "COSMOS",
+          "test": false,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "explorer": {
+            "base": "https://explorer.provenance.io",
+            "address": "https://explorer.provenance.io/accounts/{address}",
+            "tx": "https://explorer.provenance.io/tx/{tx}"
+          }
+        }
+      },
+      {
+        "id": "2b433bae-bffe-406c-85ec-b14e4beac07e",
+        "legacyId": "REDBELLY",
+        "displayName": "Redbelly",
+        "nativeAssetId": "c639552a-297e-45dc-9ac7-c888dc926f9d",
+        "onchain": {
+          "protocol": "EVM",
+          "chainId": "151",
+          "test": false,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/7851de93-608f-43ec-a7d5-9b94d75c400c",
+              "type": "image/svg+xml"
+            }
+          ],
+          "explorer": {
+            "base": "https://redbelly.routescan.io",
+            "address": "https://redbelly.routescan.io/address/{address}",
+            "tx": "https://redbelly.routescan.io/tx/{tx}"
+          }
+        }
+      },
+      {
+        "id": "e9516159-077c-40a7-ab7a-582f1eb8915e",
+        "legacyId": "RON",
+        "displayName": "Ronin",
+        "nativeAssetId": "8c737213-abca-4f81-8600-42dbff74a702",
+        "onchain": {
+          "protocol": "EVM",
+          "chainId": "2020",
+          "test": false,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/ce59e89d-215f-4265-8b82-ba96be83affe",
+              "type": "image/svg+xml"
+            }
+          ],
+          "explorer": {
+            "base": "https://explorer.roninchain.com",
+            "address": "https://explorer.roninchain.com/address/{address}",
+            "tx": "https://explorer.roninchain.com/tx/{tx}"
+          }
+        }
+      },
+      {
+        "id": "6cd80565-f543-4853-a021-e6040211231d",
+        "legacyId": "RUNE_THOR",
+        "displayName": "THORChain",
+        "nativeAssetId": "56e077b8-6fe3-41b0-ad68-acdc08c65fb0",
+        "onchain": {
+          "protocol": "COSMOS",
+          "test": false,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/d2480e3e-5aa0-42b9-8cca-f883d6798154",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/53b66f35-4815-4f4a-a9b7-8eed4302e63e",
+              "type": "image/png"
+            }
+          ],
+          "explorer": {
+            "base": "https://viewblock.io/thorchain/",
+            "address": "https://viewblock.io/thorchain/address/{address}",
+            "tx": "https://viewblock.io/thorchain/tx/{tx}"
+          }
+        }
+      },
+      {
+        "id": "d27e9a95-9e97-4ffb-aec4-f90601a9f32d",
+        "legacyId": "SAGA",
+        "displayName": "Saga",
+        "nativeAssetId": "a29d70ff-37b3-45fb-be38-3e3a608de096",
+        "onchain": {
+          "protocol": "COSMOS",
+          "test": false,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": { "scope": "GLOBAL", "deprecated": false }
+      },
+      {
+        "id": "7ac4beb1-0fbf-42a1-bf08-3c5ea4d172af",
+        "legacyId": "SCROLL",
+        "displayName": "Scroll",
+        "nativeAssetId": "0a918cbb-3de2-42f9-bf00-03b9bba2a3bf",
+        "onchain": {
+          "protocol": "EVM",
+          "chainId": "534352",
+          "test": false,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/2f3a07c2-4e15-4ca2-a2c5-7469d93f1dd7",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/213fdbf2-a27e-4a58-aea0-8207a2bb8ec6",
+              "type": "image/png"
+            }
+          ],
+          "explorer": {
+            "base": "https://scrollscan.com",
+            "address": "https://scrollscan.com/address/{address}",
+            "tx": "https://scrollscan.com/tx/{tx}"
+          }
+        }
+      },
+      {
+        "id": "ede42145-8fe4-431a-af54-d044aaf04415",
+        "legacyId": "SMARTBCH",
+        "displayName": "SmartBCH",
+        "nativeAssetId": "dd6ac3c4-95ad-423d-9c07-61afe8ed86ea",
+        "onchain": {
+          "protocol": "EVM",
+          "chainId": "10000",
+          "test": false,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/d3ac6181-a779-428f-a65e-2ed38cf343d0",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/f8c7afb6-7b58-438b-815c-5c09f4135ab6",
+              "type": "image/png"
+            }
+          ],
+          "explorer": {
+            "base": "https://www.smartscan.cash",
+            "address": "https://www.smartscan.cash/address/{address}",
+            "tx": "https://www.smartscan.cash/transaction/{tx}"
+          }
+        }
+      },
+      {
+        "id": "23d7088c-bb0e-4b9f-be44-b408739a596e",
+        "legacyId": "SMR",
+        "displayName": "Shimmer",
+        "nativeAssetId": "f8140354-0d1b-46fd-80a2-1e71d37b9f07",
+        "onchain": {
+          "protocol": "EVM",
+          "chainId": "148",
+          "test": false,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/454a7969-dbd7-48a7-8972-e083155b910c",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/eacc64c5-8742-4098-a879-0ac07f18e258",
+              "type": "image/png"
+            }
+          ],
+          "explorer": {
+            "base": "https://explorer.evm.shimmer.network/",
+            "address": "https://explorer.evm.shimmer.network/address/{address}",
+            "tx": "https://explorer.evm.shimmer.network/tx/{tx}"
+          }
+        }
+      },
+      {
+        "id": "3c71bdf0-3430-4575-99da-e6d16722d9be",
+        "legacyId": "SOMNIA",
+        "displayName": "Somnia",
+        "nativeAssetId": "ff451733-5d4a-4d95-b9f9-7476e06d8b95",
+        "onchain": {
+          "protocol": "EVM",
+          "chainId": "5031",
+          "test": false,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "explorer": {
+            "base": "https://mainnet.somnia.w3us.site",
+            "address": "https://mainnet.somnia.w3us.site/address/{address}",
+            "tx": "https://mainnet.somnia.w3us.site/tx/{tx}"
+          }
+        }
+      },
+      {
+        "id": "d3c9b254-44c3-412d-9ce2-18ccda35019a",
+        "legacyId": "SONGBIRD",
+        "displayName": "Songbird Canary-Network",
+        "nativeAssetId": "94a07300-561e-405a-beec-f73131cac270",
+        "onchain": {
+          "protocol": "EVM",
+          "chainId": "19",
+          "test": false,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/518f0846-f63e-4b6c-8b93-6dd00294f34e",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/b2f7c68e-d7a6-4ba0-83d4-a1fa05132b01",
+              "type": "image/png"
+            }
+          ],
+          "explorer": {
+            "base": "https://songbird-explorer.flare.network",
+            "address": "https://songbird-explorer.flare.network/null/{address}",
+            "tx": "https://songbird-explorer.flare.network/tx/{tx}"
+          }
+        }
+      },
+      {
+        "id": "d104cfda-3a03-4d83-8743-f13702d35bba",
+        "legacyId": "SONGBIRD_LEGACY",
+        "displayName": "Songbird Canary-Network (Legacy derivation)",
+        "nativeAssetId": "10f65197-0b30-4025-97f8-fe5bc44e6d2d",
+        "onchain": {
+          "protocol": "EVM",
+          "chainId": "19",
+          "test": false,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/518f0846-f63e-4b6c-8b93-6dd00294f34e",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/b2f7c68e-d7a6-4ba0-83d4-a1fa05132b01",
+              "type": "image/png"
+            }
+          ],
+          "explorer": {
+            "base": "https://songbird-explorer.flare.network",
+            "address": "https://songbird-explorer.flare.network/null/{address}",
+            "tx": "https://songbird-explorer.flare.network/tx/{tx}"
+          }
+        }
+      },
+      {
+        "id": "7b30e2d5-7990-4148-9891-fe1ec20b4daa",
+        "legacyId": "SOPHON",
+        "displayName": "Sophon",
+        "nativeAssetId": "8df2f7e0-9320-460c-90f1-16633a4085ff",
+        "onchain": {
+          "protocol": "EVM",
+          "chainId": "50104",
+          "test": false,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": { "scope": "GLOBAL", "deprecated": false }
+      },
+      {
+        "id": "a2815f48-8f2d-4685-a3bc-1927a3aed6f4",
+        "legacyId": "SUI",
+        "displayName": "SUI",
+        "nativeAssetId": "f1b6d155-9e12-4d9c-a8a6-67937c5c002c",
+        "onchain": {
+          "protocol": "SUI",
+          "test": false,
+          "signingAlgo": "EDDSA_ED25519"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/793de001-e11d-41cd-ad5e-dac8fda7c49b",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/78f8d236-1ce0-4c7e-a198-c6d5e36e96da",
+              "type": "image/png"
+            }
+          ],
+          "explorer": {
+            "base": "https://suivision.xyz/",
+            "address": "https://suivision.xyz/account/{address}",
+            "tx": "https://suivision.xyz/txblock/{tx}"
+          }
+        }
+      },
+      {
+        "id": "326ee9c4-92e7-42d6-ac93-3bc9957e3fea",
+        "legacyId": "TAC",
+        "displayName": "TAC Mainnet",
+        "nativeAssetId": "ecbe50af-1b1e-43b1-a2a7-7ce4f8367c0b",
+        "onchain": {
+          "protocol": "EVM",
+          "chainId": "239",
+          "test": false,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "explorer": {
+            "base": "https://explorer.tac.build",
+            "address": "https://explorer.tac.build/address/{address}",
+            "tx": "https://explorer.tac.build/tx/{tx}"
+          }
+        }
+      },
+      {
+        "id": "c65c21ce-a137-4eb2-89bb-6ee824524546",
+        "legacyId": "TELOS",
+        "displayName": "Telos EVM",
+        "nativeAssetId": "906900c6-7e8c-43ae-962e-6c0b7ddaa162",
+        "onchain": {
+          "protocol": "EVM",
+          "chainId": "40",
+          "test": false,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/a35a0b6d-3501-4d9b-b79b-6d21dc619f36",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/032e0438-4af4-4a15-87ca-9ad90aadf652",
+              "type": "image/png"
+            }
+          ],
+          "explorer": {
+            "base": "https://www.teloscan.io/",
+            "address": "https://www.teloscan.io/address/{address}",
+            "tx": "https://www.teloscan.io/tx/{tx}"
+          }
+        }
+      },
+      {
+        "id": "e2d01080-65ca-4d8f-8c73-c710fa070b50",
+        "legacyId": "TERRA_KRW",
+        "displayName": "Terra Classic",
+        "nativeAssetId": "bc74ef50-527a-4e5a-ba14-4c371f50363a",
+        "onchain": { "protocol": null, "test": false },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": true,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/ab8eaa63-bfa4-40a4-9700-6aed77d4a2aa",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/8f4aed4d-2e60-4d2f-8c11-e9c7b8ab0035",
+              "type": "image/png"
+            }
+          ],
+          "explorer": {
+            "base": "https://atomscan.com",
+            "address": "https://atomscan.com/null/{address}",
+            "tx": "https://atomscan.com/terra/transactions/{tx}"
+          }
+        }
+      },
+      {
+        "id": "9b745675-2c7a-49cb-8281-e87b6fa412f6",
+        "legacyId": "TERRA_MNT",
+        "displayName": "Terra Classic",
+        "nativeAssetId": "beeacf66-a7ef-4167-a032-4e9dfd5cda61",
+        "onchain": { "protocol": null, "test": false },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": true,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/ab8eaa63-bfa4-40a4-9700-6aed77d4a2aa",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/8f4aed4d-2e60-4d2f-8c11-e9c7b8ab0035",
+              "type": "image/png"
+            }
+          ],
+          "explorer": {
+            "base": "https://atomscan.com",
+            "address": "https://atomscan.com/null/{address}",
+            "tx": "https://atomscan.com/terra/transactions/{tx}"
+          }
+        }
+      },
+      {
+        "id": "939a58dd-d773-4f75-9eeb-d6c66088a25d",
+        "legacyId": "TERRA_SDR",
+        "displayName": "Terra Classic",
+        "nativeAssetId": "a493680c-33b4-4ec7-b224-33f76cc16399",
+        "onchain": { "protocol": null, "test": false },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": true,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/ab8eaa63-bfa4-40a4-9700-6aed77d4a2aa",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/8f4aed4d-2e60-4d2f-8c11-e9c7b8ab0035",
+              "type": "image/png"
+            }
+          ],
+          "explorer": {
+            "base": "https://atomscan.com",
+            "address": "https://atomscan.com/null/{address}",
+            "tx": "https://atomscan.com/terra/transactions/{tx}"
+          }
+        }
+      },
+      {
+        "id": "15ca0208-8e29-44b4-8b02-c6177ede9c5b",
+        "legacyId": "TERRA_USD",
+        "displayName": "Terra Classic",
+        "nativeAssetId": "7c0807c6-d37c-4a48-a084-3684158911c9",
+        "onchain": { "protocol": null, "test": false },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": true,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/ab8eaa63-bfa4-40a4-9700-6aed77d4a2aa",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/8f4aed4d-2e60-4d2f-8c11-e9c7b8ab0035",
+              "type": "image/png"
+            }
+          ],
+          "explorer": {
+            "base": "https://atomscan.com",
+            "address": "https://atomscan.com/null/{address}",
+            "tx": "https://atomscan.com/terra/transactions/{tx}"
+          }
+        }
+      },
+      {
+        "id": "c3de8339-2227-4bed-a485-77d2135818c1",
+        "legacyId": "TKX",
+        "displayName": "TokenEX",
+        "nativeAssetId": "3304947f-ea6e-4cdd-bf0c-9978793cc587",
+        "onchain": {
+          "protocol": "EVM",
+          "chainId": "7777",
+          "test": false,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/3b810a62-9ff3-4d9c-a1bd-62bb20520fde",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/d5bb3c73-07df-4b10-82d4-e741ed75e6bb",
+              "type": "image/png"
+            }
+          ],
+          "explorer": {
+            "base": "https://scan.tokenx.finance",
+            "address": "https://scan.tokenx.finance/address/{address}",
+            "tx": "https://scan.tokenx.finance/tx/{tx}"
+          }
+        }
+      },
+      {
+        "id": "172109bf-9e16-4924-ba46-6dfa1e4ceb71",
+        "legacyId": "TON",
+        "displayName": "TON",
+        "nativeAssetId": "0f83d8eb-f4d8-48ef-8de7-88afd274b1e2",
+        "onchain": {
+          "protocol": "TON",
+          "test": false,
+          "signingAlgo": "EDDSA_ED25519"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/2dec1568-7682-4532-9d4d-6379cb61e6c9",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/79f85cfa-ebf6-4cb6-b190-4afda698da50",
+              "type": "image/png"
+            }
+          ],
+          "explorer": {
+            "base": "https://tonviewer.com/",
+            "address": "https://tonviewer.com/{address}",
+            "tx": "https://tonviewer.com/transaction/{tx}"
+          }
+        }
+      },
+      {
+        "id": "1255442f-78e6-47aa-9a2b-a2d43e079ed9",
+        "legacyId": "USDC_NOBLE",
+        "displayName": "USDC Noble",
+        "nativeAssetId": "4a6b6a23-e698-45df-a73c-ac11d2285393",
+        "onchain": {
+          "protocol": "COSMOS",
+          "test": false,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/51c1f7e5-950f-49c6-94b0-77f850c0ba65",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/e94e2e88-ee1f-436d-8b97-a9d292e47e7b",
+              "type": "image/png"
+            }
+          ]
+        }
+      },
+      {
+        "id": "16c6f821-e40d-48f1-bfcb-5b93a3dc97dc",
+        "legacyId": "VICTION",
+        "displayName": "Viction",
+        "nativeAssetId": "7f33d9ed-ef01-4649-b8bb-bf0f5e9c0c4f",
+        "onchain": {
+          "protocol": "EVM",
+          "chainId": "88",
+          "test": false,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/0c160189-fcd8-4c2e-99cd-71e308488389",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/4815cfca-5413-48c8-b978-5950d0f149fd",
+              "type": "image/png"
+            }
+          ],
+          "explorer": {
+            "base": "https://www.vicscan.xyz/",
+            "address": "https://www.vicscan.xyz/address/{address}",
+            "tx": "https://www.vicscan.xyz/tx/{tx}"
+          }
+        }
+      },
+      {
+        "id": "c1d2b246-2daa-46d0-88c0-58660a1bb63d",
+        "legacyId": "VLX",
+        "displayName": "Velas",
+        "nativeAssetId": "41d50c44-1164-4aeb-8ae5-29dabcf16259",
+        "onchain": {
+          "protocol": "EVM",
+          "chainId": "106",
+          "test": false,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": true,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/5aaa7b19-574e-460e-84f3-9b29ce64473c",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/39c9ce2f-c45b-4b0e-9d59-6d1f671d916b",
+              "type": "image/png"
+            }
+          ],
+          "explorer": {
+            "base": "https://explorer.velas.com",
+            "address": "https://explorer.velas.com/address/{address}",
+            "tx": "https://explorer.velas.com/tx/{tx}"
+          }
+        }
+      },
+      {
+        "id": "d09a778c-b204-460e-bb83-09842efbca50",
+        "legacyId": "WEMIX",
+        "displayName": "WEMIX",
+        "nativeAssetId": "0ab4b1e0-2db2-42cb-bfbc-e9990f611f0d",
+        "onchain": {
+          "protocol": "EVM",
+          "chainId": "1111",
+          "test": false,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/466a963b-8f02-4b06-a9db-61714b8ec28f",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/a1a8a052-758b-40b3-964a-56294640cf7b",
+              "type": "image/png"
+            }
+          ],
+          "explorer": {
+            "base": "https://explorer.wemix.com",
+            "tx": "https://explorer.wemix.com/tx/{tx}"
+          }
+        }
+      },
+      {
+        "id": "4f449f4a-16e4-4236-b780-d5a8ddbf84b2",
+        "legacyId": "WIREXPAY_ETH",
+        "displayName": "Wirex Pay Mainnet",
+        "nativeAssetId": "3345966e-80bc-43f5-9c6b-dcf1ade5870a",
+        "onchain": {
+          "protocol": "EVM",
+          "chainId": "31415",
+          "test": false,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": { "scope": "GLOBAL", "deprecated": false }
+      },
+      {
+        "id": "2b79b70a-43ae-4591-9707-11daf5c60634",
+        "legacyId": "WMTX",
+        "displayName": "WorldMobie Chain ",
+        "nativeAssetId": "dbe14f32-f95f-4609-9c6d-76f58f07f88a",
+        "onchain": {
+          "protocol": "EVM",
+          "chainId": "869",
+          "test": false,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "explorer": { "base": "https://explorer.worldmobile.io/" }
+        }
+      },
+      {
+        "id": "c1b50b8c-6afc-4e7d-9c0f-4a138e8d002e",
+        "legacyId": "WORLDCHAIN",
+        "displayName": "Worldchain",
+        "nativeAssetId": "8f79038d-3580-458b-a1c7-9dfa1968ed6f",
+        "onchain": {
+          "protocol": "EVM",
+          "chainId": "480",
+          "test": false,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/f96cd5fd-a093-44d6-9ec2-41977777d94d",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/033c13a4-ea3b-4a57-a9d7-e0d704c1df4c",
+              "type": "image/png"
+            }
+          ],
+          "explorer": {
+            "base": "https://worldchain-mainnet.explorer.alchemy.com/",
+            "address": "https://worldchain-mainnet.explorer.alchemy.com/address/{address}",
+            "tx": "https://worldchain-mainnet.explorer.alchemy.com/tx/{tx}"
+          }
+        }
+      },
+      {
+        "id": "ff1a7578-3229-4dea-a83c-873e295d73b1",
+        "legacyId": "XDB",
+        "displayName": "XDB Chain",
+        "nativeAssetId": "f2a3a319-17f2-45b3-99ab-47bd9050764a",
+        "onchain": {
+          "protocol": "XDB",
+          "test": false,
+          "signingAlgo": "EDDSA_ED25519"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/8dfc882f-6285-4d66-aca4-199cd8506e64",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/fe6f78af-0b53-4ceb-b5b9-78380d4ea007",
+              "type": "image/png"
+            }
+          ],
+          "explorer": {
+            "base": "https://explorer.xdbchain.com/",
+            "address": "https://explorer.xdbchain.com/address/{address}",
+            "tx": "https://explorer.xdbchain.com/transaction/{tx}"
+          }
+        }
+      },
+      {
+        "id": "3c250f07-0e02-4bac-a456-002672fe0867",
+        "legacyId": "XDC",
+        "displayName": "XDC Network",
+        "nativeAssetId": "69bf4670-c944-4181-b4fb-cd54b84ef048",
+        "onchain": {
+          "protocol": "EVM",
+          "chainId": "50",
+          "test": false,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/8c33c98d-4fda-4a7d-844c-db87ebbdacbe",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/9bd15f81-0c89-43b5-94d8-843390dde6cd",
+              "type": "image/png"
+            }
+          ],
+          "explorer": {
+            "base": "https://explorer.xinfin.network",
+            "address": "https://explorer.xinfin.network/null/{address}",
+            "tx": "https://explorer.xinfin.network/tx/{tx}"
+          }
+        }
+      },
+      {
+        "id": "75876d5f-a738-40b0-9883-7e61b47c7ed7",
+        "legacyId": "XEC",
+        "displayName": "eCash",
+        "nativeAssetId": "0732d653-9b01-4a2b-acf6-b17dc1f5ad1c",
+        "onchain": {
+          "protocol": "UTXO",
+          "test": false,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/80a27a6e-75ce-4bdc-af01-40011d4f609e",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/f2d05c4d-e8ca-4fba-8939-462527b77661",
+              "type": "image/png"
+            }
+          ],
+          "explorer": {
+            "base": "https://explorer.e.cash",
+            "address": "https://explorer.e.cash/address/{address}",
+            "tx": "https://explorer.e.cash/tx/{tx}"
+          }
+        }
+      },
+      {
+        "id": "144f6217-61ee-493a-a365-b10e590fd620",
+        "legacyId": "XEM",
+        "displayName": "NEM NIS1",
+        "nativeAssetId": "b9c451bb-6490-4753-a011-035cc357024f",
+        "onchain": {
+          "protocol": "XEM",
+          "test": false,
+          "signingAlgo": "EDDSA_ED25519"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/6d5ebbbc-0bc8-4fa5-87e1-200543722122",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/f0205dc9-c1e8-4491-aa15-a0a6b4b48a17",
+              "type": "image/png"
+            }
+          ],
+          "explorer": {
+            "base": "https://explorer.nemtool.com",
+            "address": "https://explorer.nemtool.com/#/s_account?account=/{address}",
+            "tx": "https://explorer.nemtool.com/#/s_tx?hash=/{tx}"
+          }
+        }
+      },
+      {
+        "id": "04612553-330a-4859-a8e1-ae0763127fbf",
+        "legacyId": "XION",
+        "displayName": "Xion",
+        "nativeAssetId": "6a2975e9-edba-499e-89f6-0836b6238bb2",
+        "onchain": {
+          "protocol": "COSMOS",
+          "test": false,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "explorer": {
+            "base": "https://www.mintscan.io/xion",
+            "address": "https://www.mintscan.io/xion/address/{address}",
+            "tx": "https://www.mintscan.io/xion/tx/{tx}"
+          }
+        }
+      },
+      {
+        "id": "3a48b04b-8cdd-4996-b1bd-9ec65377f0e2",
+        "legacyId": "XLM",
+        "displayName": "Stellar",
+        "nativeAssetId": "cf08ab73-4fcd-460a-bbc8-d9d8841a674b",
+        "onchain": {
+          "protocol": "XLM",
+          "chainId": "pubnet",
+          "test": false,
+          "signingAlgo": "EDDSA_ED25519"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/1a365524-4198-415a-b5a4-78624b39c87e",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/e87cab7c-ef10-4b91-8e87-72f68929c84f",
+              "type": "image/png"
+            }
+          ],
+          "explorer": {
+            "base": "https://stellar.expert",
+            "address": "https://stellar.expert/explorer/public/account/{address}",
+            "tx": "https://stellar.expert/explorer/public/tx/{tx}"
+          }
+        }
+      },
+      {
+        "id": "c5165456-2e8c-41b7-8451-e04d03a3f856",
+        "legacyId": "XRP",
+        "displayName": "Ripple",
+        "nativeAssetId": "ec263822-fa67-44f3-bd36-93c2ab1cb257",
+        "onchain": {
+          "protocol": "XRP",
+          "test": false,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/f1a9d921-90e2-405f-acad-fc7a14cb0237",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/6b7f348e-5c50-425e-a15b-31ba5accc1e6",
+              "type": "image/png"
+            }
+          ],
+          "explorer": {
+            "base": "https://bithomp.com",
+            "address": "https://bithomp.com/explorer/{address}",
+            "tx": "https://bithomp.com/explorer/{tx}"
+          }
+        }
+      },
+      {
+        "id": "ae1541e8-8dfd-450c-adc4-3349db0da81d",
+        "legacyId": "XTZ",
+        "displayName": "Tezos",
+        "nativeAssetId": "7a7877c7-cd63-4ffb-a1c5-5afd4d7581c0",
+        "onchain": {
+          "protocol": "XTZ",
+          "test": false,
+          "signingAlgo": "EDDSA_ED25519"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/b8c55cbf-f14f-4bad-9a32-166d0c175fda",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/1f7ba8f6-3d0f-4c7a-9ec4-ad7cc50ef6af",
+              "type": "image/png"
+            }
+          ],
+          "explorer": {
+            "base": "https://tzkt.io",
+            "address": "https://tzkt.io/tokens/{address}",
+            "tx": "https://tzkt.io/{tx}",
+            "token": "https://tzkt.io/{contract}/tokens/{tokenId}"
+          }
+        }
+      },
+      {
+        "id": "dcb38763-5cc8-4f12-b375-1c252bd7ea4b",
+        "legacyId": "ZEC",
+        "displayName": "ZCash",
+        "nativeAssetId": "9220a6c8-87b9-4dfd-b173-207e4e75f9a7",
+        "onchain": {
+          "protocol": "UTXO",
+          "test": false,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/e61f1284-0806-486d-b780-82de45f24f80",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/e5db51f9-6bd8-43f9-b7c0-e6ae2299590a",
+              "type": "image/png"
+            }
+          ],
+          "explorer": {
+            "base": "https://blockchair.com",
+            "address": "https://blockchair.com/zcash/address/{address}",
+            "tx": "https://blockchair.com/zcash/transaction/{tx}"
+          }
+        }
+      },
+      {
+        "id": "6b459c89-3698-41f1-ad84-46e959b00421",
+        "legacyId": "ZERO_G_EVM",
+        "displayName": "0G Aristotle",
+        "nativeAssetId": "aee871b6-b210-4a95-9716-9b3d41648732",
+        "onchain": {
+          "protocol": "EVM",
+          "chainId": "16661",
+          "test": false,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": { "scope": "GLOBAL", "deprecated": false }
+      },
+      {
+        "id": "1d73c5f5-1321-4a8b-a758-4fd921b5a386",
+        "legacyId": "ZILLIQA",
+        "displayName": "Zilliqa EVM Mainnet",
+        "nativeAssetId": "2ad7a7c3-aaa1-454b-8f86-a9d335bf7274",
+        "onchain": {
+          "protocol": "EVM",
+          "chainId": "32769",
+          "test": false,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/d810334d-d43e-4f69-881b-f52047adc39f",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/08c44af1-5b1e-429d-b82d-aab2cc282144",
+              "type": "image/png"
+            }
+          ],
+          "explorer": {
+            "base": "https://evmx.zilliqa.com/",
+            "address": "https://evmx.zilliqa.com/address/{address}",
+            "tx": "https://evmx.zilliqa.com/tx/{tx}"
+          }
+        }
+      },
+      {
+        "id": "8489c588-4798-4481-a9e1-a043ab8c5208",
+        "legacyId": "ZIRCUIT_ETH",
+        "displayName": "Zircuit",
+        "nativeAssetId": "b4932033-ba40-4fde-be89-1a339e50072a",
+        "onchain": {
+          "protocol": "EVM",
+          "chainId": "48900",
+          "test": false,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/7ea8e967-e527-46a9-8d4d-eb634e608672",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/11baac4c-0206-4a55-80cf-2e9ff414bf94",
+              "type": "image/png"
+            }
+          ]
+        }
+      },
+      {
+        "id": "d6e9c4d6-9422-403c-a4cb-347d53a1cdfa",
+        "legacyId": "ZKCLOUD",
+        "displayName": "ZkCloud",
+        "nativeAssetId": "7d0b3410-1650-4087-9ebd-f53001ad28b7",
+        "onchain": {
+          "protocol": "COSMOS",
+          "test": false,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/5505a81b-cea8-45ed-b8d2-afd6a0bf89c4",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/f6d284ce-0d58-46f6-b723-b3d933059641",
+              "type": "image/png"
+            }
+          ]
+        }
+      },
+      {
+        "id": "e8d0d669-1528-4d23-8afd-f0744ee0531e",
+        "legacyId": "ZKCLOUD_ZTH",
+        "displayName": "Zenith",
+        "nativeAssetId": "fc613681-8a7d-4a02-afb9-1af743d512d8",
+        "onchain": {
+          "protocol": "COSMOS",
+          "test": false,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": { "scope": "GLOBAL", "deprecated": false }
+      },
+      {
+        "id": "8aca77cf-c1b4-45eb-ac4a-d05e8dedeb0b",
+        "legacyId": "ZKEVM",
+        "displayName": "Polygon zkEVM",
+        "nativeAssetId": "1795eb29-9c18-40ab-8aaa-6911a6d90d3d",
+        "onchain": {
+          "protocol": "EVM",
+          "chainId": "1101",
+          "test": false,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/47b06219-4eca-443c-8a17-0e421128c2e9",
+              "type": "image/svg+xml"
+            }
+          ],
+          "explorer": {
+            "base": "https://zkevm.polygonscan.com",
+            "address": "https://zkevm.polygonscan.com/address/{address}",
+            "tx": "https://zkevm.polygonscan.com/tx/{tx}"
+          }
+        }
+      },
+      {
+        "id": "72c467c6-5d75-4e0f-b4ec-5c4242f64ff1",
+        "legacyId": "ZKSYNC_ERA",
+        "displayName": "zkSync Era",
+        "nativeAssetId": "a6e47341-30f5-4ab2-b3c2-01406d0394e9",
+        "onchain": {
+          "protocol": "EVM",
+          "chainId": "324",
+          "test": false,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/b675b60e-67fe-40b5-a8dc-3837faf3d5b7",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/661ad9b2-113f-42da-8226-22037e9b8433",
+              "type": "image/png"
+            }
+          ],
+          "explorer": {
+            "base": "https://explorer.zksync.io/",
+            "address": "https://explorer.zksync.io/address/{address}",
+            "tx": "https://explorer.zksync.io/tx/{tx}"
+          }
+        }
+      }
+    ],
+    "next": null
+  },
+  "statusCode": 200,
+  "headers": {
+    "date": "Mon, 29 Dec 2025 03:36:13 GMT",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "87101",
+    "connection": "keep-alive",
+    "x-request-id": "586ecf18110ad2656b75f28988e9df37",
+    "etag": "W/\"1543d-6nK8oieANQ8BbQpl9kHHy+qDDhY\"",
+    "strict-transport-security": "max-age=31536000; includeSubDomains"
+  }
+}

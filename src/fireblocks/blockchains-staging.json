@@ -1,0 +1,3394 @@
+{
+  "data": {
+    "data": [
+      {
+        "id": "84ca4b36-9c5b-4792-8b2a-c9a103eb750d",
+        "legacyId": "ADA_TEST",
+        "displayName": "Cardano Testnet",
+        "nativeAssetId": "d817cb5f-5768-488f-97fb-27cae6c7f0d8",
+        "onchain": {
+          "protocol": "ADA",
+          "test": true,
+          "signingAlgo": "EDDSA_ED25519"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/c83d98d7-83ad-45d8-9d66-2ccbe830d134",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/10c68116-4fa5-4aa4-be68-e47559d6d5f3",
+              "type": "image/png"
+            }
+          ],
+          "explorer": {
+            "base": "https://preprod.cardanoscan.io",
+            "address": "https://preprod.cardanoscan.io/null/{address}",
+            "tx": "https://preprod.cardanoscan.io/transaction/{tx}"
+          }
+        }
+      },
+      {
+        "id": "545eeec2-3705-49d0-af30-9d9b67387311",
+        "legacyId": "AGUNG_TEST",
+        "displayName": "Agung (Testnet)",
+        "nativeAssetId": "b5429295-e2bb-4313-859b-525b002c9f02",
+        "onchain": {
+          "protocol": "EVM",
+          "chainId": "9990",
+          "test": true,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/cc1cf560-f762-4793-84a5-90c3eb95ae15",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/8d63ce87-fa50-4abf-bab7-5b146c79fadc",
+              "type": "image/png"
+            }
+          ]
+        }
+      },
+      {
+        "id": "fada5fcd-e206-4c54-bb2e-5798709281a9",
+        "legacyId": "ALEPH_ZERO_EVM_TEST",
+        "displayName": "Aleph Zero EVM Testnet",
+        "nativeAssetId": "d9f9b0fc-cc1e-4795-a2a0-0fe7fa4493e9",
+        "onchain": {
+          "protocol": "EVM",
+          "chainId": "2039",
+          "test": true,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/e8b6e476-0d0a-4c3d-915e-e299059f8ed9",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/8da84e0e-cba1-44d8-b381-a861c655638e",
+              "type": "image/png"
+            }
+          ]
+        }
+      },
+      {
+        "id": "f1c14e0a-2d9c-4d95-bbd3-9edca3e42bd4",
+        "legacyId": "ALGO_TEST",
+        "displayName": "Algorand Testnet",
+        "nativeAssetId": "2d46d44d-15e9-4205-9481-d97a42353bde",
+        "onchain": {
+          "protocol": "ALGO",
+          "chainId": "SGO1GKSzyE7IEPItTxCByw9x8FmnrCDe",
+          "test": true,
+          "signingAlgo": "EDDSA_ED25519"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/1e9a84ae-07bc-4547-9d05-bb8671a2f23b",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/a677fdac-bba1-4545-9b1d-8b88ea57f4cc",
+              "type": "image/png"
+            }
+          ],
+          "explorer": {
+            "base": "https://explorer.bitquery.io",
+            "address": "https://explorer.bitquery.io/algorand_testnet/address/{address}",
+            "tx": "https://explorer.bitquery.io/algorand_testnet/tx/{tx}"
+          }
+        }
+      },
+      {
+        "id": "ecfd2fd2-6e06-4fde-8515-8edfebb6bb63",
+        "legacyId": "AMOY_POLYGON_TEST",
+        "displayName": "Polygon Testnet Amoy",
+        "nativeAssetId": "57a4b7ef-99d5-4b0b-9c04-46ff9471a40d",
+        "onchain": {
+          "protocol": "EVM",
+          "chainId": "80002",
+          "test": true,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/395f5eda-b036-4811-b781-1ea4fed994ea",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/bbb0f052-79fb-40e0-b10d-3014d0fe18db",
+              "type": "image/png"
+            }
+          ],
+          "explorer": {
+            "base": "https://amoy.polygonscan.com/",
+            "address": "https://amoy.polygonscan.com/address/{address}",
+            "tx": "https://amoy.polygonscan.com/tx/{tx}",
+            "token": "https://amoy.polygonscan.com/{contract}?a={tokenId}"
+          }
+        }
+      },
+      {
+        "id": "86bdc936-0415-4518-bc74-a264ed7aa408",
+        "legacyId": "ANZ_UAT_TEST",
+        "displayName": "ANZ ETH UAT Testnet",
+        "nativeAssetId": "65b92cd3-05af-4531-8fbe-aae582e37f62",
+        "onchain": {
+          "protocol": "EVM",
+          "chainId": "112312121",
+          "test": true,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": { "scope": "GLOBAL", "deprecated": true }
+      },
+      {
+        "id": "3cb884a5-ca1f-41df-9c25-d27ad443fb0d",
+        "legacyId": "APECHAIN_TEST",
+        "displayName": "ApeChain Testnet",
+        "nativeAssetId": "80a1e780-209d-44a5-a9d3-33d02276e738",
+        "onchain": {
+          "protocol": "EVM",
+          "chainId": "33111",
+          "test": true,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/3e2ec626-71f2-4b2d-8e02-d053be2e7505",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/0bc323be-9c4f-4e72-981f-8d9c033738b7",
+              "type": "image/png"
+            }
+          ],
+          "explorer": {
+            "base": "https://curtis.apescan.io/",
+            "address": "https://curtis.apescan.io/address/{address}",
+            "tx": "https://curtis.apescan.io/tx/{tx}",
+            "token": "https://curtis.apescan.io/token/{contract}?a={tokenId}"
+          }
+        }
+      },
+      {
+        "id": "a238a335-2c2e-4a2e-928a-415646c147fd",
+        "legacyId": "ARBITRUM_RIN",
+        "displayName": "Arbitrum Testnet Rinkeby",
+        "nativeAssetId": "faad1344-4cd3-464a-aec6-4db2c77c1ea1",
+        "onchain": {
+          "protocol": "EVM",
+          "chainId": "421611",
+          "test": true,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/dc1160b7-5e3a-412a-8a49-98cd5eb65a41",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/9f4b8477-d680-4b35-adde-83fd7f4c48e7",
+              "type": "image/png"
+            }
+          ],
+          "explorer": {
+            "base": "https://rinkeby-explorer.arbitrum.io",
+            "address": "https://rinkeby-explorer.arbitrum.io/null/{address}",
+            "tx": "https://rinkeby-explorer.arbitrum.io/tx/{tx}"
+          }
+        }
+      },
+      {
+        "id": "10301246-a803-4543-8d9d-ae0ecd6a9c9e",
+        "legacyId": "ARB_GOERLI",
+        "displayName": "Arbitrum Goerli",
+        "nativeAssetId": "49778e2c-5fb3-494d-b679-9a27c845fa2d",
+        "onchain": {
+          "protocol": "EVM",
+          "chainId": "421613",
+          "test": true,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": true,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/dc1160b7-5e3a-412a-8a49-98cd5eb65a41",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/9f4b8477-d680-4b35-adde-83fd7f4c48e7",
+              "type": "image/png"
+            }
+          ]
+        }
+      },
+      {
+        "id": "fe34aca3-ea0a-45dc-98f9-e7d91069500d",
+        "legacyId": "ARB_SEPOLIA",
+        "displayName": "Arbitrum Testnet Sepolia",
+        "nativeAssetId": "d663c128-0299-417a-aa60-788d93d57e7e",
+        "onchain": {
+          "protocol": "EVM",
+          "chainId": "421614",
+          "test": true,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/dc1160b7-5e3a-412a-8a49-98cd5eb65a41",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/9f4b8477-d680-4b35-adde-83fd7f4c48e7",
+              "type": "image/png"
+            }
+          ],
+          "explorer": {
+            "base": "https://sepolia.arbiscan.io/",
+            "address": "https://sepolia.arbiscan.io/address/{address}",
+            "tx": "https://sepolia.arbiscan.io/tx/{tx}"
+          }
+        }
+      },
+      {
+        "id": "963dce4f-ed1b-44f1-ac77-e5c550603db2",
+        "legacyId": "ARC_TEST",
+        "displayName": "Arc Testnet",
+        "nativeAssetId": "cefd67e9-74e1-4262-9532-ad2a9d645817",
+        "onchain": {
+          "protocol": "EVM",
+          "chainId": "5042002",
+          "test": true,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "explorer": {
+            "base": "https://testnet.arcscan.app/",
+            "address": "https://testnet.arcscan.app/address/{address}",
+            "tx": "https://testnet.arcscan.app/tx/{tx}"
+          }
+        }
+      },
+      {
+        "id": "c9534780-01c4-4af8-a001-6d3187e41e67",
+        "legacyId": "ASTAR_TEST",
+        "displayName": "Astar Testnet (Shibuya)",
+        "nativeAssetId": "70398694-b62e-4fd8-8cab-ca9f2179c670",
+        "onchain": {
+          "protocol": "EVM",
+          "chainId": "81",
+          "test": true,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/e51deb76-6d3f-4038-bebf-a84b14a8acb7",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/fd81f0bb-f129-4414-9e90-b99b850a6fbf",
+              "type": "image/png"
+            }
+          ]
+        }
+      },
+      {
+        "id": "8ef5d769-f02b-4911-b4ee-6c1504c903a5",
+        "legacyId": "ATOM_COS_TEST",
+        "displayName": "Cosmos Hub Testnet",
+        "nativeAssetId": "e514e7cd-04b8-48ad-b6e1-223a1ba765e2",
+        "onchain": {
+          "protocol": "COSMOS",
+          "test": true,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/48a0fafb-e1c9-46dd-aa31-844b3be14195",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/04115221-b966-48c3-a848-01adff336abc",
+              "type": "image/png"
+            }
+          ],
+          "explorer": {
+            "base": "https://explorer.polypore.xyz",
+            "address": "https://explorer.polypore.xyz/theta-testnet-001/account/{address}",
+            "tx": "https://explorer.polypore.xyz/theta-testnet-001/tx/{tx}"
+          }
+        }
+      },
+      {
+        "id": "b69fe772-4f9b-4678-80c2-b0caf22681d7",
+        "legacyId": "ATOM_PROVIDER_TEST",
+        "displayName": "Cosmos Provider Testnet",
+        "nativeAssetId": "7255e40e-a53a-49d4-9b01-b21956ceca66",
+        "onchain": {
+          "protocol": "COSMOS",
+          "test": true,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": { "scope": "GLOBAL", "deprecated": false }
+      },
+      {
+        "id": "9ad744fd-db8a-48af-bad4-207437a7d4ab",
+        "legacyId": "AVALANCHE_FUJI",
+        "displayName": "Avalanche Fuji Testnet",
+        "nativeAssetId": "30354f74-a77d-4357-b83e-c80ab31497d3",
+        "onchain": {
+          "protocol": "EVM",
+          "chainId": "43113",
+          "test": true,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/cfb7426e-f249-4c27-915e-609cdc8ce6e1",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/ec98faeb-48c3-42c0-b00c-2ab1eb203775",
+              "type": "image/png"
+            }
+          ],
+          "explorer": {
+            "base": "https://cchain.explorer.avax-test.network",
+            "address": "https://cchain.explorer.avax-test.network/address/{address}",
+            "tx": "https://cchain.explorer.avax-test.network/tx/{tx}"
+          }
+        }
+      },
+      {
+        "id": "34b3d624-c3f0-4251-8130-d5296c6e0cb1",
+        "legacyId": "AXL_TEST",
+        "displayName": "Axelar Testnet",
+        "nativeAssetId": "9c43f986-6f0d-4593-8576-34dfd63b1d99",
+        "onchain": {
+          "protocol": "COSMOS",
+          "test": true,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/836c10e1-152f-44c7-bac9-6da9846e860f",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/bd473d59-2c42-4c60-972b-de990d1e230f",
+              "type": "image/png"
+            }
+          ],
+          "explorer": {
+            "base": "https://testnet.axelarscan.io/",
+            "address": "https://testnet.axelarscan.io/account/{address}",
+            "tx": "https://testnet.axelarscan.io/tx/{tx}"
+          }
+        }
+      },
+      {
+        "id": "3e5ec80c-12a2-47d1-8d2f-b4a2f23802c1",
+        "legacyId": "BABYLON_TEST",
+        "displayName": "Babylon Testnet",
+        "nativeAssetId": "1a018d5b-66fe-45a9-949b-840e4e70e630",
+        "onchain": {
+          "protocol": "COSMOS",
+          "test": true,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "explorer": {
+            "base": "https://testnet.babylon.explorers.guru",
+            "address": "https://testnet.babylon.explorers.guru/account/{address}",
+            "tx": "https://testnet.babylon.explorers.guru/transaction/{tx}"
+          }
+        }
+      },
+      {
+        "id": "49128da6-1645-4e0d-bbd4-5666afd2fdf5",
+        "legacyId": "BASECHAIN_ETH_TEST3",
+        "displayName": "Base Goerli",
+        "nativeAssetId": "cbbd2df0-0b1a-4e34-a47c-bce5991e376f",
+        "onchain": {
+          "protocol": "EVM",
+          "chainId": "84531",
+          "test": true,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": true,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/50466fd7-c67a-414c-95c9-f328fc397e32",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/8af603d5-9810-4867-8068-11561483bec5",
+              "type": "image/png"
+            }
+          ]
+        }
+      },
+      {
+        "id": "0318d40f-7709-4f10-b980-11f3abaf31ac",
+        "legacyId": "BASECHAIN_ETH_TEST5",
+        "displayName": "Base Testnet Sepolia",
+        "nativeAssetId": "b3bddc62-4553-447d-99e9-4131d25f4803",
+        "onchain": {
+          "protocol": "EVM",
+          "chainId": "84532",
+          "test": true,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/50466fd7-c67a-414c-95c9-f328fc397e32",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/8af603d5-9810-4867-8068-11561483bec5",
+              "type": "image/png"
+            }
+          ],
+          "explorer": {
+            "base": "https://sepolia.basescan.org",
+            "address": "https://sepolia.basescan.org/address/{address}",
+            "tx": "https://sepolia.basescan.org/tx/{tx}",
+            "token": "https://sepolia.basescan.org/token/{contract}?a={tokenId}"
+          }
+        }
+      },
+      {
+        "id": "74a40480-32ac-4a0b-8b7e-2daf7b85a73f",
+        "legacyId": "BCHA_TEST",
+        "displayName": "Bitcoin Cash ABC Testnet",
+        "nativeAssetId": "2b9d5fc7-e267-475f-86ff-6dd6e005a736",
+        "onchain": {
+          "protocol": "UTXO",
+          "test": true,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": true,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/25d4729d-7c6c-4614-80f1-6651e9923c1c",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/d5a286fa-f9ca-442f-8ac9-e959ca447d2c",
+              "type": "image/png"
+            }
+          ]
+        }
+      },
+      {
+        "id": "08adc91d-49c7-4924-aba4-2e4881700e9b",
+        "legacyId": "BCH_TEST",
+        "displayName": "Bitcoin Cash Testnet",
+        "nativeAssetId": "1670802c-a725-4149-9988-0bb4449bc0c3",
+        "onchain": {
+          "protocol": "UTXO",
+          "test": true,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/25d4729d-7c6c-4614-80f1-6651e9923c1c",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/d5a286fa-f9ca-442f-8ac9-e959ca447d2c",
+              "type": "image/png"
+            }
+          ],
+          "explorer": {
+            "base": "http://testnet.imaginary.cash",
+            "address": "http://testnet.imaginary.cash/bch-testnet/address/{address}",
+            "tx": "http://testnet.imaginary.cash/tx/{tx}"
+          }
+        }
+      },
+      {
+        "id": "1e6e5715-d3c7-426b-a4c2-0c2f5360fd37",
+        "legacyId": "BERACHAIN_ARTIO_TEST",
+        "displayName": "Berachain Artio Test",
+        "nativeAssetId": "1913cd00-d106-4de0-a766-fd57f46779a9",
+        "onchain": {
+          "protocol": "EVM",
+          "chainId": "80084",
+          "test": true,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/20dd329a-4b7d-4504-bba6-b61807e10f81",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/6f47a19b-1e26-4ba0-b49b-4b1210402bad",
+              "type": "image/png"
+            }
+          ],
+          "explorer": {
+            "base": "https://bartio.beratrail.io/",
+            "address": "https://bartio.beratrail.io/address/{address}",
+            "tx": "https://bartio.beratrail.io/tx/{tx}"
+          }
+        }
+      },
+      {
+        "id": "4c2fb8b2-a9b9-4654-bee1-47a06ce9d2fc",
+        "legacyId": "BERACHAIN_TEST",
+        "displayName": "Berachain Testnet",
+        "nativeAssetId": "84e8139e-312d-4777-98dd-1d15a0e4cc9e",
+        "onchain": {
+          "protocol": "EVM",
+          "chainId": "80069",
+          "test": true,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": { "scope": "GLOBAL", "deprecated": false }
+      },
+      {
+        "id": "e5d52d25-f502-492a-ae46-2a470b60c830",
+        "legacyId": "BOB_CHAIN_TEST",
+        "displayName": "Bob Testnet",
+        "nativeAssetId": "74d29f2c-1feb-4219-9b51-6f32c8269b5f",
+        "onchain": {
+          "protocol": "EVM",
+          "chainId": "808813",
+          "test": true,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/67be2f6a-c404-4714-8a7e-f25cff00d333",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/5e1cdf60-af13-48d0-9959-d3d2659d32a0",
+              "type": "image/png"
+            }
+          ]
+        }
+      },
+      {
+        "id": "7a2c9740-0023-4b81-aa9e-d90cf66be753",
+        "legacyId": "BOTANIX_ETH_TEST",
+        "displayName": "Botanix Testnet",
+        "nativeAssetId": "48a364df-e142-42d1-bd49-eed64e6b2f07",
+        "onchain": {
+          "protocol": "EVM",
+          "chainId": "3636",
+          "test": true,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": { "scope": "GLOBAL", "deprecated": false }
+      },
+      {
+        "id": "74f3d6ce-580d-4661-a104-4c97d986ec5d",
+        "legacyId": "BSC_TEST",
+        "displayName": "BNB Smart Chain Testnet",
+        "nativeAssetId": "93189a60-d1e7-4d46-a429-686201429318",
+        "onchain": {
+          "protocol": "EVM",
+          "chainId": "97",
+          "test": true,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/d75e3c6e-b414-4ec4-9adf-43dd460e5128",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/ff7bb400-71cc-4504-a132-6f04cf8476eb",
+              "type": "image/png"
+            }
+          ],
+          "explorer": {
+            "base": "https://testnet.bscscan.com",
+            "address": "https://testnet.bscscan.com/address/{address}",
+            "tx": "https://testnet.bscscan.com/tx/{tx}"
+          }
+        }
+      },
+      {
+        "id": "0add41cf-9c05-4f3e-a5f1-ea3e56e69911",
+        "legacyId": "BSV_TEST",
+        "displayName": "Bitcoin SV Test",
+        "nativeAssetId": "f4ef1166-b550-439e-8459-4c1e0eff1bac",
+        "onchain": {
+          "protocol": "UTXO",
+          "test": true,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/7b4cb1e3-e85f-4bb2-8978-9d6f84559ab4",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/5bb1080f-21d7-4a90-8726-7713cae53fbd",
+              "type": "image/png"
+            }
+          ],
+          "explorer": {
+            "base": "https://test.whatsonchain.com",
+            "address": "https://test.whatsonchain.com/address/{address}",
+            "tx": "https://test.whatsonchain.com/tx/{tx}"
+          }
+        }
+      },
+      {
+        "id": "b92edfd2-78e8-4c10-948f-96bccd9248cf",
+        "legacyId": "BTC_TEST",
+        "displayName": "Bitcoin Testnet",
+        "nativeAssetId": "b0baf47e-84fd-4940-ab2a-05ca9fc40ad4",
+        "onchain": {
+          "protocol": "UTXO",
+          "test": true,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/e6662901-d396-42e4-ac9e-1828fcc11e6e",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/294d3f54-adb2-4edb-921e-56c3477deaa2",
+              "type": "image/png"
+            }
+          ],
+          "explorer": {
+            "base": "https://blockstream.info/testnet",
+            "address": "https://blockstream.info/testnet/address/{address}",
+            "tx": "https://blockstream.info/testnet/tx/{tx}"
+          }
+        }
+      },
+      {
+        "id": "8cb17246-c0a8-45b5-9340-0d3aaaf8f5c4",
+        "legacyId": "CAMINO_COLUMBUS_TEST",
+        "displayName": "Camino Columbus Test",
+        "nativeAssetId": "9c1db094-e6ce-4bdd-a7fa-4ccebc481f84",
+        "onchain": {
+          "protocol": "EVM",
+          "chainId": "501",
+          "test": true,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/85dbdc3c-e3d7-4da0-b66c-a3ecfdd70892",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/05b42ec1-a057-42a0-a0cb-b53c2730e3ec",
+              "type": "image/png"
+            }
+          ],
+          "explorer": {
+            "base": "https://suite.camino.network/",
+            "address": "https://suite.camino.network/explorer/columbus/c-chain/address/{address}",
+            "tx": "https://suite.camino.network/explorer/columbus/c-chain/tx/{tx}"
+          }
+        }
+      },
+      {
+        "id": "67637192-3363-4f7d-8a9e-08f4bba83caf",
+        "legacyId": "CANTO_TEST",
+        "displayName": "Canto Testnet",
+        "nativeAssetId": "5f0191c6-c6a8-4bc3-939a-9936a7c7b450",
+        "onchain": {
+          "protocol": "EVM",
+          "chainId": "7701",
+          "test": true,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/261af67f-98ad-4b73-ad28-b4bdb0a6b05a",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/a63f0058-a9cb-4a1b-9b75-31891d758198",
+              "type": "image/png"
+            }
+          ]
+        }
+      },
+      {
+        "id": "84a0f9c5-1563-4868-a5bd-11db52c13f29",
+        "legacyId": "CANVAS_TEST",
+        "displayName": "Canvas Testnet",
+        "nativeAssetId": "8b7d03dc-3009-4091-b594-920527df4016",
+        "onchain": {
+          "protocol": "EVM",
+          "chainId": "2091074337",
+          "test": true,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": { "scope": "GLOBAL", "deprecated": false }
+      },
+      {
+        "id": "e814e98b-6a80-49cc-b16e-600ba7ff2c11",
+        "legacyId": "CELESTIA_TEST",
+        "displayName": "Celestia Testnet",
+        "nativeAssetId": "f0738280-7537-4fe7-8fae-9e266216742b",
+        "onchain": {
+          "protocol": "COSMOS",
+          "test": true,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/bbd57a9f-10b0-46be-92e4-46be9c46f408",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/9600d5fa-c957-4e01-a2ae-9c2784e0eeba",
+              "type": "image/png"
+            }
+          ],
+          "explorer": {
+            "base": "https://testnet.celestia.explorers.guru",
+            "address": "https://testnet.celestia.explorers.guru/account/{address}",
+            "tx": "https://testnet.celestia.explorers.guru/transaction/{tx}"
+          }
+        }
+      },
+      {
+        "id": "38192dd0-9469-486b-b644-b24dd207b057",
+        "legacyId": "CELO_ALFAJORES",
+        "displayName": "Celo Alfajores Testnet",
+        "nativeAssetId": "46e56ce8-2686-4b7c-affa-0b23e2c22242",
+        "onchain": {
+          "protocol": "EVM",
+          "chainId": "44787",
+          "test": true,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/4501d94c-cbca-4157-bdc3-6893c1a9f882",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/25f18a89-5d88-4971-a78d-48b64b3f255b",
+              "type": "image/png"
+            }
+          ],
+          "explorer": {
+            "base": "https://alfajores-blockscout.celo-testnet.org",
+            "address": "https://alfajores-blockscout.celo-testnet.org/address/{address}",
+            "tx": "https://alfajores-blockscout.celo-testnet.org/tx/{tx}"
+          }
+        }
+      },
+      {
+        "id": "adfccb19-1f92-429a-b799-b32609d75e78",
+        "legacyId": "CELO_BAKLAVA",
+        "displayName": "Celo Baklava Testnet",
+        "nativeAssetId": "e6ee434a-dc84-4e47-ad23-bd01ced8d0ac",
+        "onchain": {
+          "protocol": "EVM",
+          "chainId": "62320",
+          "test": true,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/4501d94c-cbca-4157-bdc3-6893c1a9f882",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/25f18a89-5d88-4971-a78d-48b64b3f255b",
+              "type": "image/png"
+            }
+          ],
+          "explorer": {
+            "base": "https://baklava-blockscout.celo-testnet.org",
+            "address": "https://baklava-blockscout.celo-testnet.org/null/{address}",
+            "tx": "https://baklava-blockscout.celo-testnet.org/tx/{tx}"
+          }
+        }
+      },
+      {
+        "id": "0e4ff716-d535-4b1c-94b7-9ab59fbc94fa",
+        "legacyId": "CELO_TEST",
+        "displayName": "Celo Sepolia Testnet",
+        "nativeAssetId": "9cabb2f6-f3be-4e5e-864d-3c7c33f0b717",
+        "onchain": {
+          "protocol": "EVM",
+          "chainId": "11142220",
+          "test": true,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "explorer": {
+            "base": "https://celo-sepolia.blockscout.com/",
+            "address": "https://celo-sepolia.blockscout.com/https://celo-sepolia.blockscout.com/address/{address}",
+            "tx": "https://celo-sepolia.blockscout.com/https://celo-sepolia.blockscout.com/tx/{tx}"
+          }
+        }
+      },
+      {
+        "id": "60be06fc-d569-4d65-b910-9f9561141105",
+        "legacyId": "CENTRIFUGE_TEST",
+        "displayName": "Centrifuge Test",
+        "nativeAssetId": "a84159b3-bde5-4fd2-b449-918a9b8b977a",
+        "onchain": {
+          "protocol": "EVM",
+          "chainId": "2090",
+          "test": true,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/80cef44c-8989-4aa6-934d-859a1538a9b2",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/2c125a1f-7ddd-46ad-ad49-f60abc7c8b5c",
+              "type": "image/png"
+            }
+          ]
+        }
+      },
+      {
+        "id": "d5b9a26c-159b-4739-870c-84633f29a377",
+        "legacyId": "CHZ2_TEST",
+        "displayName": "Chiliz Chain Testnet",
+        "nativeAssetId": "8ee1a888-b0ac-486a-a997-8de278d451e1",
+        "onchain": {
+          "protocol": "EVM",
+          "chainId": "88882",
+          "test": true,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/2d0e98be-5efc-4970-bb05-15605070753f",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/45d12da8-c064-40ff-a537-d01e452f47ee",
+              "type": "image/png"
+            }
+          ],
+          "explorer": {
+            "base": "https://spicy-explorer.chiliz.com/",
+            "address": "https://spicy-explorer.chiliz.com/address/{address}",
+            "tx": "https://spicy-explorer.chiliz.com/tx/{tx}"
+          }
+        }
+      },
+      {
+        "id": "cb4fe200-61c6-4d9a-b686-9b0d1e044c53",
+        "legacyId": "CODEX_TEST",
+        "displayName": "Codex Testnet",
+        "nativeAssetId": "64037060-a4fe-4865-be97-51362f243cd0",
+        "onchain": {
+          "protocol": "EVM",
+          "chainId": "812242",
+          "test": true,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/5eb12374-fc50-40d4-8d0c-87bae4293580",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/0a464702-1eec-495c-a6d0-378d4bd64611",
+              "type": "image/png"
+            }
+          ]
+        }
+      },
+      {
+        "id": "09854144-7951-422d-9827-a2aff82666fc",
+        "legacyId": "COREDAO_TEST",
+        "displayName": "Core DAO Testnet",
+        "nativeAssetId": "fc4acf0e-168c-4864-971c-beef0107ea8d",
+        "onchain": {
+          "protocol": "EVM",
+          "chainId": "1115",
+          "test": true,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/32c9134e-27b3-45d1-b197-efc41e7a7000",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/a72d8b67-2d2d-4a49-a4d9-b874ec32b6f5",
+              "type": "image/png"
+            }
+          ],
+          "explorer": {
+            "base": "https://scan.test.btcs.network/",
+            "address": "https://scan.test.btcs.network/address/{address}",
+            "tx": "https://scan.test.btcs.network/tx/{tx}"
+          }
+        }
+      },
+      {
+        "id": "4e75ed9a-7b8c-4d59-b654-27ae56de077f",
+        "legacyId": "DASH_TEST",
+        "displayName": "Dash Testnet",
+        "nativeAssetId": "d948c77a-d627-4063-8deb-03d79d9a1fef",
+        "onchain": {
+          "protocol": "UTXO",
+          "test": true,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/5480fede-46cd-4006-be2d-baa43fbc5919",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/1f4c856b-c018-4889-962d-2eb2bbeb99cb",
+              "type": "image/png"
+            }
+          ],
+          "explorer": {
+            "base": "https://sochain.com",
+            "address": "https://sochain.com/address/DASHTEST/{address}",
+            "tx": "https://sochain.com/tx/DASHTEST/{tx}"
+          }
+        }
+      },
+      {
+        "id": "aedcd9db-143b-48c5-ba35-723088661af2",
+        "legacyId": "DIEM_XUS_TEST",
+        "displayName": "Diem Testnet",
+        "nativeAssetId": "9b2d8e3e-a248-41e3-8a82-23a54deb4bc5",
+        "onchain": { "protocol": null, "test": true },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": true,
+          "explorer": {
+            "base": "https://diemexplorer.com",
+            "address": "https://diemexplorer.com/testnet/account/{address}",
+            "tx": "https://diemexplorer.com/testnet/version/{tx}"
+          }
+        }
+      },
+      {
+        "id": "b24540e6-3bf7-4ed2-87ee-a8bfd100980b",
+        "legacyId": "DNB_TBD_TEST",
+        "displayName": "DNB CBDC Test",
+        "nativeAssetId": "f745d8cf-7d8e-477d-b101-b80a727357df",
+        "onchain": {
+          "protocol": "EVM",
+          "chainId": "3011",
+          "test": true,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": { "scope": "GLOBAL", "deprecated": false }
+      },
+      {
+        "id": "b652a6df-eb71-43d4-88c3-f62ecc4d489d",
+        "legacyId": "DOGE_TEST",
+        "displayName": "Dogecoin Testnet",
+        "nativeAssetId": "5614db02-beee-4661-8eb4-053e66f5cfe1",
+        "onchain": {
+          "protocol": "UTXO",
+          "test": true,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/9bbb5dea-2988-40b1-9558-8f7de11cae18",
+              "type": "image/svg+xml"
+            }
+          ],
+          "explorer": {
+            "base": "https://chain.so",
+            "address": "https://chain.so/null/{address}",
+            "tx": "https://chain.so/tx/DOGETEST/{tx}"
+          }
+        }
+      },
+      {
+        "id": "97eb386b-de20-47b5-9a82-79fd161484be",
+        "legacyId": "DSETH_DEV",
+        "displayName": "dSETH (Dev)",
+        "nativeAssetId": "4b086de5-4857-4006-b22d-854f234a0a51",
+        "onchain": {
+          "protocol": "EVM",
+          "chainId": "19150319",
+          "test": true,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": { "scope": "GLOBAL", "deprecated": false }
+      },
+      {
+        "id": "4e96d634-ae39-4673-8855-c26a71add358",
+        "legacyId": "DV4TNT_TEST",
+        "displayName": "DYDX Testnet",
+        "nativeAssetId": "66efa8db-0158-4544-a40b-53d8402bdd48",
+        "onchain": {
+          "protocol": "COSMOS",
+          "test": true,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/576f09ef-83ff-4db8-bfec-90d35344df96",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/fea1e4aa-a26a-4851-86f1-d97c4cf08e08",
+              "type": "image/png"
+            }
+          ],
+          "explorer": {
+            "base": "https://www.mintscan.io/",
+            "address": "https://www.mintscan.io/dydx-testnet/address/{address}",
+            "tx": "https://www.mintscan.io/dydx-testnet/tx/{tx}"
+          }
+        }
+      },
+      {
+        "id": "52c0b839-ecd0-4393-a2be-c3c2cea7312a",
+        "legacyId": "EOS_TEST",
+        "displayName": "EOS.IO Testnet",
+        "nativeAssetId": "98894397-baa3-4812-a748-7d507f7baf3c",
+        "onchain": {
+          "protocol": "EOS",
+          "test": true,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/37d13766-92b3-4ee7-ad05-72bfac006093",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/206121b2-85b1-4ef4-a142-1e8003b8dff8",
+              "type": "image/png"
+            }
+          ],
+          "explorer": {
+            "base": "https://jungle3.bloks.io",
+            "address": "https://jungle3.bloks.io/account/{address}",
+            "tx": "https://jungle3.bloks.io/transaction/{tx}"
+          }
+        }
+      },
+      {
+        "id": "3a3c3965-cedd-4183-8d6f-052ca72429ee",
+        "legacyId": "ETC_TEST",
+        "displayName": "Ethereum Classic Testnet Mordor",
+        "nativeAssetId": "8127a3c9-a2de-4a07-92ee-e80148993cfd",
+        "onchain": {
+          "protocol": "ETC",
+          "chainId": "63",
+          "test": true,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/231f4764-9311-42fb-8257-0b18590b52ec",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/9fa7e45f-7cb3-40c9-b1ab-714d5dfa4308",
+              "type": "image/png"
+            }
+          ],
+          "explorer": {
+            "base": "https://mordor.etccoopexplorer.com",
+            "address": "https://mordor.etccoopexplorer.com/addr/{address}",
+            "tx": "https://mordor.etccoopexplorer.com/tx/{tx}/internal_transactions"
+          }
+        }
+      },
+      {
+        "id": "bd8bda35-8c9d-4b98-8940-b39c7a0518eb",
+        "legacyId": "ETHERLINK_TEST",
+        "displayName": "Etherlink Testnet",
+        "nativeAssetId": "a27b0232-92dc-466e-afc7-0ba9682ca9da",
+        "onchain": {
+          "protocol": "EVM",
+          "chainId": "128123",
+          "test": true,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/5d338ace-38b6-43d2-882f-257d917c564b",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/2440fc47-e342-44bf-9851-46627929b786",
+              "type": "image/png"
+            }
+          ],
+          "explorer": {
+            "base": "https://testnet-explorer.etherlink.com/",
+            "address": "https://testnet-explorer.etherlink.com/address/{address}",
+            "tx": "https://testnet-explorer.etherlink.com/tx/{tx}",
+            "token": "https://testnet-explorer.etherlink.com/token/{contract}/instance/{tokenId}"
+          }
+        }
+      },
+      {
+        "id": "bc430ddd-3906-4194-86a3-7a6a3838fb9d",
+        "legacyId": "ETH_TEST",
+        "displayName": "Ethereum Testnet Ropsten",
+        "nativeAssetId": "e1b00728-5099-479f-af46-b118c6f787f7",
+        "onchain": {
+          "protocol": "EVM",
+          "chainId": "3",
+          "test": true,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": true,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/9b9e3a53-bedd-43a3-a3fd-55dd258c743e",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/5fe5912f-7231-4dd8-b1d5-8210987f981b",
+              "type": "image/png"
+            }
+          ],
+          "explorer": {
+            "base": "https://explorer.anyblock.tools",
+            "address": "https://explorer.anyblock.tools/ethereum/ethereum/ropsten/address/{address}",
+            "tx": "https://explorer.anyblock.tools/ethereum/ethereum/ropsten/tx/{tx}"
+          }
+        }
+      },
+      {
+        "id": "dbdcd316-7333-4cbc-902d-b36b576a28ff",
+        "legacyId": "ETH_TEST2",
+        "displayName": "Ethereum Testnet Kovan",
+        "nativeAssetId": "d1e5c716-b74a-4fe2-b876-86667fe66d59",
+        "onchain": {
+          "protocol": "EVM",
+          "chainId": "42",
+          "test": true,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": true,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/9b9e3a53-bedd-43a3-a3fd-55dd258c743e",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/5fe5912f-7231-4dd8-b1d5-8210987f981b",
+              "type": "image/png"
+            }
+          ]
+        }
+      },
+      {
+        "id": "dd1098bb-6870-4a2a-9a6b-8e45c874a510",
+        "legacyId": "ETH_TEST3",
+        "displayName": "Ethereum Testnet Goerli",
+        "nativeAssetId": "f46a2b94-48e4-4684-a147-af16c7f39d30",
+        "onchain": {
+          "protocol": "EVM",
+          "chainId": "5",
+          "test": true,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": true,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/9b9e3a53-bedd-43a3-a3fd-55dd258c743e",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/5fe5912f-7231-4dd8-b1d5-8210987f981b",
+              "type": "image/png"
+            }
+          ]
+        }
+      },
+      {
+        "id": "441ae997-880b-4849-b7f2-1c19589c60f3",
+        "legacyId": "ETH_TEST4",
+        "displayName": "Ethereum Testnet Rinkeby",
+        "nativeAssetId": "698120ef-1442-4ff3-b74c-9e8ebf3aa213",
+        "onchain": {
+          "protocol": "EVM",
+          "chainId": "4",
+          "test": true,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": true,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/9b9e3a53-bedd-43a3-a3fd-55dd258c743e",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/5fe5912f-7231-4dd8-b1d5-8210987f981b",
+              "type": "image/png"
+            }
+          ]
+        }
+      },
+      {
+        "id": "ab67b301-e51e-43ad-afae-41f16187d7b5",
+        "legacyId": "ETH_TEST5",
+        "displayName": "Ethereum Testnet Sepolia",
+        "nativeAssetId": "d9c7a5a4-2d16-411d-b036-3054b7823efb",
+        "onchain": {
+          "protocol": "EVM",
+          "chainId": "11155111",
+          "test": true,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/9b9e3a53-bedd-43a3-a3fd-55dd258c743e",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/5fe5912f-7231-4dd8-b1d5-8210987f981b",
+              "type": "image/png"
+            }
+          ],
+          "explorer": {
+            "base": "https://sepolia.etherscan.io",
+            "address": "https://sepolia.etherscan.io/address/{address}",
+            "tx": "https://sepolia.etherscan.io/tx/{tx}",
+            "token": "https://sepolia.etherscan.io/token/{contract}?a={tokenId}"
+          }
+        }
+      },
+      {
+        "id": "de159b54-22e4-4ba0-b9b6-cd562dc80c34",
+        "legacyId": "ETH_TEST6",
+        "displayName": "Ethereum Testnet Holesky",
+        "nativeAssetId": "1ecc942d-7070-4937-89e5-79e0dae530c3",
+        "onchain": {
+          "protocol": "EVM",
+          "chainId": "17000",
+          "test": true,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/9b9e3a53-bedd-43a3-a3fd-55dd258c743e",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/5fe5912f-7231-4dd8-b1d5-8210987f981b",
+              "type": "image/png"
+            }
+          ],
+          "explorer": {
+            "base": "https://holesky.etherscan.io/",
+            "address": "https://holesky.etherscan.io/address/{address}",
+            "tx": "https://holesky.etherscan.io/tx/{tx}",
+            "token": "https://holesky.etherscan.io/token/{contract}?a={tokenId}"
+          }
+        }
+      },
+      {
+        "id": "3f967e52-1d2a-4f51-8a52-e78d787faa35",
+        "legacyId": "ETH_TEST_HOODI",
+        "displayName": "Ethereum Hoodi Testnet",
+        "nativeAssetId": "db2711d9-63fb-446e-bce3-c31ed7fd9721",
+        "onchain": {
+          "protocol": "EVM",
+          "chainId": "560048",
+          "test": true,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/9b9e3a53-bedd-43a3-a3fd-55dd258c743e",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/5fe5912f-7231-4dd8-b1d5-8210987f981b",
+              "type": "image/png"
+            }
+          ],
+          "explorer": {
+            "base": "https://hoodi.etherscan.io/",
+            "address": "https://hoodi.etherscan.io/address/{address}",
+            "tx": "https://hoodi.etherscan.io/tx/{tx}"
+          }
+        }
+      },
+      {
+        "id": "24f24d0d-e350-4a64-9b11-2ce9a5670de4",
+        "legacyId": "FB_ATHENA_TEST",
+        "displayName": "FB Private Test",
+        "nativeAssetId": "53a6734d-772d-4a95-a2d8-e957d07e9b45",
+        "onchain": {
+          "protocol": "UTXO",
+          "test": true,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": { "scope": "GLOBAL", "deprecated": false }
+      },
+      {
+        "id": "772cb6c1-915c-4fb7-afcb-7e08cbe07d42",
+        "legacyId": "FILECOIN_FEVM_TEST",
+        "displayName": "Filecoin EVM Test",
+        "nativeAssetId": "e645f57f-b3fa-4184-aa2a-44f8952a6832",
+        "onchain": {
+          "protocol": "EVM",
+          "chainId": "314159",
+          "test": true,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/b2a681e4-499d-486a-a679-3e02739b9e84",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/f6ed9919-4e31-450d-a6e7-0cacf0704b9f",
+              "type": "image/png"
+            }
+          ],
+          "explorer": {
+            "base": "https://calibration.filfox.info/en",
+            "address": "https://calibration.filfox.info/en/address/{address}",
+            "tx": "https://calibration.filfox.info/en/message/{tx}"
+          }
+        }
+      },
+      {
+        "id": "af59f3b5-68d9-4d7d-904f-64ccd2662b30",
+        "legacyId": "FLOW_CHAIN_TEST",
+        "displayName": "Flow EVM Testnet",
+        "nativeAssetId": "6c782363-0b5d-4a31-96b7-49d9ee332d5a",
+        "onchain": {
+          "protocol": "EVM",
+          "chainId": "545",
+          "test": true,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/4a6fcd77-2cba-4e6f-94bc-97292b7dbe8e",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/c65c4337-9617-4995-b538-696bfb9c18ba",
+              "type": "image/png"
+            }
+          ]
+        }
+      },
+      {
+        "id": "07624891-68b2-472e-87b2-72312577fe78",
+        "legacyId": "GNOSIS_TEST",
+        "displayName": "Gnosis Testnet",
+        "nativeAssetId": "6c2d4a82-af69-43b5-ab92-29af7adce3ef",
+        "onchain": {
+          "protocol": "EVM",
+          "chainId": "10200",
+          "test": true,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/fb3d2289-c35f-4c98-8c91-9331f5a11328",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/607cc021-df73-4ae5-ae91-624e9d92eb4f",
+              "type": "image/png"
+            }
+          ],
+          "explorer": {
+            "base": "https://gnosis-chiado.blockscout.com/",
+            "address": "https://gnosis-chiado.blockscout.com/address/{address}",
+            "tx": "https://gnosis-chiado.blockscout.com/tx/{tx}"
+          }
+        }
+      },
+      {
+        "id": "9e9b51a0-4005-4215-bc17-ef25e5519317",
+        "legacyId": "GUN_GUNZILLA_TEST",
+        "displayName": "Gun Gunzilla Testnet",
+        "nativeAssetId": "84a22ea1-c9f8-4302-a668-5d4eb78ee419",
+        "onchain": {
+          "protocol": "EVM",
+          "chainId": "49321",
+          "test": true,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/393e433c-5f80-4137-afc7-4128fa0a9d04",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/31f57fdd-eba5-4942-92eb-716ca5665371",
+              "type": "image/png"
+            }
+          ],
+          "explorer": {
+            "base": "https://testnet.gunzscan.io",
+            "address": "https://testnet.gunzscan.io/address/{address}",
+            "tx": "https://testnet.gunzscan.io/tx/{tx}",
+            "token": "https://testnet.gunzscan.io/token/{contract}/instance/{tokenId}"
+          }
+        }
+      },
+      {
+        "id": "6ffe8f75-f145-4793-b5c8-61f427a779a9",
+        "legacyId": "GUSDT_TEST",
+        "displayName": "Stable Test",
+        "nativeAssetId": "cf6a92a9-6b5d-4e54-abfc-13c362731a8b",
+        "onchain": {
+          "protocol": "EVM",
+          "chainId": "2201",
+          "test": true,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "explorer": {
+            "base": "https://testnet.stablescan.xyz",
+            "address": "https://testnet.stablescan.xyz/https://testnet.stablescan.xyz/address/{address}",
+            "tx": "https://testnet.stablescan.xyz/https://testnet.stablescan.xyz/txs/{tx}"
+          }
+        }
+      },
+      {
+        "id": "176bd4ad-5b3a-4a50-ad00-afc63587bad2",
+        "legacyId": "HBAR_TEST",
+        "displayName": "Hedera Testnet",
+        "nativeAssetId": "517ea440-740b-44db-a96e-6f02637aec98",
+        "onchain": {
+          "protocol": "HBAR",
+          "test": true,
+          "signingAlgo": "EDDSA_ED25519"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/2681d173-6759-472a-9dde-dc4f28b63cd3",
+              "type": "image/svg+xml"
+            }
+          ],
+          "explorer": {
+            "base": "https://testnet.dragonglass.me",
+            "address": "https://testnet.dragonglass.me/hedera/accounts/{address}",
+            "tx": "https://testnet.dragonglass.me/hedera/transactions/{tx}"
+          }
+        }
+      },
+      {
+        "id": "55601833-61b0-4f26-860d-8249d28cbb5b",
+        "legacyId": "HEDERA_EVM_TEST",
+        "displayName": "Hedera Evm Testnet",
+        "nativeAssetId": "6fe07aea-aa91-42c4-ad43-2a3450e00480",
+        "onchain": {
+          "protocol": "EVM",
+          "chainId": "296",
+          "test": true,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": { "scope": "GLOBAL", "deprecated": false }
+      },
+      {
+        "id": "a589074c-7c8c-417d-9a48-e5d2f5839832",
+        "legacyId": "HT_TEST",
+        "displayName": "HT Chain Testnet",
+        "nativeAssetId": "421d2b3e-8356-4496-b51a-f397a40ec4f7",
+        "onchain": {
+          "protocol": "EVM",
+          "chainId": "256",
+          "test": true,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": true,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/908ebe7b-ecb3-4267-955a-60b9fe5de34a",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/845eb443-d047-434f-b907-26df8a6f3338",
+              "type": "image/png"
+            }
+          ],
+          "explorer": {
+            "base": "https://scan.hecochain.com/en-us",
+            "address": "https://scan.hecochain.com/en-us/address/{address}",
+            "tx": "https://scan.hecochain.com/en-us/tx/{tx}"
+          }
+        }
+      },
+      {
+        "id": "c987dbea-c2c5-4c69-9d70-2852ffc3d30e",
+        "legacyId": "HUMANITY_TEST",
+        "displayName": "Humanity Protocol Testnet",
+        "nativeAssetId": "d5a6bfa8-fb03-49f2-bb71-c1515dd150c5",
+        "onchain": {
+          "protocol": "EVM",
+          "chainId": "7080969",
+          "test": true,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "explorer": {
+            "base": "https://humanity-testnet.explorer.alchemy.com/",
+            "address": "https://humanity-testnet.explorer.alchemy.com/https://humanity-testnet.explorer.alchemy.com/address/{address}",
+            "tx": "https://humanity-testnet.explorer.alchemy.com/https://humanity-testnet.explorer.alchemy.com/tx/{tx}"
+          }
+        }
+      },
+      {
+        "id": "45552402-47bb-4e45-88d6-84475801836e",
+        "legacyId": "HYPE_ETH_TEST",
+        "displayName": "Hyperliquid Test",
+        "nativeAssetId": "32426eb9-9d33-42e6-83d5-4426378f007f",
+        "onchain": {
+          "protocol": "EVM",
+          "chainId": "998",
+          "test": true,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/1bb1aa75-f0bb-47ee-a3e1-04b02e76a69e",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/38b3ff1f-52fa-4b90-ada9-c28a312ef45d",
+              "type": "image/png"
+            }
+          ]
+        }
+      },
+      {
+        "id": "b6d19728-f8dd-4ed5-90df-08e6b24ae517",
+        "legacyId": "IMX_ZKEVM_TEST",
+        "displayName": "Immutable zkEVM Test",
+        "nativeAssetId": "e89f5cd1-5006-441a-8b85-3ff69133ccb9",
+        "onchain": {
+          "protocol": "EVM",
+          "chainId": "13473",
+          "test": true,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/5cc3aef6-f2c6-4e45-ba94-7ef000391bac",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/3c3bd592-8da1-45c1-bd89-8080929e0339",
+              "type": "image/png"
+            }
+          ],
+          "explorer": {
+            "base": "https://explorer.testnet.immutable.com/",
+            "address": "https://explorer.testnet.immutable.com/address/{address}",
+            "tx": "https://explorer.testnet.immutable.com/tx/{tx}"
+          }
+        }
+      },
+      {
+        "id": "abcb4a94-f745-4b56-a171-e8191fd1a211",
+        "legacyId": "INITIA_TEST",
+        "displayName": "Initia Testnet",
+        "nativeAssetId": "dfdce6ae-0fb9-4660-abad-51bae9ad562f",
+        "onchain": {
+          "protocol": "COSMOS",
+          "test": true,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "explorer": {
+            "base": "https://scan.testnet.initia.xyz",
+            "address": "https://scan.testnet.initia.xyz/initiation-2/accounts/{address}",
+            "tx": "https://scan.testnet.initia.xyz/initiation-2/txs/{tx}"
+          }
+        }
+      },
+      {
+        "id": "e6c6b556-7d5f-4c8f-95ca-e38d40516d48",
+        "legacyId": "INJ_TEST",
+        "displayName": "Injective Testnet",
+        "nativeAssetId": "91b59656-6f0e-4946-b747-e7889c4df11f",
+        "onchain": {
+          "protocol": "COSMOS",
+          "test": true,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/8eba22ae-88af-4b8f-9c56-54e989c13d96",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/65d1104f-618e-4fdc-88ea-76dbe8c45d13",
+              "type": "image/png"
+            }
+          ],
+          "explorer": {
+            "base": "https://testnet.explorer.injective.network/",
+            "address": "https://testnet.explorer.injective.network/account/{address}",
+            "tx": "https://testnet.explorer.injective.network/transaction/{tx}"
+          }
+        }
+      },
+      {
+        "id": "30f5b1d6-1795-4072-9467-794baab0082d",
+        "legacyId": "INK_ETH_TEST",
+        "displayName": "Ink Sepolia Test",
+        "nativeAssetId": "614feecd-74bd-41c8-bb68-c4b760addd93",
+        "onchain": {
+          "protocol": "EVM",
+          "chainId": "763373",
+          "test": true,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/dbb6b6d8-ca39-45b3-a482-0ad566b510c4",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/d608454c-37ab-41a9-9668-97bc16782270",
+              "type": "image/png"
+            }
+          ]
+        }
+      },
+      {
+        "id": "a8bde6d7-1854-480c-85d2-6234b2ca30c3",
+        "legacyId": "KLAY_KAIA_TEST",
+        "displayName": "Kaia Testnet",
+        "nativeAssetId": "2e5cd0eb-55de-4637-98b9-16cdf825d3d0",
+        "onchain": {
+          "protocol": "EVM",
+          "chainId": "1001",
+          "test": true,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/62255808-fba8-48bd-a8d2-0c0f33a6e48f",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/b4cfe10e-e9c7-4ba7-b393-1bf48b200d5f",
+              "type": "image/png"
+            }
+          ],
+          "explorer": {
+            "base": "https://kairos.kaiascan.io/",
+            "address": "https://kairos.kaiascan.io/address/{address}",
+            "tx": "https://kairos.kaiascan.io/tx/{tx}",
+            "token": "https://kairos.kaiascan.io/nft/{contract}/{tokenId}"
+          }
+        }
+      },
+      {
+        "id": "85829012-3486-45ed-9883-1f27dee9e3f6",
+        "legacyId": "LINEA_SEPOLIA_TEST",
+        "displayName": "Linea Sepolia Test",
+        "nativeAssetId": "634f34d1-21fb-416e-aea8-fdfc8e3007c1",
+        "onchain": {
+          "protocol": "EVM",
+          "chainId": "59141",
+          "test": true,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/392611c7-1c56-42d8-becc-199051f27c35",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/8089cb6d-1783-41d0-9add-fe69976d564d",
+              "type": "image/png"
+            }
+          ],
+          "explorer": {
+            "base": "https://sepolia.lineascan.build/",
+            "address": "https://sepolia.lineascan.build/address/{address}",
+            "tx": "https://sepolia.lineascan.build/tx/{tx}"
+          }
+        }
+      },
+      {
+        "id": "ac73783b-5997-4e52-a3fe-fee56419e645",
+        "legacyId": "LINEA_TEST",
+        "displayName": "Linea Test",
+        "nativeAssetId": "71309e43-4222-4c84-82ef-0b0cdff25603",
+        "onchain": {
+          "protocol": "EVM",
+          "chainId": "59140",
+          "test": true,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/392611c7-1c56-42d8-becc-199051f27c35",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/8089cb6d-1783-41d0-9add-fe69976d564d",
+              "type": "image/png"
+            }
+          ],
+          "explorer": {
+            "base": "https://goerli.lineascan.build/",
+            "address": "https://goerli.lineascan.build/address/{address}",
+            "tx": "https://goerli.lineascan.build/tx/{tx}"
+          }
+        }
+      },
+      {
+        "id": "b17f3c6d-dced-46c6-a6fd-093d49794893",
+        "legacyId": "LTC_TEST",
+        "displayName": "Litecoin Testnet",
+        "nativeAssetId": "781b8927-54ea-421c-bac8-7c9cf3d999f6",
+        "onchain": {
+          "protocol": "UTXO",
+          "test": true,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/772b38f4-f4fc-4dd9-bb92-15e91670832e",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/7428b059-c437-4f45-80ad-88e2952a43a4",
+              "type": "image/png"
+            }
+          ],
+          "explorer": {
+            "base": "https://chain.so",
+            "address": "https://chain.so/tx/LTCTEST/{address}",
+            "tx": "https://chain.so/tx/LTCTEST/{tx}"
+          }
+        }
+      },
+      {
+        "id": "9fd8ea6f-72bf-44ab-a952-fed91a83dd94",
+        "legacyId": "LUNA2_TEST",
+        "displayName": "Terra 2.0 Testnet Pisco",
+        "nativeAssetId": "b603c44d-adb8-423a-ab41-9d422b45905b",
+        "onchain": {
+          "protocol": "TERRA",
+          "chainId": "0",
+          "test": true,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/ab8eaa63-bfa4-40a4-9700-6aed77d4a2aa",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/8f4aed4d-2e60-4d2f-8c11-e9c7b8ab0035",
+              "type": "image/png"
+            }
+          ],
+          "explorer": {
+            "base": "https://finder.terra.money",
+            "address": "https://finder.terra.money/null/{address}",
+            "tx": "https://finder.terra.money/testnet/tx/{tx}"
+          }
+        }
+      },
+      {
+        "id": "5181a89f-c2b3-4c7d-8106-dd63ac5eac86",
+        "legacyId": "MANTLE_TEST",
+        "displayName": "Mantle Sepolia",
+        "nativeAssetId": "d81f2466-7097-472e-94f8-492146e9c097",
+        "onchain": {
+          "protocol": "EVM",
+          "chainId": "5003",
+          "test": true,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/3b5ca41b-9d05-4333-b82a-2f3815686bac",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/1239fd89-a808-4316-937b-3b59dbde123b",
+              "type": "image/png"
+            }
+          ],
+          "explorer": {
+            "base": "https://explorer.sepolia.mantle.xyz/",
+            "address": "https://explorer.sepolia.mantle.xyz/address/{address}",
+            "tx": "https://explorer.sepolia.mantle.xyz/tx/{tx}",
+            "token": "https://explorer.sepolia.mantle.xyz/token/{contract}/instance/{tokenId}"
+          }
+        }
+      },
+      {
+        "id": "60f7057a-bdb3-4143-aa5c-54f68c50c39f",
+        "legacyId": "MANTRA_TEST",
+        "displayName": "MANTRA Testnet",
+        "nativeAssetId": "65af48ab-edfb-44df-9dc8-0423e9580b72",
+        "onchain": {
+          "protocol": "COSMOS",
+          "test": true,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/12695b43-5924-450b-a0e7-699b84e0d4c9",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/f838fdae-9f7e-41fa-b476-1c759fc8d43f",
+              "type": "image/png"
+            }
+          ],
+          "explorer": {
+            "base": "https://explorer.mantrachain.io/",
+            "address": "https://explorer.mantrachain.io/MANTRA-Dukong/account/{address}",
+            "tx": "https://explorer.mantrachain.io/MANTRA-Dukong/tx/{tx}"
+          }
+        }
+      },
+      {
+        "id": "f4650b6d-b259-4272-8065-04d2d4e7bf65",
+        "legacyId": "MEGA_ETH_TEST",
+        "displayName": "MegaETH Testnet",
+        "nativeAssetId": "acdd178f-2f73-4922-ace4-6dbb1d745564",
+        "onchain": {
+          "protocol": "EVM",
+          "chainId": "6342",
+          "test": true,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": { "scope": "GLOBAL", "deprecated": false }
+      },
+      {
+        "id": "8003e4f4-ac2c-46a8-9157-80e04af595ed",
+        "legacyId": "MONAD_TEST",
+        "displayName": "Monad Testnet",
+        "nativeAssetId": "826fcaeb-c83c-4d9f-8352-e2ca5098409a",
+        "onchain": {
+          "protocol": "EVM",
+          "chainId": "10143",
+          "test": true,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": { "scope": "GLOBAL", "deprecated": false }
+      },
+      {
+        "id": "28577b37-b1d0-4f32-9df0-f34ae9383ddd",
+        "legacyId": "MORPH_TEST",
+        "displayName": "Morph Test",
+        "nativeAssetId": "aa7374c6-25f9-4307-9db8-38b05e54d6ee",
+        "onchain": {
+          "protocol": "EVM",
+          "chainId": "2910",
+          "test": true,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "explorer": {
+            "base": "https://explorer-hoodi.morphl2.io/",
+            "address": "https://explorer-hoodi.morphl2.io/address/{address}",
+            "tx": "https://explorer-hoodi.morphl2.io/tx/{tx}"
+          }
+        }
+      },
+      {
+        "id": "46c4a851-04ad-4a85-b7c2-1ed1464fc4c6",
+        "legacyId": "NEAR_TEST",
+        "displayName": "NEAR Protocol Testnet",
+        "nativeAssetId": "e5dcb931-0d9b-44a4-a976-5af66a7b8bfc",
+        "onchain": {
+          "protocol": "NEAR",
+          "chainId": "testnet",
+          "test": true,
+          "signingAlgo": "EDDSA_ED25519"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/f5694817-ee90-4c9c-a15c-e763a134aac2",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/6eaa4092-c8db-4334-9936-9874a71056b1",
+              "type": "image/png"
+            }
+          ],
+          "explorer": {
+            "base": "https://explorer.testnet.near.org",
+            "address": "https://explorer.testnet.near.org/accounts/{address}",
+            "tx": "https://explorer.testnet.near.org/transactions/{tx}"
+          }
+        }
+      },
+      {
+        "id": "ade42ee5-544e-43b5-baae-36c8c52f162b",
+        "legacyId": "NERO_TEST",
+        "displayName": "Nero Testnet",
+        "nativeAssetId": "4c1aeea0-6335-408f-a190-1f383fa48a79",
+        "onchain": {
+          "protocol": "EVM",
+          "chainId": "689",
+          "test": true,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "explorer": {
+            "base": "https://testnet.neroscan.io",
+            "address": "https://testnet.neroscan.io/https://testnet.neroscan.io/accounts/{address}",
+            "tx": "https://testnet.neroscan.io/https://testnet.neroscan.io/view-txns/{tx}"
+          }
+        }
+      },
+      {
+        "id": "eb9db59d-5164-45da-974e-f000be69920b",
+        "legacyId": "NTRN_TEST",
+        "displayName": "Neutron Testnet",
+        "nativeAssetId": "2bf76704-b8cd-48a0-a2a5-e95f97866acb",
+        "onchain": {
+          "protocol": "COSMOS",
+          "test": true,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/755ca667-9f44-4c17-8f35-c24db502bbcb",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/7983f3d2-97d3-4463-a90b-8f7743f14d6a",
+              "type": "image/png"
+            }
+          ]
+        }
+      },
+      {
+        "id": "561b176f-734e-4c40-b7e9-f6f025828767",
+        "legacyId": "OAS_TEST",
+        "displayName": "Oasys Test",
+        "nativeAssetId": "48b05552-aa04-4543-a233-fe977ee3d738",
+        "onchain": {
+          "protocol": "EVM",
+          "chainId": "9372",
+          "test": true,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/6d017507-2051-4fd8-ad0b-230a264f9bc0",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/6a86354d-f079-447a-b2fe-6ece068b51ac",
+              "type": "image/png"
+            }
+          ],
+          "explorer": {
+            "base": "https://explorer.testnet.oasys.games/",
+            "address": "https://explorer.testnet.oasys.games/address/{address}",
+            "tx": "https://explorer.testnet.oasys.games/tx/{tx}"
+          }
+        }
+      },
+      {
+        "id": "98ce7cd4-1489-43ad-9443-e429df7da195",
+        "legacyId": "OMNI_EVM_TEST",
+        "displayName": "Omni EVM Testnet",
+        "nativeAssetId": "7a39acba-bb25-4c67-90f1-a106899c4c39",
+        "onchain": {
+          "protocol": "EVM",
+          "chainId": "164",
+          "test": true,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/84bb980a-7a86-4090-bc27-fbfad81f0495",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/b454f208-446e-480f-a997-3835d834209a",
+              "type": "image/png"
+            }
+          ]
+        }
+      },
+      {
+        "id": "a3c3c41d-abf8-4b49-92ea-adbefcb0a0e6",
+        "legacyId": "OPTIMISTIC_KOV",
+        "displayName": "Optimism Testnet Kovan",
+        "nativeAssetId": "ef6d09c9-80b4-405b-ac3a-84e3b2f7ab8e",
+        "onchain": {
+          "protocol": "EVM",
+          "chainId": "69",
+          "test": true,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/e74fce1e-529d-4bcf-b86d-8513661d9dd0",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/d68f20fd-8522-4862-b3ae-2fdc2b6fdc1c",
+              "type": "image/png"
+            }
+          ],
+          "explorer": {
+            "base": "https://kovan-optimistic.etherscan.io",
+            "address": "https://kovan-optimistic.etherscan.io/address/{address}",
+            "tx": "https://kovan-optimistic.etherscan.io/tx/{tx}"
+          }
+        }
+      },
+      {
+        "id": "d3399c98-b448-4159-8036-f2e21332026e",
+        "legacyId": "OPT_SEPOLIA",
+        "displayName": "Optimism Testnet Sepolia",
+        "nativeAssetId": "1f3e4136-f70a-4903-ac22-8a1960fb7f59",
+        "onchain": {
+          "protocol": "EVM",
+          "chainId": "11155420",
+          "test": true,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/e74fce1e-529d-4bcf-b86d-8513661d9dd0",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/d68f20fd-8522-4862-b3ae-2fdc2b6fdc1c",
+              "type": "image/png"
+            }
+          ],
+          "explorer": {
+            "base": "https://sepolia-optimism.etherscan.io/",
+            "address": "https://sepolia-optimism.etherscan.io/address/{address}",
+            "tx": "https://sepolia-optimism.etherscan.io/tx/{tx}"
+          }
+        }
+      },
+      {
+        "id": "498d2308-ab40-40f5-9524-9680f1a4795a",
+        "legacyId": "OSMO_TEST",
+        "displayName": "Osmosis Testnet",
+        "nativeAssetId": "be46acef-9544-4bd3-b811-cc187c492509",
+        "onchain": {
+          "protocol": "COSMOS",
+          "test": true,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/71593ca2-b538-4c7d-8740-294873a4e5bd",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/78441c3d-3674-4627-b666-42dc03919dd7",
+              "type": "image/png"
+            }
+          ],
+          "explorer": {
+            "base": "https://testnet.mintscan.io/",
+            "address": "https://testnet.mintscan.io/osmosis-testnet/account/{address}",
+            "tx": "https://testnet.mintscan.io/osmosis-testnet/txs/{tx}"
+          }
+        }
+      },
+      {
+        "id": "318f6724-6352-4258-ba25-1f854eda6339",
+        "legacyId": "PLASMA_TEST",
+        "displayName": "Plasma Testnet",
+        "nativeAssetId": "c283503f-e923-4761-8d48-ab56722d9b57",
+        "onchain": {
+          "protocol": "EVM",
+          "chainId": "9746",
+          "test": true,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": { "scope": "GLOBAL", "deprecated": false }
+      },
+      {
+        "id": "80758c1f-7848-4770-a794-03b7525a974e",
+        "legacyId": "POLYGON_TEST_MUMBAI",
+        "displayName": "Polygon Testnet Mumbai",
+        "nativeAssetId": "6e6fcb10-fc56-49ad-bf0c-edf699b4cf70",
+        "onchain": {
+          "protocol": "EVM",
+          "chainId": "80001",
+          "test": true,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": true,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/395f5eda-b036-4811-b781-1ea4fed994ea",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/bbb0f052-79fb-40e0-b10d-3014d0fe18db",
+              "type": "image/png"
+            }
+          ]
+        }
+      },
+      {
+        "id": "639bd82f-51e4-4cef-82f3-9cf13e17f9a4",
+        "legacyId": "PROVENANCE_TEST",
+        "displayName": "Provenance Testnet",
+        "nativeAssetId": "502b4d59-84f8-44d4-839d-c60b2fc9bf72",
+        "onchain": {
+          "protocol": "COSMOS",
+          "test": true,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "explorer": {
+            "base": "https://explorer.test.provenance.io",
+            "address": "https://explorer.test.provenance.io/accounts/{address}",
+            "tx": "https://explorer.test.provenance.io/tx/{tx}"
+          }
+        }
+      },
+      {
+        "id": "0104b08f-65fa-420d-a11a-72f636a4f54a",
+        "legacyId": "REDBELLY_TEST",
+        "displayName": "Redbelly Test",
+        "nativeAssetId": "e6d46390-47ac-4ba3-9353-da3800dd1e3a",
+        "onchain": {
+          "protocol": "EVM",
+          "chainId": "153",
+          "test": true,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/7851de93-608f-43ec-a7d5-9b94d75c400c",
+              "type": "image/svg+xml"
+            }
+          ]
+        }
+      },
+      {
+        "id": "b38ac43f-6a26-4a40-8d28-7b391fe9c3fb",
+        "legacyId": "RSK_TEST",
+        "displayName": "Rootstock Testnet",
+        "nativeAssetId": "dd8d5566-8ed1-4ae6-86de-6c537924b210",
+        "onchain": {
+          "protocol": "EVM",
+          "chainId": "31",
+          "test": true,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/a95f9c13-6ced-4d50-ba8f-daad7965c52d",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/051ae7e3-6a1c-4a21-b5e0-ff3de5c9a2fd",
+              "type": "image/png"
+            }
+          ],
+          "explorer": {
+            "base": "https://explorer.testnet.rsk.co",
+            "address": "https://explorer.testnet.rsk.co/address/{address}",
+            "tx": "https://explorer.testnet.rsk.co/tx/{tx}"
+          }
+        }
+      },
+      {
+        "id": "23bace70-2500-4e90-8689-e1577c6c30ab",
+        "legacyId": "RUNE_THOR_TEST",
+        "displayName": "THORChain Testnet",
+        "nativeAssetId": "8e629aeb-e945-423d-ace7-6e6c374a7a96",
+        "onchain": {
+          "protocol": "COSMOS",
+          "test": true,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/d2480e3e-5aa0-42b9-8cca-f883d6798154",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/53b66f35-4815-4f4a-a9b7-8eed4302e63e",
+              "type": "image/png"
+            }
+          ]
+        }
+      },
+      {
+        "id": "a426ec75-387f-4126-bc08-737521b4d223",
+        "legacyId": "SCROLL_SEPOLIA_TEST",
+        "displayName": "Scroll Sepolia Testnet",
+        "nativeAssetId": "29fb2cca-92a2-44be-a8a3-f43d66fd7a41",
+        "onchain": {
+          "protocol": "EVM",
+          "chainId": "534351",
+          "test": true,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/2f3a07c2-4e15-4ca2-a2c5-7469d93f1dd7",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/213fdbf2-a27e-4a58-aea0-8207a2bb8ec6",
+              "type": "image/png"
+            }
+          ],
+          "explorer": {
+            "base": "https://sepolia.scrollscan.com/",
+            "address": "https://sepolia.scrollscan.com/address/{address}",
+            "tx": "https://sepolia.scrollscan.com/tx/{tx}"
+          }
+        }
+      },
+      {
+        "id": "d17e49b0-c425-46c0-9519-0f1ea66e638e",
+        "legacyId": "SEI_TEST",
+        "displayName": "Sei Test",
+        "nativeAssetId": "d6257260-0d43-48e2-a043-bae74737822d",
+        "onchain": {
+          "protocol": "EVM",
+          "chainId": "1328",
+          "test": true,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/042ba459-43cd-4017-8542-fcc6e7ee3a51",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/4ca806a7-3e8f-4fad-8e11-6ed45f9c531c",
+              "type": "image/png"
+            }
+          ],
+          "explorer": {
+            "base": "https://seitrace.com",
+            "address": "https://seitrace.com/address/{address}?chain=atlantic-2",
+            "tx": "https://seitrace.com/tx/{tx}?chain=atlantic-2"
+          }
+        }
+      },
+      {
+        "id": "f1da17b5-857d-495d-8c70-494245f5351a",
+        "legacyId": "SMR_TEST",
+        "displayName": "Shimmer Test",
+        "nativeAssetId": "582b56d2-1897-42be-98c2-60312912d43a",
+        "onchain": {
+          "protocol": "EVM",
+          "chainId": "1073",
+          "test": true,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/454a7969-dbd7-48a7-8972-e083155b910c",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/eacc64c5-8742-4098-a879-0ac07f18e258",
+              "type": "image/png"
+            }
+          ],
+          "explorer": {
+            "base": "https://explorer.evm.testnet.shimmer.network/",
+            "address": "https://explorer.evm.testnet.shimmer.network/address/{address}",
+            "tx": "https://explorer.evm.testnet.shimmer.network/tx/{tx}"
+          }
+        }
+      },
+      {
+        "id": "b257a37a-6cfc-4ae6-80bf-1578229467bd",
+        "legacyId": "SOL_TEST",
+        "displayName": "Solana Devnet",
+        "nativeAssetId": "492a7653-5d4e-475e-adb7-b4e8ba99eee8",
+        "onchain": {
+          "protocol": "SOL",
+          "chainId": "8E9rvCKLFQia2Y35HXjjpWzj8weVo44K",
+          "test": true,
+          "signingAlgo": "EDDSA_ED25519"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/21ce5b0f-7be2-4ec0-a9fe-56c68695401d",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/f7c9fd20-3190-4569-929a-8bedfca9f0bc",
+              "type": "image/png"
+            }
+          ],
+          "explorer": {
+            "base": "https://explorer.solana.com",
+            "address": "https://explorer.solana.com/address/{address}?cluster=devnet",
+            "tx": "https://explorer.solana.com/tx/{tx}?cluster=devnet"
+          }
+        }
+      },
+      {
+        "id": "3067ca33-a558-4a46-abf1-f5fea3bae6fa",
+        "legacyId": "SOMNIA_TEST",
+        "displayName": "Somnia Test",
+        "nativeAssetId": "18a6cd0c-a1dc-4c84-8b41-2d3e85c46e78",
+        "onchain": {
+          "protocol": "EVM",
+          "chainId": "50312",
+          "test": true,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "explorer": {
+            "base": "https://shannon-explorer.somnia.network/",
+            "address": "https://shannon-explorer.somnia.network/address/{address}",
+            "tx": "https://shannon-explorer.somnia.network/tx/{tx}"
+          }
+        }
+      },
+      {
+        "id": "da9d90be-6fd0-4cff-b431-f6be369d3420",
+        "legacyId": "SONEIUM_MINATO_TEST",
+        "displayName": "Soneium Minato Test",
+        "nativeAssetId": "b07b869a-6b27-4170-807d-4567d813a307",
+        "onchain": {
+          "protocol": "EVM",
+          "chainId": "1946",
+          "test": true,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/4ffe3af5-727a-4d14-b849-52768bbe63e8",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/d6821105-dc72-4563-883b-56c8d9c0cc35",
+              "type": "image/png"
+            }
+          ],
+          "explorer": {
+            "base": "https://soneium-minato.blockscout.com",
+            "address": "https://soneium-minato.blockscout.com/address/{address}",
+            "tx": "https://soneium-minato.blockscout.com/tx/{tx}",
+            "token": "https://soneium-minato.blockscout.com/token/{contract}/instance/{tokenId}"
+          }
+        }
+      },
+      {
+        "id": "54b25fc6-bd6a-4e4a-a479-cc5c3b231f87",
+        "legacyId": "SONIC_TEST",
+        "displayName": "Sonic Testnet",
+        "nativeAssetId": "30b0720a-faa2-40cd-a31a-4ca303c09750",
+        "onchain": {
+          "protocol": "EVM",
+          "chainId": "57054",
+          "test": true,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/afe18077-35cb-4b85-a607-c0858b7f3437",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/5c8bf63b-6e06-4a60-8759-a3048547999d",
+              "type": "image/png"
+            }
+          ]
+        }
+      },
+      {
+        "id": "27381292-8604-458a-98c3-4b6552d7585e",
+        "legacyId": "SOPHON_TEST",
+        "displayName": "Sophon Testnet",
+        "nativeAssetId": "e68447f3-b7c0-4f17-9d6c-ba2870ff6600",
+        "onchain": {
+          "protocol": "EVM",
+          "chainId": "531050104",
+          "test": true,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": { "scope": "GLOBAL", "deprecated": false }
+      },
+      {
+        "id": "14be3abb-b63f-4667-a55d-deeb37f5df15",
+        "legacyId": "SUI_TEST",
+        "displayName": "SUI Testnet",
+        "nativeAssetId": "e4a6e562-0eb4-4467-85f6-71b071df2882",
+        "onchain": {
+          "protocol": "SUI",
+          "test": true,
+          "signingAlgo": "EDDSA_ED25519"
+        },
+        "metadata": { "scope": "GLOBAL", "deprecated": false }
+      },
+      {
+        "id": "db204bfa-759e-46ed-acce-e7b3e049e7b3",
+        "legacyId": "TELOS_TEST",
+        "displayName": "Telos EVM Test",
+        "nativeAssetId": "c7c0e94b-3166-4a86-aaee-104ff3d442cc",
+        "onchain": {
+          "protocol": "EVM",
+          "chainId": "41",
+          "test": true,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/a35a0b6d-3501-4d9b-b79b-6d21dc619f36",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/032e0438-4af4-4a15-87ca-9ad90aadf652",
+              "type": "image/png"
+            }
+          ],
+          "explorer": {
+            "base": "https://testnet.teloscan.io/",
+            "address": "https://testnet.teloscan.io/address/{address}",
+            "tx": "https://testnet.teloscan.io/tx/{tx}"
+          }
+        }
+      },
+      {
+        "id": "40a35677-ee6e-4502-a787-89f5b70da88b",
+        "legacyId": "TON_TEST",
+        "displayName": "TON Testnet",
+        "nativeAssetId": "e196767e-0583-454f-b355-115fe11d8704",
+        "onchain": {
+          "protocol": "TON",
+          "test": true,
+          "signingAlgo": "EDDSA_ED25519"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/2dec1568-7682-4532-9d4d-6379cb61e6c9",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/79f85cfa-ebf6-4cb6-b190-4afda698da50",
+              "type": "image/png"
+            }
+          ],
+          "explorer": {
+            "base": "https://testnet.tonviewer.com/",
+            "address": "https://testnet.tonviewer.com/{address}",
+            "tx": "https://testnet.tonviewer.com/transaction/{tx}"
+          }
+        }
+      },
+      {
+        "id": "a8c5bd0d-fb1b-4b12-a500-c11cb683509f",
+        "legacyId": "TRX_TEST",
+        "displayName": "TRON Testnet Shasta",
+        "nativeAssetId": "413cd7be-14cb-46c8-ab82-def775ec58e4",
+        "onchain": {
+          "protocol": "TRX",
+          "chainId": "0xcd8690dc",
+          "test": true,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/793ba29f-dbb1-453a-b71f-ae44af146384",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/385544a5-b282-4d55-95f3-924c16c5bc55",
+              "type": "image/png"
+            }
+          ],
+          "explorer": {
+            "base": "https://shasta.tronscan.org",
+            "address": "https://shasta.tronscan.org/#/address/{address}",
+            "tx": "https://shasta.tronscan.org/#/transaction/{tx}"
+          }
+        }
+      },
+      {
+        "id": "be80f71c-a916-48fa-a89f-70724cc25003",
+        "legacyId": "UNICHAIN_SEPOLIA_TEST",
+        "displayName": "Unichain Sepolia Test",
+        "nativeAssetId": "9dc50c09-e025-4378-a718-dc96a670b9de",
+        "onchain": {
+          "protocol": "EVM",
+          "chainId": "1301",
+          "test": true,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": { "scope": "GLOBAL", "deprecated": false }
+      },
+      {
+        "id": "50bdf579-2989-495f-8744-649b8247a5d1",
+        "legacyId": "USDC_NOBLE_TEST",
+        "displayName": "USDC Noble Testnet",
+        "nativeAssetId": "f2769fc9-5e35-4200-acd5-1aaa51cadd3e",
+        "onchain": {
+          "protocol": "COSMOS",
+          "test": true,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/51c1f7e5-950f-49c6-94b0-77f850c0ba65",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/e94e2e88-ee1f-436d-8b97-a9d292e47e7b",
+              "type": "image/png"
+            }
+          ]
+        }
+      },
+      {
+        "id": "ea010f6f-b3ee-46af-8ab3-af9e9fcd401d",
+        "legacyId": "VICTION_TEST",
+        "displayName": "Viction Chain Testnet",
+        "nativeAssetId": "92834024-8cec-4fdd-bc94-fb124f060e69",
+        "onchain": {
+          "protocol": "EVM",
+          "chainId": "89",
+          "test": true,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/0c160189-fcd8-4c2e-99cd-71e308488389",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/4815cfca-5413-48c8-b978-5950d0f149fd",
+              "type": "image/png"
+            }
+          ]
+        }
+      },
+      {
+        "id": "c2c2a625-c976-4827-a24f-fe94b01e03ff",
+        "legacyId": "VLX_TEST",
+        "displayName": "Velas Testnet",
+        "nativeAssetId": "3f4d22f0-507c-4535-9a8c-872b84e6e7f4",
+        "onchain": {
+          "protocol": "EVM",
+          "chainId": "111",
+          "test": true,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": true,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/5aaa7b19-574e-460e-84f3-9b29ce64473c",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/39c9ce2f-c45b-4b0e-9d59-6d1f671d916b",
+              "type": "image/png"
+            }
+          ],
+          "explorer": {
+            "base": "https://evmexplorer.testnet.velas.com",
+            "address": "https://evmexplorer.testnet.velas.com/address/{address}",
+            "tx": "https://evmexplorer.testnet.velas.com/tx/{tx}"
+          }
+        }
+      },
+      {
+        "id": "eb3a79d9-67c6-46bc-a1d3-3f321483cd2b",
+        "legacyId": "WEMIX_TEST",
+        "displayName": "WEMIX Testnet",
+        "nativeAssetId": "489928d5-2de7-47e5-95a7-2c7d2176cbf4",
+        "onchain": {
+          "protocol": "EVM",
+          "chainId": "1112",
+          "test": true,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/466a963b-8f02-4b06-a9db-61714b8ec28f",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/a1a8a052-758b-40b3-964a-56294640cf7b",
+              "type": "image/png"
+            }
+          ]
+        }
+      },
+      {
+        "id": "384dc593-12e4-49e4-bcbc-d4d0aca0746c",
+        "legacyId": "WND",
+        "displayName": "Westend",
+        "nativeAssetId": "42b6cc63-3035-4185-82a3-9399791b670f",
+        "onchain": {
+          "protocol": "DOT",
+          "test": true,
+          "signingAlgo": "EDDSA_ED25519"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "explorer": {
+            "base": "https://assethub-westend.subscan.io/",
+            "address": "https://assethub-westend.subscan.io/account/{address}",
+            "tx": "https://assethub-westend.subscan.io/extrinsic/{tx}"
+          }
+        }
+      },
+      {
+        "id": "d38666f0-8a37-4304-b448-c5138f11f431",
+        "legacyId": "WOMOX",
+        "displayName": "WorldMobile Testnet",
+        "nativeAssetId": "ee9c8916-a6ee-44b1-b4c9-4e6d11b2989f",
+        "onchain": {
+          "protocol": "EVM",
+          "chainId": "323432",
+          "test": true,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": { "scope": "GLOBAL", "deprecated": false }
+      },
+      {
+        "id": "dffcd052-456b-4b4f-9784-b658cf4c48b9",
+        "legacyId": "WORLDCHAIN_TEST",
+        "displayName": "Worldchain Test",
+        "nativeAssetId": "6a496a35-e55f-46d0-a7da-7416131ac65f",
+        "onchain": {
+          "protocol": "EVM",
+          "chainId": "4801",
+          "test": true,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/f96cd5fd-a093-44d6-9ec2-41977777d94d",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/033c13a4-ea3b-4a57-a9d7-e0d704c1df4c",
+              "type": "image/png"
+            }
+          ],
+          "explorer": {
+            "base": "https://worldchain-sepolia.explorer.alchemy.com/",
+            "address": "https://worldchain-sepolia.explorer.alchemy.com/address/{address}",
+            "tx": "https://worldchain-sepolia.explorer.alchemy.com/tx/{tx}"
+          }
+        }
+      },
+      {
+        "id": "5f678413-3102-4cc3-9e62-d56adb72d568",
+        "legacyId": "XDB_TEST",
+        "displayName": "XDB Chain Testnet",
+        "nativeAssetId": "bf56a7e3-58bd-42db-8101-b3f1939f881c",
+        "onchain": {
+          "protocol": "XDB",
+          "test": true,
+          "signingAlgo": "EDDSA_ED25519"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/8dfc882f-6285-4d66-aca4-199cd8506e64",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/fe6f78af-0b53-4ceb-b5b9-78380d4ea007",
+              "type": "image/png"
+            }
+          ],
+          "explorer": {
+            "base": "http://explorer.testnet.digitalbits.io",
+            "address": "http://explorer.testnet.digitalbits.io/address/{address}",
+            "tx": "http://explorer.testnet.digitalbits.io/transactions/{tx}"
+          }
+        }
+      },
+      {
+        "id": "6ffd10f3-164c-430e-887d-fde7d9d12f92",
+        "legacyId": "XEC_TEST",
+        "displayName": "eCash Testnet",
+        "nativeAssetId": "0269aa8b-33b9-49f7-8a13-74ddb9375f70",
+        "onchain": {
+          "protocol": "UTXO",
+          "test": true,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/e61f1284-0806-486d-b780-82de45f24f80",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/e5db51f9-6bd8-43f9-b7c0-e6ae2299590a",
+              "type": "image/png"
+            }
+          ],
+          "explorer": {
+            "base": "https://explorer.e.cash",
+            "address": "https://explorer.e.cash/address/{address}",
+            "tx": "https://explorer.e.cash/tx/{tx}"
+          }
+        }
+      },
+      {
+        "id": "52f2b6c8-35fb-4627-aa45-0a290bb67a33",
+        "legacyId": "XEM_TEST",
+        "displayName": "NEM NIS2 Testnet",
+        "nativeAssetId": "22e772fb-64c0-4a79-841f-7a1788ed4b5c",
+        "onchain": {
+          "protocol": "XEM",
+          "test": true,
+          "signingAlgo": "EDDSA_ED25519"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/6d5ebbbc-0bc8-4fa5-87e1-200543722122",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/f0205dc9-c1e8-4491-aa15-a0a6b4b48a17",
+              "type": "image/png"
+            }
+          ],
+          "explorer": {
+            "base": "http://chain.nem.ninja",
+            "address": "http://chain.nem.ninja/#/account/{address}",
+            "tx": "http://chain.nem.ninja/transfer/{tx}"
+          }
+        }
+      },
+      {
+        "id": "6077e3ab-4008-49b1-b86c-fb6da694bd2d",
+        "legacyId": "XION_TEST",
+        "displayName": "Xion Testnet",
+        "nativeAssetId": "08d43b8a-d3d6-4139-93a7-ad7eb21f6920",
+        "onchain": {
+          "protocol": "COSMOS",
+          "test": true,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "explorer": {
+            "base": "https://www.mintscan.io/xion-testnet",
+            "address": "https://www.mintscan.io/xion-testnet/address/{address}",
+            "tx": "https://www.mintscan.io/xion-testnet/tx/{tx}"
+          }
+        }
+      },
+      {
+        "id": "a78db339-9bf0-4414-9698-b4c874934d94",
+        "legacyId": "XLM_TEST",
+        "displayName": "Stellar Testnet",
+        "nativeAssetId": "d7bc1c46-5c2f-4004-99fd-a21c56f07905",
+        "onchain": {
+          "protocol": "XLM",
+          "chainId": "testnet",
+          "test": true,
+          "signingAlgo": "EDDSA_ED25519"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/1a365524-4198-415a-b5a4-78624b39c87e",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/e87cab7c-ef10-4b91-8e87-72f68929c84f",
+              "type": "image/png"
+            }
+          ],
+          "explorer": {
+            "base": "https://stellar.expert",
+            "address": "https://stellar.expert/explorer/testnet/account/{address}",
+            "tx": "https://stellar.expert/explorer/testnet/tx/{tx}"
+          }
+        }
+      },
+      {
+        "id": "ae3d8657-3bbe-4b0f-9e84-214d0b374bd3",
+        "legacyId": "XRP_TEST",
+        "displayName": "Ripple Testnet",
+        "nativeAssetId": "daabedbf-3d81-43a9-a79b-b1fbcad54941",
+        "onchain": {
+          "protocol": "XRP",
+          "test": true,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/f1a9d921-90e2-405f-acad-fc7a14cb0237",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/6b7f348e-5c50-425e-a15b-31ba5accc1e6",
+              "type": "image/png"
+            }
+          ],
+          "explorer": {
+            "base": "https://test.bithomp.com",
+            "address": "https://test.bithomp.com/explorer/{address}",
+            "tx": "https://test.bithomp.com/explorer/{tx}"
+          }
+        }
+      },
+      {
+        "id": "6f9f523e-6eeb-4879-989d-d7997ee677c1",
+        "legacyId": "XTZ_TEST",
+        "displayName": "Tezos Testnet",
+        "nativeAssetId": "5da1f95f-3286-47fa-9280-8d0254ab1f3b",
+        "onchain": {
+          "protocol": "XTZ",
+          "test": true,
+          "signingAlgo": "EDDSA_ED25519"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/b8c55cbf-f14f-4bad-9a32-166d0c175fda",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/1f7ba8f6-3d0f-4c7a-9ec4-ad7cc50ef6af",
+              "type": "image/png"
+            }
+          ],
+          "explorer": {
+            "base": "https://ghostnet.tzkt.io/",
+            "address": "https://ghostnet.tzkt.io/{address}",
+            "tx": "https://ghostnet.tzkt.io/{tx}",
+            "token": "https://ghostnet.tzkt.io/{contract}/tokens/{tokenId}"
+          }
+        }
+      },
+      {
+        "id": "619e03d0-4704-4005-8df7-44a69af34ee2",
+        "legacyId": "ZEC_TEST",
+        "displayName": "ZCash Testnet",
+        "nativeAssetId": "41454bfd-444a-4675-8142-15be13a0aea7",
+        "onchain": {
+          "protocol": "UTXO",
+          "test": true,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/e61f1284-0806-486d-b780-82de45f24f80",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/e5db51f9-6bd8-43f9-b7c0-e6ae2299590a",
+              "type": "image/png"
+            }
+          ],
+          "explorer": {
+            "base": "https://chain.so",
+            "address": "https://chain.so/address/ZECTEST/{address}",
+            "tx": "https://chain.so/tx/ZECTEST/{tx}"
+          }
+        }
+      },
+      {
+        "id": "4a5eeb9d-7517-4f8f-a441-cf82a9f28cae",
+        "legacyId": "ZERO_G_EVM_TEST",
+        "displayName": "0G Galileo",
+        "nativeAssetId": "b493ac4a-3c0f-401d-9328-5edade0dfb6e",
+        "onchain": {
+          "protocol": "EVM",
+          "chainId": "16601",
+          "test": true,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": { "scope": "GLOBAL", "deprecated": false }
+      },
+      {
+        "id": "8ac98c2d-f991-4ab3-8737-33d8a7b4de17",
+        "legacyId": "ZILLIQA_TEST",
+        "displayName": "Zilliqa EVM Test",
+        "nativeAssetId": "6f68bb60-d456-434f-b21a-a5b41841d739",
+        "onchain": {
+          "protocol": "EVM",
+          "chainId": "33101",
+          "test": true,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/d810334d-d43e-4f69-881b-f52047adc39f",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/08c44af1-5b1e-429d-b82d-aab2cc282144",
+              "type": "image/png"
+            }
+          ],
+          "explorer": {
+            "base": "https://evmx-dev.zilliqa.com/",
+            "address": "https://evmx-dev.zilliqa.com/address/{address}",
+            "tx": "https://evmx-dev.zilliqa.com/tx/{tx}"
+          }
+        }
+      },
+      {
+        "id": "b4afc158-cb90-474b-ac1d-cb83f488fc34",
+        "legacyId": "ZIRCUIT_ETH_TEST",
+        "displayName": "Zircuit Testnet",
+        "nativeAssetId": "06618bc6-ac74-4394-9918-fc989e625d34",
+        "onchain": {
+          "protocol": "EVM",
+          "chainId": "48899",
+          "test": true,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/7ea8e967-e527-46a9-8d4d-eb634e608672",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/11baac4c-0206-4a55-80cf-2e9ff414bf94",
+              "type": "image/png"
+            }
+          ]
+        }
+      },
+      {
+        "id": "c907cc37-80fc-499f-85b7-13afbc667a9c",
+        "legacyId": "ZKCLOUD_TEST",
+        "displayName": "ZkCloud Testnet",
+        "nativeAssetId": "95e76d96-5a4e-4d39-a11f-f893a40b6fda",
+        "onchain": {
+          "protocol": "COSMOS",
+          "test": true,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/5505a81b-cea8-45ed-b8d2-afd6a0bf89c4",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/f6d284ce-0d58-46f6-b723-b3d933059641",
+              "type": "image/png"
+            }
+          ],
+          "explorer": {
+            "base": "https://testnet.ping.pub/zkcloud",
+            "address": "https://testnet.ping.pub/zkcloud/account/{address}",
+            "tx": "https://testnet.ping.pub/zkcloud/tx/{tx}"
+          }
+        }
+      },
+      {
+        "id": "a48a401c-9127-4825-9ab2-4533bb71f1ba",
+        "legacyId": "ZKEVM_TEST",
+        "displayName": "zkEVM Testnet",
+        "nativeAssetId": "8afbda4b-79e5-4921-9266-cd45228c6c2f",
+        "onchain": {
+          "protocol": "EVM",
+          "chainId": "1442",
+          "test": true,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/47b06219-4eca-443c-8a17-0e421128c2e9",
+              "type": "image/svg+xml"
+            }
+          ]
+        }
+      },
+      {
+        "id": "606f4a01-fa97-40b0-a165-64307d472c3f",
+        "legacyId": "ZKSYNC_ERA_SEPOLIA",
+        "displayName": "zkSync Era Sepolia",
+        "nativeAssetId": "6f78bc1f-dfb4-46b7-9f8d-db0348062191",
+        "onchain": {
+          "protocol": "EVM",
+          "chainId": "300",
+          "test": true,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/b675b60e-67fe-40b5-a8dc-3837faf3d5b7",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/661ad9b2-113f-42da-8226-22037e9b8433",
+              "type": "image/png"
+            }
+          ],
+          "explorer": {
+            "base": "https://sepolia.explorer.zksync.io/",
+            "address": "https://sepolia.explorer.zksync.io/address/{address}",
+            "tx": "https://sepolia.explorer.zksync.io/tx/{tx}"
+          }
+        }
+      },
+      {
+        "id": "47168180-e17a-41c4-84c0-cf87f27141ea",
+        "legacyId": "ZKSYNC_ERA_TEST",
+        "displayName": "zkSync Era Testnet",
+        "nativeAssetId": "03dbbec0-3d46-4dba-8de7-7db36c0af565",
+        "onchain": {
+          "protocol": "EVM",
+          "chainId": "280",
+          "test": true,
+          "signingAlgo": "ECDSA_SECP256K1"
+        },
+        "metadata": {
+          "scope": "GLOBAL",
+          "deprecated": false,
+          "media": [
+            {
+              "url": "https://static.fireblocks.io/storage-service/b675b60e-67fe-40b5-a8dc-3837faf3d5b7",
+              "type": "image/svg+xml"
+            },
+            {
+              "url": "https://static.fireblocks.io/storage-service/661ad9b2-113f-42da-8226-22037e9b8433",
+              "type": "image/png"
+            }
+          ]
+        }
+      }
+    ],
+    "next": null
+  },
+  "statusCode": 200,
+  "headers": {
+    "date": "Mon, 29 Dec 2025 02:31:20 GMT",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "76360",
+    "connection": "keep-alive",
+    "x-request-id": "29075625390120fca9b1a315baee118c",
+    "etag": "W/\"12a48-2jwcX55EnZw1BBpoLHEAf+JBfxs\"",
+    "strict-transport-security": "max-age=31536000; includeSubDomains"
+  }
+}
